@@ -6,7 +6,7 @@
     },
     {
         "nome": "Aprimorado",
-        "tipo": "ferramentas|vestuário",
+        "tipo": "ferramentas|vestuario",
         "descricao": "O item é construído de forma cuidadosa e com os melhores materiais. Esta melhoria só pode ser aplicada a uma ferramenta ou vestuário que modifique uma perícia (reduza uma penalidade ou forneça um bônus) e fornece um bônus de +1 nessa perícia (ou aumenta o bônus fornecido em +1). Por exemplo, uma maleta de medicamentos aprimorada fornece +1 em Cura e uma luva de pelica aprimorada fornece +2 em Ladinagem."
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "nome": "Canalizador",
-        "tipo": "esotéricos",
+        "tipo": "esotericos",
         "descricao": "O esotérico possui uma gema mística que permite que você canalize mais mana do que normalmente seria capaz. O máximo de PM que você pode gastar em magias aumenta em +1."
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "nome": "Energético",
-        "tipo": "esotéricos",
+        "tipo": "esotericos",
         "descricao": "Catalisadores alquímicos inseridos no item fazem com que ele potencialize energias mágicas. Suas magias que causam dano causam +1d6 pontos de dano do mesmo de tipo."
     },
     {
@@ -76,7 +76,7 @@
     },
     {
         "nome": "Harmonizado",
-        "tipo": "esotéricos",
+        "tipo": "esotericos",
         "descricao": "Escolha uma magia. Seu custo diminui em -1 PM. Você pode mudar a magia afetada pelo item com um ritual que exige um dia e T$ 100 em ingredientes."
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "nome": "Poderoso",
-        "tipo": "esotéricos",
+        "tipo": "esotericos",
         "descricao": "A CD para resistir a suas magias aumenta em +1."
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "nome": "Vigilante",
-        "tipo": "esotéricos",
+        "tipo": "esotericos",
         "descricao": "O item usa parte de sua mana pessoal para gerar um campo que desvia ataques. Você recebe +2 na Defesa."
     }
 ]

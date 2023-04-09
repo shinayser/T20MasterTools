@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Aço-Rubi",
+        "arma": 6000,
+        "armaduraLeve": 3000,
+        "armaduraPesada": 6000,
+        "armaduraescudo": 3000,
+        "esotericos": 3000
+    },
+    {
+        "nome": "Adamante",
+        "arma": 3000,
+        "armaduraLeve": 6000,
+        "armaduraPesada": 18000,
+        "armaduraescudo": 6000,
+        "esotericos": 3000
+    },
+    {
+        "nome": "Gelo Eterno",
+        "arma": 600,
+        "armaduraLeve": 1500,
+        "armaduraPesada": 3000,
+        "armaduraescudo": 1500,
+        "esotericos": 3000
+    },
+    {
+        "nome": "Madeira Tollon",
+        "arma": 1500,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "armaduraescudo": 1500,
+        "esotericos": 1500
+    },
+    {
+        "nome": "Matéria Vermelha",
+        "arma": 1500,
+        "armaduraLeve": 6000,
+        "armaduraPesada": 18000,
+        "armaduraescudo": 6000,
+        "esotericos": 3000
+    },
+    {
+        "nome": "Mitral",
+        "arma": 1500,
+        "armaduraLeve": 1500,
+        "armaduraPesada": 12000,
+        "armaduraescudo": 1500,
+        "esotericos": 3000
+    }
+]
