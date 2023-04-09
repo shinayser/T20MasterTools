@@ -1,0 +1,102 @@
+[
+    {
+        "nome": "Abascanto",
+        "descricao": "Você recebe resistência a magia +5."
+    },
+    {
+        "nome": "Abençoado",
+        "descricao": "Você recebe redução de trevas 10 e +5 em testes de resistência contra efeitos de necromancia.Um item abençoado é decorado com gravuras de símbolos sagrados de deuses do Bem."
+    },
+    {
+        "nome": "Acrobático",
+        "descricao": "Você recebe +5 em Acrobacia e ignora a penalidade de armadura do item para testes dessa perícia."
+    },
+    {
+        "nome": "Alado",
+        "descricao": "Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada."
+    },
+    {
+        "nome": "Animado",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para fazer o escudo flutuar ao seu redor até o fim da cena. Você recebe o mesmo bônus na Defesa que receberia se estivesse empunhando o escudo, mas fica com as duas mãos livres. Você só pode ser protegido por um escudo ao mesmo tempo."
+    },
+    {
+        "nome": "Assustador",
+        "descricao": "Você pode gastar uma ação de movimento e 2 PM para gerar uma onda de medo. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão abalados até o fim da cena. Um item assustador possui manchas de sangue, ossos pendurados e outras decorações horripilantes"
+    },
+    {
+        "nome": "Cáustica",
+        "descricao": "Você recebe redução de ácido 10 e pode gastar uma ação de movimento e 2 PM para fazer o item gotejar ácido. Se fizer isso, seus ataques causam +1d4 de dano de ácido até o fim da cena."
+    },
+    {
+        "nome": "Defensor",
+        "descricao": "O item é encantado para desviar golpes. O bônus na Defesa do item aumenta em +2."
+    },
+    {
+        "nome": "Escorregadio",
+        "descricao": "Você recebe +10 em testes de Acrobacia para escapar e em testes de manobra contra agarrar. Um item escorregadio parece estar sempre coberto de óleo levemente gorduroso."
+    },
+    {
+        "nome": "Esmagador",
+        "descricao": "Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo."
+    },
+    {
+        "nome": "Fantasmagórico",
+        "descricao": "Você pode lançar a magia Manto de Sombras. Um item fantasmagórico é cinzento e esfumaçado."
+    },
+    {
+        "nome": "Fortificado",
+        "descricao": "Você recebe 25% de chance (para escudos) e 50% de chance (para armaduras) de ignorar o dano extra de acertos críticos e ataques furtivos."
+    },
+    {
+        "nome": "Gélido",
+        "descricao": "Você recebe redução de frio 10 e pode gastar uma ação de movimento e 2 PM para se cobrir de gelo até o fim da cena. Se fizer isso, recebe 10 PV temporários. Um item gélido é azulado e frio ao toque."
+    },
+    {
+        "nome": "Guardião",
+        "descricao": "O item emite um campo de força que desvia ataques. O bônus na Defesa do item aumenta em +4. Pré-requisito: defensor."
+    },
+    {
+        "nome": "Hipnótico",
+        "descricao": "Você pode gastar uma ação padrão e 3 PM para emitir luzes coloridas. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão fascinados por 1d6 rodadas. O efeito termina se qualquer criatura afetada for atacada. Um item hipnótico é espalhafatoso e colorido."
+    },
+    {
+        "nome": "Ilusório",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para fazer o item adquirir a aparência de uma roupa comum, mas mantendo suas propriedades (bônus na Defesa, penalidade de armadura...). A magia Visão da Verdade revela o item disfarçado."
+    },
+    {
+        "nome": "Incandescente",
+        "descricao": "Você recebe redução de fogo 10 e pode gastar uma ação de movimento e 2 PM para fazer o item emitir labaredas até o fim da cena. Se fizer isso, no início de cada um de seus turnos você causa 1d6 pontos de dano de fogo em todas as criaturas adjacentes. Um item incandescente é avermelhado e quente ao toque."
+    },
+    {
+        "nome": "Invulnerável",
+        "descricao": "Você recebe redução de dano 2 (para escudos) ou 5 (para armaduras)."
+    },
+    {
+        "nome": "Opaco",
+        "descricao": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante."
+    },
+    {
+        "nome": "Protetor",
+        "descricao": "Você recebe +2 em testes de resistência."
+    },
+    {
+        "nome": "Refletor",
+        "descricao": "Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela. Um item refletor parece espelhado."
+    },
+    {
+        "nome": "Relampejante",
+        "descricao": "Você recebe redução de eletricidade 10 e pode gastar uma ação de movimento e 2 PM para gerar arcos voltaicos até o fim da cena. Se fizer isso, qualquer criatura que o ataque em corpo a corpo sofre 2d6 pontos de dano de eletricidade. Um item relampejante é decorado com ouro, prata e cobre."
+    },
+    {
+        "nome": "Reluzente",
+        "descricao": "Você pode gastar uma ação de movimento e 2 PM para emitir um clarão de luz. Todos os inimigos em alcance curto devem passar num teste de Reflexos (CD Car) ou ficarão cegos por uma rodada. Um item reluzente é polido e brilhante."
+    },
+    {
+        "nome": "Sombrio",
+        "descricao": "Você recebe +5 em Furtividade e ignora a penalidade de armadura do item para testes dessa perícia. Um item sombrio é escuro, fosco e bem lubrificado, para não fazer barulho."
+    },
+    {
+        "nome": "Zeloso",
+        "descricao": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente."
+    }
+]

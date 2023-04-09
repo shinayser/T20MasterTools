@@ -1,0 +1,102 @@
+[
+    {
+        "nome": "Ameaçadora",
+        "descricao": "A margem de ameaça da arma duplica. Por exemplo, uma espada longa ameaçadora tem margem de ameaça 17. Efeitos que duplicam a margem de ameaça são aplicados antes de quaisquer efeitos que a aumentem."
+    },
+    {
+        "nome": "Anticriatura",
+        "descricao": "A arma é letal contra um tipo de criatura (ou uma raça de humanoides). Uma vez por rodada, quando ataca uma criatura desse tipo, você pode gastar 2 PM. Se fizer isso e acertar o ataque, causa +4d8 de dano. Para determinar o tipo de criatura aleatoriamente, role 1d6: 1) animal; 2) construto; 3) espírito; 4) monstro; 5) morto-vivo; 6) uma raça de humanoides."
+    },
+    {
+        "nome": "Arremesso",
+        "descricao": "A arma pode ser arremessada em alcance curto. Caso já pudesse ser arremessada, seu alcance aumenta em uma categoria. Após o ataque, se estiver livre, a arma volta voando para você. Pegá-la é uma reação."
+    },
+    {
+        "nome": "Assassina",
+        "descricao": "A arma aumenta os dados de dano extra de um ataque furtivo para d8. Além disso, quando faz um Ataque Furtivo, você pode gastar 2 PM. Se fizer isso, pode rolar novamente quaisquer resultados 1 nesses dados de dano extra."
+    },
+    {
+        "nome": "Caçadora",
+        "descricao": "A arma persegue o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve. Caso a arma seja de ataque à distância, seu alcance também aumenta em uma categoria."
+    },
+    {
+        "nome": "Congelante",
+        "descricao": "A arma causa +1d6 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada. Uma arma congelante é coberta por uma camada de gelo e névoa."
+    },
+    {
+        "nome": "Conjuradora",
+        "descricao": "Um conjurador pode lançar na arma uma magia que tenha como alvo uma criatura ou que afete uma área. A magia não gera efeito na hora; em vez disso, fica guardada no item. Quando acerta um ataque com a arma, você pode descarregar a magia guardada como uma ação livre e sem pagar seu custo. Ela tem como alvo (ou como centro de sua área) a criatura ou ponto atingido pelo ataque. Uma vez que a magia seja descarregada, outra pode ser armazenada."
+    },
+    {
+        "nome": "Corrosiva",
+        "descricao": "A arma causa +1d6 de dano de ácido. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima sofre 4d4 pontos de dano de ácido na próxima rodada. Uma arma corrosiva exala vapores e goteja líquido tóxico."
+    },
+    {
+        "nome": "Dançarina",
+        "descricao": "Você pode gastar uma ação de movimento e 1 PM para fazer a arma flutuar e atacar uma criatura em alcance curto a sua escolha, com as mesmas estatísticas que teria se você a estivesse empunhando. Este efeito tem duração sustentada; se parar de sustentá-lo, a arma cai no chão."
+    },
+    {
+        "nome": "Defensora",
+        "descricao": "A arma se movimenta para aparar ataques contra você. Você recebe +2 na Defesa."
+    },
+    {
+        "nome": "Destruidora",
+        "descricao": "Se usada contra construtos e objetos (com a manobra quebrar), a arma fornece +2 no teste de ataque e causa +2d8 de dano."
+    },
+    {
+        "nome": "Dilacerante",
+        "descricao": "A arma inflige ferimentos profundos. Quando faz um acerto crítico com a arma, você causa +10 pontos de dano."
+    },
+    {
+        "nome": "Drenante",
+        "descricao": "Quando você faz um acerto crítico em uma criatura viva, a criatura fica fraca e você ganha 2d10 pontos de vida temporários. Uma arma drenante emite um brilho púrpura."
+    },
+    {
+        "nome": "Elétrica",
+        "descricao": "A arma causa +1d6 de dano de eletricidade. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, um raio atinge outra criatura em alcance curto, causando 3d8 pontos de dano de eletricidade. Uma arma elétrica emite faíscas e é coberta de arcos voltaicos."
+    },
+    {
+        "nome": "Energética",
+        "descricao": "A arma tem sua parte perigosa (a lâmina de uma espada, a ponta de uma lança...) transformada em magia pura. Ela fornece +4 em testes de ataque, ignora 20 pontos de redução de dano, converte todo o dano causado para essência e emana luz como uma tocha. Pré-requisito: formidável."
+    },
+    {
+        "nome": "Excruciante",
+        "descricao": "A arma inflige dor terrível. Uma criatura viva atingida fica fraca. Se já estiver fraca, fica debilitada (a condição máxima que esta arma pode causar)."
+    },
+    {
+        "nome": "Flamejante",
+        "descricao": "A arma causa +1d6 de dano de fogo. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, em vez do ataque normal você dispara uma bola de fogo contra um alvo em alcance médio. O alvo sofre 6d6 pontos de dano. Um teste de Reflexos (CD For ou Des, à sua escolha) reduz à metade. Uma arma flamejante emana chamas como uma tocha."
+    },
+    {
+        "nome": "Piedosa",
+        "descricao": "A arma causa +1d8 de dano, mas todo o dano causado é não letal. Você pode gastar 1 PM para desativar e ativar este encanto."
+    },
+    {
+        "nome": "Profana",
+        "descricao": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre). Uma arma profana emite luz rubra pulsante."
+    },
+    {
+        "nome": "Sagrada",
+        "descricao": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre). Uma arma sagrada emite uma sutil luz pura."
+    },
+    {
+        "nome": "Sanguinária",
+        "descricao": "Uma criatura viva atingida fica sangrando. Dano de sangramento causado pela arma é cumulativo — uma criatura atingida duas vezes perde 2d6 PV por sangramento por rodada."
+    },
+    {
+        "nome": "Trovejante",
+        "descricao": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita)."
+    },
+    {
+        "nome": "Tumular",
+        "descricao": "A arma causa +1d8 de dano de trevas. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, o bônus de dano aumenta para +2d8, mas você perde 1d8 pontos de vida. Uma arma tumular drena o calor ao redor."
+    },
+    {
+        "nome": "Veloz",
+        "descricao": "Você recebe a habilidade Ataque Extra, do guerreiro, mas só pode usá-la com esta arma. Se já a possui, em vez disso, o custo para usá-la com esta arma diminui em –1 PM."
+    },
+    {
+        "nome": "Venenosa",
+        "descricao": "Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica envenenada, perdendo 1d12 pontos de vida por rodada durante 3 rodadas. Uma arma venenosa verte um líquido verde e viscoso."
+    }
+]
