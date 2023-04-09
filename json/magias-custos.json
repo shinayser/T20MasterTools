@@ -1,0 +1,22 @@
+[
+    {
+        "circulo": 1,
+        "custo": 1
+    },
+    {
+        "circulo": 2,
+        "custo": 3
+    },
+    {
+        "circulo": 3,
+        "custo": 6
+    },
+    {
+        "circulo": 4,
+        "custo": 10
+    },
+    {
+        "circulo": 5,
+        "custo": 15
+    }
+]

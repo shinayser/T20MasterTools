@@ -1,0 +1,42 @@
+[
+    {
+        "tipo": "Calor e Frio",
+        "descricao": "Um personagem em clima muito quente (acima de 50º C) ou muito frio (abaixo de -10º C) deve fazer um teste de Fortitude por dia (CD 15 +1 por teste anterior). Se falhar sofre 1d6 pontos de dano de fogo ou frio que só pode ser curado após sair do clima quente ou frio. Em calor ou frio extremos (acima de 60º C ou abaixo de -20º C) o teste deve ser feito por minuto."
+    },
+    {
+        "tipo": "Neblina",
+        "descricao": "Fornece camuflagem. Neblina espessa fornece camuflagem leve a criaturas a 1,5m e camuflagem total a criaturas a mais de 1,5m."
+    },
+    {
+        "tipo": "Chuva",
+        "descricao": "-5 em testes de Percepção e os mesmos efeitos de vento forte."
+    },
+    {
+        "tipo": "Granizo",
+        "descricao": "Como chuva, mas no início de cada rodada, todas as criaturas sofrem 1 ponto de dano de impacto."
+    },
+    {
+        "tipo": "Neve",
+        "descricao": "Como chuva, mas cria terreno difícil."
+    },
+    {
+        "tipo": "Tempestade",
+        "descricao": "-10 em testes de Percepção e os mesmos efeitos de vendaval. No início de cada rodada, há 10% de chance de uma criatura aleatória ser atingida por um raio (8d10 pontos de dano de eletricidade)."
+    },
+    {
+        "tipo": "Vento Forte",
+        "descricao": "-2 em testes de ataque à distância e 50% de chance por rodada de apagar chamas ou dissipar névoas."
+    },
+    {
+        "tipo": "Vendaval",
+        "descricao": "-5 em testes de ataque à distância. Apaga chamas e dissipa névoas."
+    },
+    {
+        "tipo": "Furacão",
+        "descricao": "Torna ataques à distância impossíveis, apaga chamas e dissipa névoas. No início de cada rodada, criaturas Médias ou menores devem passar em um teste de Fortitude (CD 15) ou caem, são arrastadas 1d4 x 1,5m na direção do vento e sofrem 1d6 pontos de dano de impacto para cada 1,5m."
+    },
+    {
+        "tipo": "Tornado",
+        "descricao": "Torna ataques à distância impossíveis, apaga chamas e dissipa névoas. No início de cada rodada, criaturas Grandes ou menores devem passar em um teste de Fortitude (CD 25) ou caem, são arrastadas 1d12 x 1,5m em uma direção aleatória e sofrem 1d6 pontos de dano de impacto para cada 1,5m."
+    }
+]
