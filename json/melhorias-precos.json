@@ -1,0 +1,22 @@
+[
+    {
+        "melhorias": 1,
+        "preco": 300,
+        "cd": 5
+    },
+    {
+        "melhorias": 2,
+        "preco": 3000,
+        "cd": 10
+    },
+    {
+        "melhorias": 3,
+        "preco": 9000,
+        "cd": 15
+    },
+    {
+        "melhorias": 4,
+        "preco": 1800,
+        "cd": 20
+    }
+]

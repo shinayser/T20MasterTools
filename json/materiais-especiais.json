@@ -1,0 +1,106 @@
+[
+    {
+        "nome": "Aço-Rubi",
+        "descricao": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantém a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta.",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "A arma ignora 10 pontos de redução de dano, além de ignorar a imunidade a crítico de lefeu."
+            },
+            {
+                "tipo": "Armadura e Escudo",
+                "descricao": "Fornece uma chance de ignorar o dano extra de acertos críticos e ataques furtivos: armaduras leves e escudos, 25% (1 em 1d4); armaduras pesadas, 50% (qualquer valor par em qualquer dado), cumulativas entre si."
+            },
+            {
+                "tipo": "Esotérico",
+                "descricao": "Quando lança uma magia que causa dano, ela ignora 10 pontos de redução de dano, além de ignorar as imunidades a dano de lefeu."
+            }
+        ]
+    },
+    {
+        "nome": "Adamante",
+        "descricao": "Encontrado apenas em meteoritos (e por isso também chamado de “ferro-meteórico”), o adamante é um metal escuro, fosco e mais denso que o aço.",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "Aumenta o dano em um passo"
+            },
+            {
+                "tipo": "Armadura e Escudo",
+                "descricao": "Fornece redução de dano: armaduras leves e escudos, RD 2; armaduras pesadas, RD 5"
+            },
+            {
+                "tipo": "Esotérico",
+                "descricao": "Quando lança uma magia que causa dano, você pode pagar +1 PM para rolar novamente qualquer resultado 1 na rolagem de dano dela."
+            }
+        ]
+    },
+    {
+        "nome": "Gelo eterno",
+        "descricao": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico.",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "Causa +2 pontos de dano por frio"
+            },
+            {
+                "tipo": "Armadura e Escudo",
+                "descricao": "Fornece redução de fogo: armaduras leves e escudos, resistência 5; armaduras pesadas, resistência 10."
+            },
+            {
+                "tipo": "Esotérico",
+                "descricao": "Quando lança uma magia de frio que causa dano, você pode rolar novamente qualquer resultado 1 na rolagem de dano dela."
+            }
+        ]
+    },
+    {
+        "nome": "Madeira Tollon",
+        "descricao": "A Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon.",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "Conta como mágica para vencer redução de dano. Além disso, habilidades ativadas ao se fazer um ataque ou usar a ação agredir têm seu custo em PM reduzido em -1."
+            },
+            {
+                "tipo": "Escudo e Esotérico",
+                "descricao": "Fornece resistência a magia +2."
+            }
+        ]
+    },
+    {
+        "nome": "Matéria Vermelha",
+        "descricao": "Qualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como “matéria vermelha”. Estes itens assustadores impõem ao usuário penalidade de -2 em perícias baseadas em Carisma (exceto Intimidação).",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "Causa +1d6 de dano extra. Porém, sempre que você acerta um ataque com a arma, perde 1 ponto de vida. Lefou e lefeu são imunes tanto ao dano extra de matéria vermelha quanto à perda de vida por usar armas desse material."
+            },
+            {
+                "tipo": "Armadura e Escudo",
+                "descricao": "Por sua aparência “borrada”, fornecem chance de falha para cada ataque: 10% para escudos e armaduras leves, 25% para armaduras pesadas (cumulativas entre si). Lefeu ignoram este efeito."
+            },
+            {
+                "tipo": "Esotérico",
+                "descricao": "Você e todos os seus inimigos em alcance curto sofrem -2 em testes de resistência contra efeitos mágicos."
+            }
+        ]
+    },
+    {
+        "nome": "Mitral",
+        "descricao": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam -1 espaço (mínimo 1).",
+        "efeitos": [
+            {
+                "tipo": "Arma",
+                "descricao": "Aumenta sua margem de ameaça em 1. Por exemplo, uma espada longa de mitral tem margem de ameaça 18-20."
+            },
+            {
+                "tipo": "Armadura e Escudo",
+                "descricao": "Tem sua penalidade de armadura diminuída em 2. Armaduras pesadas de mitral permitem que você aplique até dois pontos de sua Destreza na Defesa."
+            },
+            {
+                "tipo": "Esotérico",
+                "descricao": "Permite que você pague +2 PM ao lançar uma magia para aumentar a CD dela em +2."
+            }
+        ]
+    }
+]
