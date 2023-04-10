@@ -1,0 +1,364 @@
+[
+  {
+    "title": "Abalado",
+    "detalhes": {
+      "efeito": "medo",
+      "descricao": [
+        "O personagem sofre -2 em testes de perícia.",
+        "Se ficar abalado novamente, em vez disso, o personagem fica apavorado."
+      ]
+    }
+  },
+  {
+    "title": "Agarrado",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "O personagem fica desprevenido e imóvel.",
+        "O personagem sofre -2 em testes de ataque.",
+        "O personagem só pode atacar com armas leves",
+        "Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado."
+      ]
+    }
+  },
+  {
+    "title": "Alquebrado",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O custo em pontos de mana das habilidades e magias do personagem aumentam em +1."
+      ]
+    }
+  },
+  {
+    "title": "Apavorado",
+    "detalhes": {
+      "efeito": "medo",
+      "descricao": [
+        "O personagem sofre -5 em testes de perícia.",
+        "O personagem não pode se aproximar voluntariamente da fonte do medo."
+      ]
+    }
+  },
+  {
+    "title": "Atordoado",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem fica desprevenido.",
+        "O personagem não pode fazer ações."
+      ]
+    }
+  },
+  {
+    "title": "Caído",
+    "detalhes": {
+      "efeito": "Você está caído.",
+      "descricao": [
+        "O personagem sofre -5 em ataques corpo a corpo.",
+        "O deslocamento do personagem é reduzido a 1,5m.",
+        "O personagem sofre -5 na Defesa contra ataques corpo a corpo (cumulativo com outras condições).",
+        "O personagem sofre +5 na Defesa contra ataques à distância (cumulativo com outras condições)."
+      ]
+    }
+  },
+  {
+    "title": "Cego",
+    "detalhes": {
+      "efeito": "sentidos",
+      "descricao": [
+        "O personagem fica desprevenido e lento.",
+        "O personagem não pode fazer testes de Percepção para observar.",
+        "O personagem sofre -5 em testes de perícias baseadas em Força ou Destreza.",
+        "Todos os alvos dos ataques do personagem recebem camuflagem total.",
+        "Um personagem é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro."
+      ]
+    }
+  },
+  {
+    "title": "Confuso",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos:",
+        "(1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8",
+        "(2-3) Não pode fazer ações, e fica balbuciando incoerentemente",
+        "(4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano)",
+        "(6) A condição termina e pode agir normalmente."
+      ]
+    }
+  },
+  {
+    "title": "Debilitado",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem sofre -5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos.",
+        "Se o personagem ficar debilitado novamente, em vez disso fica inconsciente."
+      ]
+    }
+  },
+  {
+    "title": "Desprevenido",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem sofre -5 na Defesa e em Reflexos.",
+        "Um personagem fica desprevenido contra inimigos que não possa perceber."
+      ]
+    }
+  },
+  {
+    "title": "Doente",
+    "detalhes": {
+      "efeito": "metabolismo",
+      "descricao": [
+        "Um personagem contaminado deve repetir o teste de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Se passar, não sofre o efeito. Se passar por dois dias seguidos, estará curado.",
+        "Algumas doenças possuem efeitos progressivos. Se o personagem falhar no teste de Fortitude, sofre o primeiro efeito. Se falhar em dois testes seguidos, sofre o segundo efeito, e assim por diante.",
+        "Um personagem que tenha sofrido um efeito progressivo e passe no teste sofre o efeito anterior naquele dia.",
+        "Contaminação não é cumulativa; uma vez que contraia uma doença, o personagem não sofre efeitos adicionais por contrair novamente."
+      ]
+    }
+  },
+  {
+    "title": "Em Chamas",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "No início de seus turnos, o personagem sofre 1d6 pontos de dano de fogo.",
+        "O personagem pode gastar uma ação padrão para apagar o fogo com as mãos.",
+        "Imersão em água também apaga as chamas."
+      ]
+    }
+  },
+  {
+    "title": "Enfeitiçado",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem se torna prestativo em relação à fonte da condição.",
+        "O personagem não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível.",
+        "A fonte da condição recebe +10 em testes de Diplomacia com o personagem."
+      ]
+    }
+  },
+  {
+    "title": "Enjoado",
+    "detalhes": {
+      "efeito": "metabolismo",
+      "descricao": [
+        "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada.",
+        "O personagem pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro)."
+      ]
+    }
+  },
+  {
+    "title": "Enredado",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "O personagem fica lento e vulnerável.",
+        "O personagem sofre -2 em testes de ataque."
+      ]
+    }
+  },
+  {
+    "title": "Envenenado",
+    "detalhes": {
+      "efeito": "veneno",
+      "descricao": [
+        "O efeito desta condição varia de acordo com o veneno.",
+        "Perda de vida recorrente por venenos é cumulativa."
+      ]
+    }
+  },
+  {
+    "title": "Esmorecido",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem sofre -5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos."
+      ]
+    }
+  },
+  {
+    "title": "Exausto",
+    "detalhes": {
+      "efeito": "cansaço",
+      "descricao": [
+        "O personagem fica debilitado, lento e vulnerável.",
+        "Se ficar exausto novamente, em vez disso, o personagem fica inconsciente."
+      ]
+    }
+  },
+  {
+    "title": "Fascinado",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem sofre -5 em Percepção.",
+        "O personagem não pode fazer ações, exceto observar aquilo que o fascinou.",
+        "Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível.",
+        "Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão."
+      ]
+    }
+  },
+  {
+    "title": "Fatigado",
+    "detalhes": {
+      "efeito": "cansaço",
+      "descricao": [
+        "O personagem fica fraco e vulnerável.",
+        "Se ficar fatigado novamente, em vez disso fica exausto."
+      ]
+    }
+  },
+  {
+    "title": "Fraco",
+    "detalhes": {
+      "efeito": "Você está fraco.",
+      "descricao": [
+        "O personagem sofre -2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos.",
+        "Se ficar fraco novamente, em vez disso fica debilitado."
+      ]
+    }
+  },
+  {
+    "title": "Frustrado",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem sofre -2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos.",
+        "Se ficar frustrado novamente, em vez disso fica esmorecido."
+      ]
+    }
+  },
+  {
+    "title": "Imóvel",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "Todas as formas de deslocamento do personagem são reduzidas a 0m."
+      ]
+    }
+  },
+  {
+    "title": "Inconsciente",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem fica indefeso.",
+        "O personagem não pode fazer ações, incluindo reações, mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento.",
+        "Balançar uma criatura para acordá-la gasta uma ação padrão."
+      ]
+    }
+  },
+  {
+    "title": "Indefeso",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem fica desprevenido, mas sofre -10 na Defesa.",
+        "O personagem falha automaticamente em testes de Reflexo.",
+        "O personagem pode sofrer golpes de misericórdia."
+      ]
+    }
+  },
+  {
+    "title": "Lento",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m).",
+        "O personagem não pode correr ou fazer investidas."
+      ]
+    }
+  },
+  {
+    "title": "Ofuscado",
+    "detalhes": {
+      "efeito": "sentidos",
+      "descricao": [
+        "O personagem sofre -2 em testes de ataque e de Percepção."
+      ]
+    }
+  },
+  {
+    "title": "Paralisado",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "O personagem fica imóvel e indefeso.",
+        "O personagem só pode realizar ações puramente mentais."
+      ]
+    }
+  },
+  {
+    "title": "Pasmo",
+    "detalhes": {
+      "efeito": "mental",
+      "descricao": [
+        "O personagem não pode fazer ações."
+      ]
+    }
+  },
+  {
+    "title": "Petrificado",
+    "detalhes": {
+      "efeito": "metamorfose",
+      "descricao": [
+        "O personagem fica inconsciente.",
+        "O personagem recebe redução de dano 8."
+      ]
+    }
+  },
+  {
+    "title": "Sangrando",
+    "detalhes": {
+      "efeito": "metabolismo",
+      "descricao": [
+        "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição."
+      ]
+    }
+  },
+  {
+    "title": "Sobrecarregado",
+    "detalhes": {
+      "efeito": "movimento",
+      "descricao": [
+        "O personagem sofre penalidade de armadura -5.",
+        "O deslocamento do personagem é reduzido -3m."
+      ]
+    }
+  },
+  {
+    "title": "Surdo",
+    "detalhes": {
+      "efeito": "sentidos",
+      "descricao": [
+        "O personagem não pode fazer testes de Percepção para ouvir.",
+        "O personagem sofre -5 em testes de Iniciativa.",
+        "O personagem é considerado em condição ruim para lançar magias."
+      ]
+    }
+  },
+  {
+    "title": "Surpreendido",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem fica desprevenido.",
+        "O personagem não pode fazer ações."
+      ]
+    }
+  },
+  {
+    "title": "Vulnerável",
+    "detalhes": {
+      "efeito": "nenhum",
+      "descricao": [
+        "O personagem sofre -2 na Defesa."
+      ]
+    }
+  }
+]
