@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Calafrio Diabólico",
+        "desc": "Causa fraqueza e, em casos graves, coma e morte",
+        "resistencia": "Contato, CD 25",
+        "efeito": "vítima fica fraca/debilitada/inconsciente/morre"
+    },
+    {
+        "nome": "Febre do Riso",
+        "desc": "Causa surtos de agitação e, em casos graves, loucura",
+        "resistencia": "Inalação, CD 20",
+        "efeito": "vítima fica frustrada/esmorecida/confusa (a condição se ativa no início de cada cena)"
+    },
+    {
+        "nome": "Febre Mental",
+        "desc": "Causa enxaquecas e torpor",
+        "resistencia": "Inalação, CD 20",
+        "efeito": "vítima fica frustrada/esmorecida/alquebrada"
+    },
+    {
+        "nome": "Infecção do Esgoto",
+        "desc": "Transmitida por criaturas como ratos gigantes e otyughs. Uma pessoa ferida que passe por lugares imundos também pode contrair esta doença",
+        "resistencia": "Contato, CD 15",
+        "efeito": "vítima fica fraca/debilitada"
+    },
+    {
+        "nome": "Maldição Pegajosa",
+        "desc": "Transforma os órgãos internos em uma massa disforme. A vítima deve passar em três testes de Fortitude seguidos para se curar",
+        "resistencia": "Contato, CD 20",
+        "efeito": "vítima perde 1d12 PV/perde 2d12 PV/perde 4d12 PV"
+    },
+    {
+        "nome": "Moléstia Demoníaca",
+        "desc": "Causa danos internos e, em casos graves, sequelas permanentes e morte",
+        "resistencia": "Contato, CD 20",
+        "efeito": "vítima perde 1d12 PV/perde 2d12 PV/perde 1 de Constituição*/morre"
+    },
+    {
+        "nome": "Tremores",
+        "desc": "Causa tremedeira e convulsões",
+        "resistencia": "Contato, CD 15",
+        "efeito": "vítima fica vulnerável"
+    },
+    {
+        "nome": "Varíola",
+        "desc": "Esta doença causa febre e vômitos. Em casos graves, forma úlceras e erupções na pele, que deixam cicatrizes, e pode levar à morte",
+        "resistencia": "Inalação, CD 20",
+        "efeito": "vítima fica enjoada/debilitada/perde 1 de Carisma/morre\nPerda de carisma é permanente (mas você só pode perder 1 ponto de atributo por uma mesma doença)"
+    }
+]

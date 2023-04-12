@@ -85,7 +85,7 @@
         "resistencia": "Reflexos CD 20 reduz à metade (a criatura que ativou não tem direito)",
         "investigacao": "Investigação/Ladinagem CD 25",
         "magica": "sim",
-        "nivel": "2",
+        "nivel": "2"
     },
     {
         "nome": "Símbolo do Medo",
@@ -93,7 +93,7 @@
         "resistencia": "Vontade CD 20 evita",
         "investigacao": "Investigação/Ladinagem CD 25",
         "magica": "sim",
-        "nivel": "2",
+        "nivel": "2"
     },
     {
         "nome": "Símbolo do Atordoamento",
@@ -101,7 +101,7 @@
         "resistencia": "Fortitude CD 25 evita",
         "investigacao": "Investigação/Ladinagem CD 30",
         "magica": "sim",
-        "nivel": "5",
+        "nivel": "5"
     },
     {
         "nome": "Desabamento do Teto",
@@ -109,7 +109,7 @@
         "resistencia": "Reflexos CD 30 reduz à metade",
         "investigacao": "Investigação/Ladinagem CD 25",
         "magica": "nao",
-        "nivel": "6",
+        "nivel": "6"
     },
     {
         "nome": "Símbolo da Insanidade",
@@ -117,7 +117,7 @@
         "resistencia": "Vontade CD 25 evita",
         "investigacao": "Investigação/Ladinagem CD 30",
         "magica": "sim",
-        "nivel": "6",
+        "nivel": "6"
     },
     {
         "nome": "Abismo da Morte",
@@ -125,7 +125,7 @@
         "resistencia": "Reflexos CD 30 evita",
         "investigacao": "Investigação/Ladinagem CD 30",
         "magica": "nao",
-        "nivel": "8",
+        "nivel": "8"
     },
     {
         "nome": "Símbolo da Morte",
@@ -133,6 +133,6 @@
         "resistencia": "Fortitude CD 30 reduz para 10d6 pontos de dano de trevas",
         "investigacao": "Investigação/Ladinagem CD 30",
         "magica": "sim",
-        "nivel": "9",
-    },
+        "nivel": "9"
+    }
 ]

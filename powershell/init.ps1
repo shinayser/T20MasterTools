@@ -387,6 +387,29 @@ function Armadilhas(
     }
 }
 
+function Doencas(
+    [string]$Nome,
+    [string]$Efeito,
+) {
+    $path = _LoadPath 'doencas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Efeito) {
+        $objects = $objects | Where-Object { $_.efeito -like "*$efeito*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
 function Climas([string]$Tipo) {
     $path = _LoadPath 'climas.json' 
     $objects = Get-Content $path | ConvertFrom-Json
