@@ -79,6 +79,38 @@ function Armas([string]$Nome) {
     }
 }
 
+function Itens-Gerais([string]$Nome) {
+    $path = _LoadPath 'itens-gerais.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Ferramentas([string]$Nome) {
+    $path = _LoadPath 'itens-gerais.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
 function Climas([string]$Tipo) {
     $path = _LoadPath 'climas.json' 
     $objects = Get-Content $path | ConvertFrom-Json

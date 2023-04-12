@@ -1,0 +1,104 @@
+[
+    {
+        "nome": "Água Benta",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo, demônio ou diabo em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
+    },
+    {
+        "nome": "Algemas",
+        "preco": 15,
+        "espacos": 1,
+        "descricao": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo (veja “Manobras de Combate”, no Capítulo 5) e vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige uma ação completa e um teste de Acrobacia contra CD 30 ou de Força contra CD 25 — ou ter as chaves..."
+    },
+    {
+        "nome": "Arpéu",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo."
+    },
+    {
+        "nome": "Bandoleira de Poções",
+        "preco": 20,
+        "espacos": 1,
+        "descricao": "Um cinto de couro com bolsos que comportam pequenos frascos. Se você estiver vestindo uma bandoleira, pode sacar itens alquímicos e poções como uma ação livre."
+    },
+    {
+        "nome": "Barraca",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Esta barraca de lona conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar."
+    },
+    {
+        "nome": "Corda",
+        "preco": 1,
+        "espacos": 1,
+        "descricao": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Possui diversas utilidades: pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc. Dar um nó firme ou especial (por exemplo, capaz de deslizar, se desfazer com um puxão etc.) exige um teste de Destreza (CD 15). Arrebentar a corda exige 2 pontos de dano de corte ou uma ação padrão e um teste de Força (CD 20)."
+    },
+    {
+        "nome": "Espelho",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Este pequeno espelho possui diversas utilidades: observar cantos, fazer sinais de luz e, claro, garantir que você esteja apresentável."
+    },
+    {
+        "nome": "Lampião",
+        "preco": 7,
+        "espacos": 1,
+        "descricao": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena."
+    },
+    {
+        "nome": "Mochila",
+        "preco": 2,
+        "espacos": 0,
+        "descricao": "Uma bolsa de lona com tiras para ser carregada nas costas. Não conta como item vestido."
+    },
+    {
+        "nome": "Mochila de Aventureiro",
+        "preco": 50,
+        "espacos": 0,
+        "descricao": "Feita de couro resistente, esta mochila é repleta de bolsos para prender equipamento. Vestir uma mochila de aventureiro aumenta sua capacidade de carga em 2 espaços (ela própria não gasta um espaço)."
+    },
+    {
+        "nome": "Óleo",
+        "preco": 0.1,
+        "espacos": 0.5,
+        "descricao": "Um frasco com óleo inflamável para lampião. Você pode atirar o frasco em uma criatura em alcance curto com uma ação padrão. Se ela sofrer dano de fogo até o fim do seu próximo turno, sofre 1d6 pontos de dano extra e fica em chamas."
+    },
+    {
+        "nome": "Organizador de Pergaminhos",
+        "preco": 25,
+        "espacos": 1,
+        "descricao": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+    },
+    {
+        "nome": "Pé de Cabra",
+        "preco": 2,
+        "espacos": 1,
+        "descricao": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava."
+    },
+    {
+        "nome": "Saco de Dormir",
+        "preco": 1,
+        "espacos": 1,
+        "descricao": "Um colchão com uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem quando vão precisar de um lugar para dormir."
+    },
+    {
+        "nome": "Símbolo Sagrado",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Um medalhão de madeira ou metal com o símbolo de uma divindade. Se você estiver vestindo (normalmente com uma corrente ao redor do pescoço) ou empunhando o símbolo sagrado de um deus do qual é devoto, recebe +1 em testes de resistência."
+    },
+    {
+        "nome": "Tocha",
+        "preco": 0.1,
+        "espacos": 1,
+        "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 deimpacto mais 1 de fogo, crítico x2)."
+    },
+    {
+        "nome": "Vara de madeira (3m)",
+        "preco": 0.2,
+        "espacos": 1,
+        "descricao": "Uma haste com 3m de comprimento. Útil para alcançar pontos distantes, mas frágil demais para servir como arma."
+    },
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "nome": "Alaúde élfico",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Feito com madeira de alta qualidade e manufatura delicada, este alaúde gera notas vívidas e emocionantes. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical."
+    },
+    {
+        "nome": "Coleção de livros",
+        "preco": 75,
+        "espacos": 1,
+        "descricao": "Uma pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado)."
+    },
+    {
+        "nome": "Equipamento de viagem",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Um saco de lona contendo instrumentos úteis para sobreviver nos ermos, como pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anzól e linha para pescar e uma pequena pá. Um personagem sem este item sofre –5 em testes de Sobrevivência para fazer um acampamento. Não inclui saco de dormir ou barraca."
+    },
+    {
+        "nome": "Estojo de disfarces",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Um conjunto de cosméticos, tintas para cabelo e algumas próteses simples (como bigodes e narizes falsos). Um personagem sem este item sofre –5 em testes de Enganação para disfarce."
+    },
+    {
+        "nome": "Flauta mística",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical."
+    },
+    {
+        "nome": "Gazua",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+    },
+    {
+        "nome": "Instrumentos de <Ofício>",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Existe uma versão deste item para cada perícia de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpinteiro), pergaminhos em branco, tinta e pena para Ofício (escriba) e assim por diante. Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia."
+    },
+    {
+        "nome": "Instrumento musical",
+        "preco": 35,
+        "espacos": 1,
+        "descricao": "Um instrumento típico, como um bandolim, flauta ou lira. Veja o quadro acima para as regras deste item."
+    },
+    {
+        "nome": "Luneta",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Este instrumento valioso consiste de um cilindro metálico com duas lentes. Fornece +5 em testes de Percepção para observar coisas em alcance longo ou além."
+    },
+    {
+        "nome": "Maleta de medicamentos",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura."
+    },
+    {
+        "nome": "Sela",
+        "preco": 20,
+        "espacos": 1,
+        "descricao": "Uma peça de couro e pelego colocada sobre o lombo da montaria, sobre a qual o cavaleiro se senta. Inclui arreios para conduzir o animal. Um personagem montado em uma montaria sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem."
+    },
+    {
+        "nome": "Tambor das profundezas",
+        "preco": 80,
+        "espacos": 1,
+        "descricao": "Um instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+    }
+    
+   
+   
+]
