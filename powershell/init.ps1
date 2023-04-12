@@ -40,6 +40,23 @@ function Acessorios(
 
     $objects
 }
+
+function Perigos-Complexos(
+    [string]$Nome
+) {
+    $path = _LoadPath 'perigos-complexos.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
+    }
+    if ($objects.Length -eq 1) {
+        $objects | ConvertTo-Json -Depth 10
+    }
+    else {
+        $objects
+    }
+}
 function Armaduras(
     [string]$Nome,
     [Alias("c")]
@@ -389,7 +406,7 @@ function Armadilhas(
 
 function Doencas(
     [string]$Nome,
-    [string]$Efeito,
+    [string]$Efeito
 ) {
     $path = _LoadPath 'doencas.json' 
     $objects = Get-Content $path | ConvertFrom-Json

@@ -1,0 +1,103 @@
+[
+    {
+        "nome": "Avalanche",
+        "nivel": "9",
+        "objetivo": "Escapar da avalanche",
+        "efeitos": [
+            "O grupo tem cinco rodadas para se afastar dos escombros. No fim da quinta rodada, a posição de cada personagem é definida pelo número de sucessos acumulados nas ações correr ou carregar outro. Um personagem com dois sucessos ou menos fica na zona de soterramento (o caminho direto dos escombros): sofre 16d6 pontos de dano de impacto e fica soterrado. Um personagem com três ou quatro sucessos fica na zona de deslizamento (o caminho pelo qual os escombros se espalham): sofre 8d6 pontos de dano de impacto. Um personagem com cinco sucessos ou mais escapa ileso.",
+            "Os personagens têm direito a um teste de Sobrevivência (CD 20) para perceber a avalanche iniciando. Quem passar pode realizar uma ação adicional em sua primeira rodada.",
+            "Personagens soterrados ficam imóveis e sofrem 1d6 pontos de dano de impacto no início de cada um de seus turnos. Soltar-se (ou soltar um aliado soterrado) exige um teste de Força (CD 25). Vários personagens podem ajudar nesse teste (veja a página 221)."
+        ],
+        "acoes": [
+            {
+                "nome": "Correr",
+                "teste": "Atletismo CD 20",
+                "desc": "O personagem corre para longe da avalanche. Se passar, afasta-se dos escombros (veja “Efeito”, acima). Um sucesso por 10 ou mais (ou um 20 natural no teste) conta como dois sucessos. Este teste recebe os mesmos modificadores da ação corrida (veja a página 116) e pode ser substituído por Cavalgar ou Pilotagem, caso o personagem esteja usando uma montaria ou veículo."
+            },
+            {
+                "nome": "Carregar Outro",
+                "teste": "Atletismo CD 25",
+                "desc": "O personagem carrega um aliado próximo (com no máximo um sucesso de diferença). Isso funciona como a ação correr, acima, mas com CD maior. Se passar, o personagem acumula um sucesso para si e para o aliado."
+            },
+            {
+                "nome": "Procurar Caminho",
+                "teste": "Percepção CD 20",
+                "desc": "O personagem analisa o terreno em busca de uma rota de fuga. Se passar, recebe +5 em todos os testes para correr e carregar outro realizados durante o perigo."
+            }
+        ]
+    },
+    {
+        "nome": "Jornada pelos ermos",
+        "nivel": "2",
+        "objetivo": "Chegar ao destino",
+        "efeitos": [
+            "Para chegar ao destino, o grupo deverá fazer certa quantidade de testes, definida pelo tamanho da jornada.",
+            "Uma viagem pode ser curta (até outro reino na mesma região, 3 testes exigidos); média (até outra região, como do Reinado até as Repúblicas Livres, 5 testes), ou longa (até outra região longínqua ou continente, como do Reinado até o Deserto da Perdição ou Lamnor, 7 testes exigidos).",
+            "Para cada falha, os personagens perdem 2d6 pontos de vida. Essa perda de vida representa cansaço e desgaste e só pode ser curada a partir de um dia após o fim da jornada. Se o grupo acumular três falhas, os pontos de mana máximos dos personagens diminuem em 1 por nível na próxima aventura. Isso representa um abalo causado pelas dificuldades da travessia"
+        ],
+        "acoes": [
+            {
+                "nome": "Avançar",
+                "teste": "Sobrevivência ou Outras, CD varia",
+                "desc": "Os personagens se alternam fazendo testes até atingir a quantidade de sucessos exigida pela jornada (ou até atingir três falhas).\nOs testes podem ser de Sobrevivência ou de qualquer outra perícia que o jogador consiga justificar e que o mestre aprove. Por exemplo, um personagem que possua um veículo no qual possa levar o grupo pode fazer um teste de Pilotagem. Um personagem que queira pedir indicações e abrigo para pessoas no caminho pode usar Diplomacia (desde que haja pessoas para quem pedir ajuda). Cada perícia que não seja Sobrevivência só pode ser usada uma vez pela jornada.\nA CD varia conforme o terreno: 15 para planícies e colinas, 20 para florestas e pântanos, 25 para desertos ou montanhas e 30 para regiões planares perigosas ou áreas de Tormenta."
+            }
+        ]
+    },
+    {
+        "nome": "Sala Esmagadora",
+        "nivel": "9",
+        "objetivo": "Abrir a porta e sair da sala ou desabilitar o mecanismo que move as paredes.",
+        "efeitos": [
+            "Quando o grupo entra na sala, a porta se fecha e as paredes começam a se mover para esmagá-los. Os personagens têm três rodadas para agir. Na quarta, começam a ser esmagados e sofrem 10d6 pontos de dano de impacto. Na quinta rodada, a sala se fecha completamente. Qualquer personagem que ainda estiver dentro dela é morto.",
+            "A sala esmagadora é protegida por uma Âncora Dimensional que impede qualquer movimento planar."
+        ],
+        "acoes": [
+            {
+                "nome": "Derrubar Porta",
+                "teste": "Força CD 30",
+                "desc": "O jeito mais simples de escapar da sala esmagadora é abrir a porta e sair. Infelizmente, como a porta não tem fechadura por dentro, a única opção é derrubá-la. Mais infelizmente ainda, ela é feita de aço maciço! Derrubar a porta exige acumular três sucessos em Força. No máximo dois personagens podem fazer esta ação por rodada (cada personagem pode fazer seu próprio teste ou um pode ajudar o outro — veja a página 221)."
+            },
+            {
+                "nome": "Desabilitar Mecanismo",
+                "teste": "Ladinagem CD 30",
+                "desc": "Um jeito mais sagaz de sobreviver a esta armadilha é emperrar as paredes. Isso exige três sucessos em Ladinagem. Uma vez que as paredes estejam emperradas, o grupo pode derrubar a porta com calma (não exija testes)."
+            },
+            {
+                "nome": "Segurar Paredes",
+                "teste": "Força CD 25",
+                "desc": "O personagem faz força contra as paredes para impedir que elas se fechem. Cada dois sucessos nesta ação aumenta em mais uma rodada o tempo para a sala se fechar. Por si só, isso não salvará o grupo, mas pode dar mais tempo para outros personagens derrubarem a porta ou emperrarem as paredes."
+            }
+        ]
+    },
+    {
+        "nome": "Tempestade em Alto Mar",
+        "nivel": "6",
+        "objetivo": "Sobreviver à fúria do mar. A tempestade dura 1d6+6 rodadas. Após esse período, a chuva pode continuar, mas sem os perigos abaixo.",
+        "efeitos": [
+            "No início de seu turno, cada personagem deve fazer um teste de Reflexos para evitar ondas gigantes. Se falhar, sofre 4d6 pontos de dano de impacto. Se falhar por 10 ou mais, sofre o dano e cai no mar. A CD é 20+1d6 (role uma vez no início de cada rodada e aplique a mesma CD para todos os personagens). Um personagem no mar falha automaticamente no teste para evitar as ondas.",
+            "Os personagens têm direito a um teste de Sobrevivência (CD 20) para perceber a tempestade iniciando. Quem passar pode realizar uma ação adicional em sua primeira rodada."
+        ],
+        "acoes": [
+            {
+                "nome": "Navegar",
+                "teste": "Pilotagem CD 25",
+                "desc": "O personagem conduz a embarcação para fora da tempestade. Cada sucesso reduz a duração da tempestade em uma rodada (na prática, é o navio que está se afastando). Apenas um personagem pode fazer esta ação por rodada."
+            },
+            {
+                "nome": "Ajudar o Piloto ",
+                "teste": "Varia",
+                "desc": "O personagem faz um teste para ajudar (veja a página 221) o teste de Pilotagem. O jogador pode usar qualquer perícia que conseguir justificar — Atletismo para segurar o cordame no lugar, Percepção para ver qual a melhor direção para escapar da tempestade etc."
+            },
+            {
+                "nome": "Esconder-se",
+                "teste": "Nenhum",
+                "desc": "O personagem desce ao convés inferior (ou outro lugar) para se proteger das ondas. No convés inferior, a CD do teste de Reflexos é 20 (desconsidere o valor do d6) e não há chance de cair no mar. Porém, o personagem não pode navegar a embarcação ou ajudar o piloto."
+            },
+            {
+                "nome": "Voltar para o Navio",
+                "teste": "Atletismo CD 25",
+                "desc": "Um personagem no mar pode nadar de volta ao navio. Isso exige dois sucessos em testes de Atletismo: um para alcançar o navio e outro para subir pelo costado. Em caso de falha, o personagem não avança. Em caso de falha por 5 ou mais, o personagem afunda. Veja a perícia Atletismo para detalhes. Personagens que não estejam escondidos podem ajudar atirando cordas ou mesmo saltando para o mar (veja a página 221)."
+            }
+        ]
+    }
+]
