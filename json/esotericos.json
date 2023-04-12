@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Bolsa de pó",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
+    },
+    {
+        "nome": "Cajado arcano",
+        "preco": 1000,
+        "espacos": 2,
+        "descricao": "Um cajado típico, feito de madeira de boa qualidade e entalhado com runas. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Para fornecer seus benefícios, um cajado precisa ser empunhado com as duas mãos. Ele pode ser usado como arma, com as estatísticas de um bordão."
+    },
+    {
+        "nome": "Cetro elemental",
+        "preco": 750,
+        "espacos": 1,
+        "descricao": "Este cetro possui uma pedra preciosa em sua ponta: esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo."
+    },
+    {
+        "nome": "Costela de lich",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Esta varinha é feita a partir do osso de um morto-vivo. Suas magias causam +1d6 pontos de dano de trevas. Se estiver empunhando esta varinha você não recupera PV por efeitos mágicos de cura."
+    },
+    {
+        "nome": "Dedo de ente",
+        "preco": 200,
+        "espacos": 1,
+        "descricao": "Uma varinha feita da madeira de uma árvore senciente. Sempre que gastar pelo menos 1 PM para lançar uma magia, role 1d4. Com um resultado 4, você recupera 1 PM."
+    },
+    {
+        "nome": "Luva de ferro",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+    },
+    {
+        "nome": "Medalhão de prata",
+        "preco": 750,
+        "espacos": 1,
+        "descricao": "Gravado com uma runa pessoal do conjurador, este medalhão de prata diminui em –1 PM o custo de magias de alcance pessoal."
+    },
+    {
+        "nome": "Orbe cristalina",
+        "preco": 750,
+        "espacos": 1,
+        "descricao": "Esta esfera perfeita concentra seu poder mágico. O limite de PM que você pode gastar em magias arcanas aumenta em +1."
+    },
+    {
+        "nome": "Tomo hermético",
+        "preco": 1500,
+        "espacos": 1,
+        "descricao": "Um livro de tratados que aumentam a sua compreensão sobre uma escola de magia específica. A CD para resistir a suas magias arcanas dessa escola aumenta em +2."
+    },
+    {
+        "nome": "Varinha arcana",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Uma varinha típica, feita de madeira de boa qualidade e entalhada com runas. A CD para resistir a suas magias arcanas aumenta em +1."
+    }
+]
