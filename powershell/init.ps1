@@ -366,6 +366,18 @@ function Climas([string]$Tipo) {
     }
 }
 
+function Portas([string]$Tipo) {
+    $path = _LoadPath 'portas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Tipo) {
+        $objects | Where-Object { $_.tipo -like "*$Tipo*" }
+    }
+    else {
+        $objects
+    }
+}
+
 function Condicoes([string]$Nome) {
     $path = _LoadPath 'condicoes.json' 
     $objects = Get-Content $path | ConvertFrom-Json

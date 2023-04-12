@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "Madeira",
+        "rd": "5",
+        "pv": "20",
+        "cd": 15
+    },
+    {
+        "tipo": "Madeira reforçada",
+        "rd": "5",
+        "pv": "30",
+        "cd": 20
+    },
+    {
+        "tipo": "Pedra",
+        "rd": "8",
+        "pv": "100",
+        "cd": 25
+    },
+    {
+        "tipo": "Ferro",
+        "rd": "10",
+        "pv": "100",
+        "cd": 25
+    },
+    {
+        "tipo": "Grade",
+        "rd": "10",
+        "pv": "60",
+        "cd": 20
+    }
+]
