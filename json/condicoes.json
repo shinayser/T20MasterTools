@@ -1,6 +1,6 @@
 [
   {
-    "title": "Abalado",
+    "nome": "Abalado",
     "detalhes": {
       "efeito": "medo",
       "descricao": [
@@ -10,7 +10,7 @@
     }
   },
   {
-    "title": "Agarrado",
+    "nome": "Agarrado",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -22,7 +22,7 @@
     }
   },
   {
-    "title": "Alquebrado",
+    "nome": "Alquebrado",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -31,7 +31,7 @@
     }
   },
   {
-    "title": "Apavorado",
+    "nome": "Apavorado",
     "detalhes": {
       "efeito": "medo",
       "descricao": [
@@ -41,7 +41,7 @@
     }
   },
   {
-    "title": "Atordoado",
+    "nome": "Atordoado",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -51,7 +51,7 @@
     }
   },
   {
-    "title": "Caído",
+    "nome": "Caído",
     "detalhes": {
       "efeito": "Você está caído.",
       "descricao": [
@@ -63,7 +63,7 @@
     }
   },
   {
-    "title": "Cego",
+    "nome": "Cego",
     "detalhes": {
       "efeito": "sentidos",
       "descricao": [
@@ -76,7 +76,7 @@
     }
   },
   {
-    "title": "Confuso",
+    "nome": "Confuso",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -89,7 +89,7 @@
     }
   },
   {
-    "title": "Debilitado",
+    "nome": "Debilitado",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -99,7 +99,7 @@
     }
   },
   {
-    "title": "Desprevenido",
+    "nome": "Desprevenido",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -109,7 +109,7 @@
     }
   },
   {
-    "title": "Doente",
+    "nome": "Doente",
     "detalhes": {
       "efeito": "metabolismo",
       "descricao": [
@@ -121,7 +121,7 @@
     }
   },
   {
-    "title": "Em Chamas",
+    "nome": "Em Chamas",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -132,7 +132,7 @@
     }
   },
   {
-    "title": "Enfeitiçado",
+    "nome": "Enfeitiçado",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -143,7 +143,7 @@
     }
   },
   {
-    "title": "Enjoado",
+    "nome": "Enjoado",
     "detalhes": {
       "efeito": "metabolismo",
       "descricao": [
@@ -153,7 +153,7 @@
     }
   },
   {
-    "title": "Enredado",
+    "nome": "Enredado",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -163,7 +163,7 @@
     }
   },
   {
-    "title": "Envenenado",
+    "nome": "Envenenado",
     "detalhes": {
       "efeito": "veneno",
       "descricao": [
@@ -173,7 +173,7 @@
     }
   },
   {
-    "title": "Esmorecido",
+    "nome": "Esmorecido",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -182,7 +182,7 @@
     }
   },
   {
-    "title": "Exausto",
+    "nome": "Exausto",
     "detalhes": {
       "efeito": "cansaço",
       "descricao": [
@@ -192,7 +192,7 @@
     }
   },
   {
-    "title": "Fascinado",
+    "nome": "Fascinado",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -204,7 +204,7 @@
     }
   },
   {
-    "title": "Fatigado",
+    "nome": "Fatigado",
     "detalhes": {
       "efeito": "cansaço",
       "descricao": [
@@ -214,7 +214,7 @@
     }
   },
   {
-    "title": "Fraco",
+    "nome": "Fraco",
     "detalhes": {
       "efeito": "Você está fraco.",
       "descricao": [
@@ -224,7 +224,7 @@
     }
   },
   {
-    "title": "Frustrado",
+    "nome": "Frustrado",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -234,7 +234,7 @@
     }
   },
   {
-    "title": "Imóvel",
+    "nome": "Imóvel",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -243,7 +243,7 @@
     }
   },
   {
-    "title": "Inconsciente",
+    "nome": "Inconsciente",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -254,7 +254,7 @@
     }
   },
   {
-    "title": "Indefeso",
+    "nome": "Indefeso",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -265,7 +265,7 @@
     }
   },
   {
-    "title": "Lento",
+    "nome": "Lento",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -275,7 +275,7 @@
     }
   },
   {
-    "title": "Ofuscado",
+    "nome": "Ofuscado",
     "detalhes": {
       "efeito": "sentidos",
       "descricao": [
@@ -284,7 +284,7 @@
     }
   },
   {
-    "title": "Paralisado",
+    "nome": "Paralisado",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -294,7 +294,7 @@
     }
   },
   {
-    "title": "Pasmo",
+    "nome": "Pasmo",
     "detalhes": {
       "efeito": "mental",
       "descricao": [
@@ -303,7 +303,7 @@
     }
   },
   {
-    "title": "Petrificado",
+    "nome": "Petrificado",
     "detalhes": {
       "efeito": "metamorfose",
       "descricao": [
@@ -313,7 +313,7 @@
     }
   },
   {
-    "title": "Sangrando",
+    "nome": "Sangrando",
     "detalhes": {
       "efeito": "metabolismo",
       "descricao": [
@@ -322,7 +322,7 @@
     }
   },
   {
-    "title": "Sobrecarregado",
+    "nome": "Sobrecarregado",
     "detalhes": {
       "efeito": "movimento",
       "descricao": [
@@ -332,7 +332,7 @@
     }
   },
   {
-    "title": "Surdo",
+    "nome": "Surdo",
     "detalhes": {
       "efeito": "sentidos",
       "descricao": [
@@ -343,7 +343,7 @@
     }
   },
   {
-    "title": "Surpreendido",
+    "nome": "Surpreendido",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [
@@ -353,7 +353,7 @@
     }
   },
   {
-    "title": "Vulnerável",
+    "nome": "Vulnerável",
     "detalhes": {
       "efeito": "nenhum",
       "descricao": [

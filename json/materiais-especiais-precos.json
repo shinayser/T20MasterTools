@@ -4,7 +4,7 @@
         "arma": 6000,
         "armaduraLeve": 3000,
         "armaduraPesada": 6000,
-        "armaduraescudo": 3000,
+        "escudo": 3000,
         "esotericos": 3000
     },
     {
@@ -12,7 +12,7 @@
         "arma": 3000,
         "armaduraLeve": 6000,
         "armaduraPesada": 18000,
-        "armaduraescudo": 6000,
+        "escudo": 6000,
         "esotericos": 3000
     },
     {
@@ -20,7 +20,7 @@
         "arma": 600,
         "armaduraLeve": 1500,
         "armaduraPesada": 3000,
-        "armaduraescudo": 1500,
+        "escudo": 1500,
         "esotericos": 3000
     },
     {
@@ -28,7 +28,7 @@
         "arma": 1500,
         "armaduraLeve": 0,
         "armaduraPesada": 0,
-        "armaduraescudo": 1500,
+        "escudo": 1500,
         "esotericos": 1500
     },
     {
@@ -36,7 +36,7 @@
         "arma": 1500,
         "armaduraLeve": 6000,
         "armaduraPesada": 18000,
-        "armaduraescudo": 6000,
+        "escudo": 6000,
         "esotericos": 3000
     },
     {
@@ -44,7 +44,7 @@
         "arma": 1500,
         "armaduraLeve": 1500,
         "armaduraPesada": 12000,
-        "armaduraescudo": 1500,
+        "escudo": 1500,
         "esotericos": 3000
     }
 ]
