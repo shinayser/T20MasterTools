@@ -1,0 +1,138 @@
+[
+    {
+        "nome": "Agulha Envenenada",
+        "efeito": "1 ponto de dano de perfuração e perde 1d12 PV por veneno",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação CD 25, Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/4"
+    },
+    {
+        "nome": "Arame Farpado",
+        "efeito": "Conta como terreno difícil e causa 1d6+2 pontos de dano de corte em quem atravessá-lo",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/4"
+    },
+    {
+        "nome": "Fosso Camuflado",
+        "efeito": "Queda de 3m causa 2d6 pontos de dano de impacto (Atletismo CD 20 para escalar de volta)",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/4"
+    },
+    {
+        "nome": "Rede",
+        "efeito": "Criatura fica agarrada (ação completa e Acrobacia CD 20 para escapar)",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/4"
+    },
+    {
+        "nome": "Virote",
+        "efeito": "1d10+2 pontos de dano de perfuração",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação CD 25, Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/4"
+    },
+    {
+        "nome": "Fosso Profundo",
+        "efeito": "Queda de 6m causa 4d6 pontos de dano de impacto (Atletismo CD 20 para escalar de volta)",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/2"
+    },
+    {
+        "nome": "Lâmina na Parede",
+        "efeito": "2d6+5 pontos de dano de corte",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação CD 25, Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1/2"
+    },
+    {
+        "nome": "Bloco de Pedra",
+        "efeito": "6d6 pontos de dano de impacto",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1"
+    },
+    {
+        "nome": "Pêndulo de Teto",
+        "efeito": "1d12+10 pontos de dano de corte",
+        "resistencia": "Reflexos CD 25 evita",
+        "investigacao": "Investigação CD 25, Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "1"
+    },
+    {
+        "nome": "Fosso com Estacas",
+        "efeito": "Queda de 9m causa 6d6 pontos de dano de impacto mais estacas causam 2d4+5 de perfuração (Atletismo CD 20 para escalar de volta);",
+        "resistencia": "Reflexos CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 20",
+        "magica": "nao",
+        "nivel": "2"
+    },
+    {
+        "nome": "Runa de Proteção",
+        "efeito": "6d6 pontos de dano de fogo (ou ácido, eletricidade, frio, luz ou trevas) em todas as criaturas a até 3m",
+        "resistencia": "Reflexos CD 20 reduz à metade (a criatura que ativou não tem direito)",
+        "investigacao": "Investigação/Ladinagem CD 25",
+        "magica": "sim",
+        "nivel": "2",
+    },
+    {
+        "nome": "Símbolo do Medo",
+        "efeito": "Criaturas em alcance curto ficam abaladas até o fim da cena",
+        "resistencia": "Vontade CD 20 evita",
+        "investigacao": "Investigação/Ladinagem CD 25",
+        "magica": "sim",
+        "nivel": "2",
+    },
+    {
+        "nome": "Símbolo do Atordoamento",
+        "efeito": "Criaturas em alcance curto ficam atordoadas por 1d6 rodadas",
+        "resistencia": "Fortitude CD 25 evita",
+        "investigacao": "Investigação/Ladinagem CD 30",
+        "magica": "sim",
+        "nivel": "5",
+    },
+    {
+        "nome": "Desabamento do Teto",
+        "efeito": "15d6 pontos de dano de impacto em todas as criaturas num quadrado de 6m de lado",
+        "resistencia": "Reflexos CD 30 reduz à metade",
+        "investigacao": "Investigação/Ladinagem CD 25",
+        "magica": "nao",
+        "nivel": "6",
+    },
+    {
+        "nome": "Símbolo da Insanidade",
+        "efeito": "Criaturas em alcance curto ficam confusas permanentemente",
+        "resistencia": "Vontade CD 25 evita",
+        "investigacao": "Investigação/Ladinagem CD 30",
+        "magica": "sim",
+        "nivel": "6",
+    },
+    {
+        "nome": "Abismo da Morte",
+        "efeito": "Um quadrado de 6m de lado no chão se abre para uma queda de 30m sobre estacas, causando 20d6 pontos de dano de impacto e 2d8+10 pontos de dano de perfuração (Atletismo CD 25 para escalar de volta)",
+        "resistencia": "Reflexos CD 30 evita",
+        "investigacao": "Investigação/Ladinagem CD 30",
+        "magica": "nao",
+        "nivel": "8",
+    },
+    {
+        "nome": "Símbolo da Morte",
+        "efeito": "Criaturas em alcance curto são reduzidas a -1 PV",
+        "resistencia": "Fortitude CD 30 reduz para 10d6 pontos de dano de trevas",
+        "investigacao": "Investigação/Ladinagem CD 30",
+        "magica": "sim",
+        "nivel": "9",
+    },
+]

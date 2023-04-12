@@ -354,6 +354,39 @@ function Alimentacao(
     }
 }
 
+function Armadilhas(
+    [string]$Nome,
+    [string]$Efeito,
+    [string]$Nivel,
+    [switch]$Magica
+) {
+    $path = _LoadPath 'armadilhas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Efeito) {
+        $objects = $objects | Where-Object { $_.efeito -like "*$efeito*" }
+    }
+    
+    if ($nivel) {
+        $objects = $objects | Where-Object { $_.nivel -eq $nivel }
+    }
+    
+    if ($Magica) {
+        $objects = $objects | Where-Object { $_.magica -eq 'sim' }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
 function Climas([string]$Tipo) {
     $path = _LoadPath 'climas.json' 
     $objects = Get-Content $path | ConvertFrom-Json
