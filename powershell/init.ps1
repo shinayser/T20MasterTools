@@ -170,6 +170,144 @@ function Esotericos(
     }
 }
 
+function Alquimicos-Preparados(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'alquimicos-preparados.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Alquimicos-Catalisadores(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'alquimicos-catalisadores.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Alquimicos-Venenos(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'alquimicos-venenos.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Animais(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'animais.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Veiculos(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'animais.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Alimentacao(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'alimentacao.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
 function Climas([string]$Tipo) {
     $path = _LoadPath 'climas.json' 
     $objects = Get-Content $path | ConvertFrom-Json
@@ -329,3 +467,5 @@ function Pericias([string]$Nome) {
         $objects
     }
 }
+
+Set-Alias Comidas Alimentacao

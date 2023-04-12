@@ -1,0 +1,52 @@
+[
+    {
+        "nome": "Alforje",
+        "preco": 30,
+        "espacos": 0,
+        "descricao": "Sacos de couro feitos para serem presos em uma sela. Permitem que um parceiro montaria carregue até 10 espaços de item para você."
+    },
+    {
+        "nome": "Cão de caça",
+        "preco": 150,
+        "espacos": 0,
+        "descricao": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+        "nome": "Cavalo",
+        "preco": 75,
+        "espacos": 0,
+        "descricao": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste."
+    },
+    {
+        "nome": "Cavalo de guerra",
+        "preco": 400,
+        "espacos": 0,
+        "descricao": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262)."
+    },
+    {
+        "nome": "Estábulo",
+        "preco": 0.1,
+        "espacos": 0,
+        "descricao": "Inclui alimentação para o animal."
+    },
+    {
+        "nome": "Pônei",
+        "preco": 5,
+        "espacos": 0,
+        "descricao": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262)."
+    },
+    {
+        "nome": "Pônei de guerra",
+        "preco": 30,
+        "espacos": 0,
+        "descricao": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262)."
+    },
+    {
+        "nome": "Trobo",
+        "preco": 60,
+        "espacos": 0,
+        "descricao": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria (veja a página 262)."
+    }
+
+   
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Batata valkariana",
+        "preco": 2,
+        "espacos": 0.5,
+        "descricao": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são gostosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia. Para não esquecer, deixe 1d6 em cima da sua ficha. De preferência, amarelo."
+    },
+    {
+        "nome": "Gorad quente",
+        "preco": 18,
+        "espacos": 0.5,
+        "descricao": "Gorad e leite, servidos quentes. Não tem erro. O gorad ativa o cérebro, fornecendo +2 PM temporários."
+    },
+    {
+        "nome": "Macarrão de Yuvalin",
+        "preco": 6,
+        "espacos": 0.5,
+        "descricao": "Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Montanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite!) para encarar suas árduas jornadas de trabalho nas minas. Delicioso, o prato se espalhou por outras cidades e reinos. Você recebe +5 PV temporários."
+    },
+    {
+        "nome": "Prato do aventureiro",
+        "preco": 1,
+        "espacos": 0.5,
+        "descricao": "Um cozido de galinha com legumes, esta é uma refeição simples, mas nutritiva. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível."
+    },
+    {
+        "nome": "Ração de viagem (por dia)",
+        "preco": 0.5,
+        "espacos": 0.5,
+        "descricao": "Própria para viagens, uma porção desta ração alimenta uma pessoa por um dia. É feita de alimentos conservados, como carne defumada, frutas secas, pão, queijo e biscoitos. Se mantida seca dura bastante, mas quando molhada se estraga em 24 horas."
+    },
+    {
+        "nome": "Refeição comum",
+        "preco": 0.3,
+        "espacos": 0.5,
+        "descricao": "Uma refeição típica inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida, geralmente cidra, vinho ou cerveja."
+    },
+    {
+        "nome": "Sopa de peixe",
+        "preco": 1,
+        "espacos": 0.5,
+        "descricao": "Um cozido de peixe com verduras. É um prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível."
+    }
+]

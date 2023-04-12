@@ -1,0 +1,51 @@
+[
+    {
+        "nome": "Ácido",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Frasco de vidro contendo um ácido alquímico altamente corrosivo. Para usar o ácido, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de ácido (Reflexos CD Des reduz à metade)."
+    },
+    {
+        "nome": "Bálsamo restaurador",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida."
+    },
+    {
+        "nome": "Bomba",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+    },
+    {
+        "nome": "Cosmético",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Perfume ou maquiagem. Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena."
+    },
+    {
+        "nome": "Elixir do amor",
+        "preco": 100,
+        "espacos": 0.5,
+        "descricao": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+    },
+    {
+        "nome": "Essência de mana",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Esta poção feita de ervas raras e compostos alquímicos recupera energia pessoal. Beber a essência de mana é uma ação padrão e recupera 1d4 pontos de mana."
+    },
+    {
+        "nome": "Fogo alquímico",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Frasco de cerâmica contendo uma substância que entra em combustão em contato com o ar. Para usar o fogo alquímico, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 1d6 pontos de dano de fogo e fica em chamas. Um teste de Reflexos (CD Des) reduz o dano à metade e evita as chamas."
+    },
+    {
+        "nome": "Pó do desaparecimento",
+        "preco": 100,
+        "espacos": 0.5,
+        "descricao": "Uma criatura ou objeto coberto por este pó torna-se invisível (como em Invisibilidade) por 2d6 rodadas. O usuário não sabe quando a invisibilidade vai terminar."
+    }
+   
+]

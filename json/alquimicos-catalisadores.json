@@ -1,0 +1,75 @@
+[
+    {
+        "nome": "Baga-de-Fogo",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Pequeno fruto vermelho, apreciado por seu sabor picante. Usado como catalisador, adiciona +1d6 de dano de fogo a magias."
+    },
+    {
+        "nome": "Dente-de-Dragão",
+        "preco": 45,
+        "espacos": 0.5,
+        "descricao": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo."
+    },
+    {
+        "nome": "Essência Abissal",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria — d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo)."
+    },
+    {
+        "nome": "Líquen Lilás",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Esta estranha planta tem aspecto cristalino e cresce em abundância na região das Uivantes. Adiciona +1d6 de dano de frio a magias."
+    },
+    {
+        "nome": "Musgo Púrpura",
+        "preco": 45,
+        "espacos": 0.5,
+        "descricao": "Encontrado em florestas fechadas, esse fungo cintilante possui propriedades que fornecem +2 na CD de magias de ilusão."
+    },
+    {
+        "nome": "Ossos de Monstro",
+        "preco": 45,
+        "espacos": 0.5,
+        "descricao": "Pequenas falanges de criaturas monstruosas, tratadas com óleos alquímicos. Fornece +2 na CD de magias de necromancia."
+    },
+    {
+        "nome": "Pó de Cristal",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM."
+    },
+    {
+        "nome": "Pó de Giz",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Calcário esmagado em pó, uma substância comum que, usada como catalisador, diminui o custo de magias de convocação em –1 PM."
+    },
+    {
+        "nome": "Ramo Verdejante",
+        "preco": 45,
+        "espacos": 0.5,
+        "descricao": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado."
+    },
+    {
+        "nome": "Saco de Sal",
+        "preco": 45,
+        "espacos": 0.5,
+        "descricao": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração."
+    },
+    {
+        "nome": "Seixo de Âmbar",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Essa “gema” feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM."
+    },
+    {
+        "nome": "Terra de Cemitério",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias."
+    }
+   
+]
