@@ -1,0 +1,128 @@
+[
+    {
+        "nome": "Andrajos de Aldeão",
+        "preco": 1,
+        "espacos": 1,
+        "descricao": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas — os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
+    },
+    {
+        "nome": "Bandana",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Um lenço tipicamente usado por bandidos e piratas. Fornece +1 em Intimidação."
+    },
+    {
+        "nome": "Botas Reforçadas",
+        "preco": 20,
+        "espacos": 1,
+        "descricao": "Grossas e resistentes, estas botas de cano alto protegem contra perigos do terreno. Aumentam seu deslocamento em +1,5m se ele for reduzido por terreno difícil (após a redução)."
+    },
+    {
+        "nome": "Camisa Bufante",
+        "preco": 25,
+        "espacos": 1,
+        "descricao": "Blusa colorida, com mangas e golas longas e encrespadas. Fornece +1 em Atuação."
+    },
+    {
+        "nome": "Capa Esvoaçante",
+        "preco": 25,
+        "espacos": 1,
+        "descricao": "Favorita entre heróis ousados, esta capa de seda produz movimentos amplos e chamativos, que fornecem +1 em Enganação."
+    },
+    {
+        "nome": "Capa Pesada",
+        "preco": 15,
+        "espacos": 1,
+        "descricao": "Uma capa de couro grossa e resistente. Protege e aquece o corpo, fornecendo +1 em Fortitude."
+    },
+    {
+        "nome": "Casaco Longo",
+        "preco": 20,
+        "espacos": 1,
+        "descricao": "Feito de peles ou couro grosso forrado com lã, e impermeabilizado com óleo, este casaco é quente e pesado. Fornece +5 em testes de Fortitude para resistir a efeitos de frio, mas impõe penalidade de armadura de –2."
+    },
+    {
+        "nome": "Chapéu Arcano",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Com pinturas e bordados de símbolos místicos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 ponto de mana, mas apenas se você possuir a habilidade de classe Caminho do Arcanista."
+    },
+    {
+        "nome": "Enfeite de Elmo",
+        "preco": 15,
+        "espacos": 1,
+        "descricao": "Um adorno chamativo, como crina de cavalo, plumas, asas ou um totem de animal. Fornece resistência a medo +2."
+    },
+    {
+        "nome": "Farrapos de Ermitão",
+        "preco": 1,
+        "espacos": 1,
+        "descricao": "Trapos “adornados” com plantas e raízes. Uma pessoa vestindo farrapos de ermitão não parece muito civilizada, e sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento."
+    },
+    {
+        "nome": "Gorro de Ervas",
+        "preco": 75,
+        "espacos": 1,
+        "descricao": "Formado por duas camadas de tecido, este chapéu é preenchido com ervas preparadas para auxiliar a concentração do usuário. Fornece +1 em Vontade."
+    },
+    {
+        "nome": "Luva de Pelica",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Estas luvas delicadas preservam o tato e impedem que o suor deixe os dedos escorregadios. Fornecem +1 em Ladinagem."
+    },
+    {
+        "nome": "Manopla",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados."
+    },
+    {
+        "nome": "Manto Camuflado",
+        "preco": 12,
+        "espacos": 1,
+        "descricao": "Um manto camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, na página 51). Por exemplo, um manto camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um manto urbano pode ser cinza ou negro. Usar um manto camuflado no terreno correto fornece +2 em Furtividade."
+    },
+    {
+        "nome": "Manto Eclesiástico",
+        "preco": 20,
+        "espacos": 1,
+        "descricao": "Um manto típico de igrejas e templos. Fornece +1 em Religião."
+    },
+    {
+        "nome": "Robe Místico",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Um manto longo, adornado com temas arcanos. Fornece +1 em Misticismo."
+    },
+    {
+        "nome": "Sapatos de Camurça",
+        "preco": 8,
+        "espacos": 1,
+        "descricao": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+    },
+    {
+        "nome": "Tabardo",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Uma peça de tecido usada como um colete, cobrindo o peito e as costas. Geralmente ostenta a heráldica de um reino, igreja, casa nobre ou ordem de cavaleiros. Fornece +1 em Diplomacia."
+    },
+    {
+        "nome": "Traje da Corte",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como aneis e colares. Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma."
+    },
+    {
+        "nome": "Traje de Viajante",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Inclui botas, calças ou saias, cinto, camisa de linho e capa com capuz. A roupa padrão de aventureiros."
+    },
+    {
+        "nome": "Veste de seda",
+        "preco": 25,
+        "espacos": 1,
+        "descricao": "Esta roupa leve e elegante deixa seus movimentos os mais livres possíveis. Fornece +1 em Reflexos."
+    },
+]

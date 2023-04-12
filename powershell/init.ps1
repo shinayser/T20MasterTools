@@ -79,12 +79,41 @@ function Armas([string]$Nome) {
     }
 }
 
-function Itens-Gerais([string]$Nome) {
+function Itens-Gerais(
+    [string]$Nome,
+    [string]$Descricao
+) {
     $path = _LoadPath 'itens-gerais.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+    
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+function Vestuarios(
+    [string]$Nome, 
+    [string]$Descricao
+) {
+    $path = _LoadPath 'vestuarios.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
     }
     
     if ($objects.Length -le 3) {
@@ -95,12 +124,19 @@ function Itens-Gerais([string]$Nome) {
     }
 }
 
-function Ferramentas([string]$Nome) {
+function Ferramentas(
+    [string]$Nome,
+    [string]$Descricao
+) {
     $path = _LoadPath 'itens-gerais.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
     }
 
     if ($objects.Length -le 3) {

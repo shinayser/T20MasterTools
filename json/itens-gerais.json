@@ -93,12 +93,12 @@
         "nome": "Tocha",
         "preco": 0.1,
         "espacos": 1,
-        "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 deimpacto mais 1 de fogo, crítico x2)."
+        "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2)."
     },
     {
         "nome": "Vara de madeira (3m)",
         "preco": 0.2,
         "espacos": 1,
         "descricao": "Uma haste com 3m de comprimento. Útil para alcançar pontos distantes, mas frágil demais para servir como arma."
-    },
+    }
 ]
