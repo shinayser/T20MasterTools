@@ -9,7 +9,8 @@
         "alcance": "corpo-a-corpo/curto",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "leve"
+        "empunhadura": "leve",
+        "descricao": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +5 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar sua Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada."
     },
     {
         "nome": "Alabarda",
@@ -21,7 +22,8 @@
         "alcance": "nenhum",
         "tipo": "corte/perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na ponta. A alabarda é uma arma alongada."
     },
     {
         "nome": "Alfange",
@@ -33,7 +35,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma versão maior da cimitarra, esta espada de lâmina larga e curva é bastante usada por guerreiros do Deserto da Perdição."
     },
     {
         "nome": "Arco curto",
@@ -45,7 +48,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Pode ser usado montado."
     },
     {
         "nome": "Arco longo",
@@ -57,7 +61,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Este arco reforçado tem a altura de uma pessoa. Ao contrário da versão curta, é primariamente uma arma de guerra. Por ter uma puxada pesada, permite que você aplique sua Força às rolagens de dano (ao contrário de outras armas de disparo). Porém, um arco longo não pode ser usado se você estiver montado."
     },
     {
         "nome": "Azagaia",
@@ -69,7 +74,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque."
     },
     {
         "nome": "Balas",
@@ -81,7 +87,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "nenhuma"
+        "empunhadura": "nenhuma",
+        "descricao": "Uma bolsa com 20 balas (pequenas esferas de chumbo) e pólvora. Recarregar uma pistola ou um mosquete é uma ação padrão."
     },
     {
         "nome": "Besta leve",
@@ -93,7 +100,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento."
     },
     {
         "nome": "Besta pesada",
@@ -105,7 +113,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão."
     },
     {
         "nome": "Bordão",
@@ -117,7 +126,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Um cajado apreciado por viajantes e camponeses por sua praticidade e fácil acesso (seu preço é zero). O bordão é uma arma dupla."
     },
     {
         "nome": "Chicote",
@@ -129,7 +139,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. O chicote é uma arma ágil e versátil, fornecendo +2 em testes para derrubar ou desarmar."
     },
     {
         "nome": "Cimitarra",
@@ -141,7 +152,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Espada com a lâmina curva e muito afiada. A cimitarra é uma arma ágil."
     },
     {
         "nome": "Clava",
@@ -153,7 +165,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero."
     },
     {
         "nome": "Corrente de espinhos",
@@ -165,7 +178,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar."
     },
     {
         "nome": "Espada bastarda",
@@ -177,7 +191,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como umaarma marcial de duas mãos."
     },
     {
         "nome": "Espada curta",
@@ -189,7 +204,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "leve"
+        "empunhadura": "leve",
+        "descricao": "O tipo mais comum de espada, usada por guardas ou como arma secundária de guerreiros mais capazes. Mede entre 40 e 50cm."
     },
     {
         "nome": "Espada longa",
@@ -201,19 +217,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
-    },
-    {
-        "nome": "Flechas",
-        "classe": "marcial/distancia",
-        "preco": 1,
-        "dano": "1d6",
-        "ameaca": 20,
-        "critico": "x3",
-        "alcance": "nenhum",
-        "tipo": "perfuracao",
-        "espacos": 1,
-        "empunhadura": "nenhuma"
+        "empunhadura": "uma-mao",
+        "descricao": "Arma típica de soldados e guerreiros, esta espada de dois gumes tem lâmina reta medindo entre 80cm e 1m."
     },
     {
         "nome": "Flechas",
@@ -225,7 +230,8 @@
         "alcance": "—",
         "tipo": "—",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma aljava com 20 flechas, hastes de madeira com ponta metálica e penas para estabilizar"
     },
     {
         "nome": "Florete",
@@ -237,7 +243,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "A lâmina leve e fina desta espada torna a arma muito precisa. O florete é uma arma ágil."
     },
     {
         "nome": "Foice",
@@ -249,7 +256,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "leve"
+        "empunhadura": "leve",
+        "descricao": "Originalmente um instrumento agrícola, consiste de uma lâmina curva presa a um cabo de madeira. Uma arma tradicional de druidas."
     },
     {
         "nome": "Funda",
@@ -261,7 +269,8 @@
         "alcance": "medio",
         "tipo": "impacto",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma simples tira de couro usada para arremessar pedras polidas. Na falta de munição adequada, pode disparar pedras comuns, mas o dano é reduzido em um passo. Recarregar uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica sua Força a rolagens de dano com uma funda."
     },
     {
         "nome": "Gadanho",
@@ -273,7 +282,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Outra ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas."
     },
     {
         "nome": "Katana",
@@ -285,7 +295,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
     },
     {
         "nome": "Lança",
@@ -297,7 +308,8 @@
         "alcance": "curto",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada."
     },
     {
         "nome": "Lança montada",
@@ -309,7 +321,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "A lança montada é uma arma alongada. Se você estiver montado, pode usá-la com apenas uma mão. Além disso, quando usada numa investida montada, causa +2d8 pontos de dano (note que dados extras não são multiplicados em caso de acerto crítico)."
     },
     {
         "nome": "Maça",
@@ -321,7 +334,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos."
     },
     {
         "nome": "Machadinha",
@@ -333,7 +347,8 @@
         "alcance": "curto",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "leve"
+        "empunhadura": "leve",
+        "descricao": "Ferramenta útil para cortar madeira e também inimigos. Uma machadinha pode ser arremessada."
     },
     {
         "nome": "Machado anão",
@@ -345,7 +360,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "A arma preferida de onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos."
     },
     {
         "nome": "Machado de batalha",
@@ -357,7 +373,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Adaptado do machado de lenhador, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis."
     },
     {
         "nome": "Machado de guerra",
@@ -369,7 +386,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Este imenso machado de lâmina dupla é uma arma extremamente perigosa."
     },
     {
         "nome": "Machado táurico",
@@ -381,7 +399,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma haste comprida com uma lâmina extremamente grossa na ponta, esta é uma arma ancestral dos minotauros. Um machado táurico é uma arma desbalanceada. Além disso, é muito grande para ser usado sem treinamento especial; por isso, é uma arma exótica."
     },
     {
         "nome": "Mangual",
@@ -393,7 +412,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma haste metálica ligada a uma corrente com uma esfera de aço na ponta, que pode se enroscar na arma do adversário. O mangual é uma arma versátil, fornecendo +2 em testes para desarmar."
     },
     {
         "nome": "Marreta",
@@ -405,7 +425,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma haste de madeira resistente com uma pesada cabeça de metal ou pedra."
     },
     {
         "nome": "Martelo de guerra",
@@ -417,7 +438,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Outra ferramenta adaptada para combate, esta é a arma favorita de quase todos os anões que não usam machados."
     },
     {
         "nome": "Montante",
@@ -429,7 +451,8 @@
         "alcance": "nenhum",
         "tipo": "corte",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Enorme e pesada, esta espada de 1,5m de comprimento é uma arma poderosa."
     },
     {
         "nome": "Mosquete",
@@ -441,7 +464,8 @@
         "alcance": "medio",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Uma arma de fogo de uso difícil, mas com poder devastador. Recarregar um mosquete é uma ação padrão."
     },
     {
         "nome": "Pedras",
@@ -453,7 +477,8 @@
         "alcance": "—",
         "tipo": "—",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Um saco de couro com 20 pedras polidas. Recarregar uma funda com uma pedra de qualquer tipo é uma ação de movimento."
     },
     {
         "nome": "Picareta",
@@ -465,7 +490,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Usada por mineradores, esta ferramenta quebra pedras com facilidade. Imagine o que pode fazer com carne e osso!"
     },
     {
         "nome": "Pique",
@@ -477,7 +503,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Essencialmente uma lança muito longa. O pique é uma arma alongada."
     },
     {
         "nome": "Pistola",
@@ -489,7 +516,8 @@
         "alcance": "curto",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "A arma de fogo mais comum. Recarregar uma pistola é uma ação padrão."
     },
     {
         "nome": "Rede",
@@ -501,7 +529,8 @@
         "alcance": "nenhum",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "nenhuma"
+        "empunhadura": "nenhuma",
+        "descricao": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre -2 na Defesa e em testes de ataque).\nEnquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto).\nA vítima pode se soltar com uma ação completa e um teste de Força ou Acrobacia (CD 20). A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você."
     },
     {
         "nome": "Tacape",
@@ -513,7 +542,8 @@
         "alcance": "nenhum",
         "tipo": "impacto",
         "espacos": 2,
-        "empunhadura": "duas-maos"
+        "empunhadura": "duas-maos",
+        "descricao": "Versão maior e/ou com pregos de uma clava. Usado por bárbaros e humanoides bestiais, não é uma arma elegante, mas faz o serviço."
     },
     {
         "nome": "Tridente",
@@ -525,19 +555,8 @@
         "alcance": "curto",
         "tipo": "perfuracao",
         "espacos": 1,
-        "empunhadura": "uma-mao"
-    },
-    {
-        "nome": "Virotes",
-        "classe": "marcial/distancia",
-        "preco": 2,
-        "dano": "1d6",
-        "ameaca": 20,
-        "critico": "x3",
-        "alcance": "nenhum",
-        "tipo": "perfuracao",
-        "espacos": 1,
-        "empunhadura": "nenhuma"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma lança com três pontas, favorita de povos marinhos e gladiadores e própria para prender as pernas do oponente. O tridente é uma arma versátil, fornecendo +2 em testes para derrubar. Um tridente pode ser arremessado."
     },
     {
         "nome": "Virotes",
@@ -549,6 +568,7 @@
         "alcance": "—",
         "tipo": "—",
         "espacos": 1,
-        "empunhadura": "uma-mao"
+        "empunhadura": "uma-mao",
+        "descricao": "Uma aljava com 20 setas de madeira. Recarregar uma besta leve é uma ação de movimento; já recarregar uma besta pesada é uma ação padrão."
     }
 ]
