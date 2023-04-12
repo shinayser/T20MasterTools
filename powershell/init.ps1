@@ -285,6 +285,52 @@ function Veiculos(
     }
 }
 
+function Servicos-Hospedagem(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'servicos-hospedagem.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
+function Servicos-Outros(
+    [string]$Nome,
+    [string]$Descricao
+) {
+    $path = _LoadPath 'servicos-outros.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    
+    if ($Descricao) {
+        $objects = $objects | Where-Object { $_.Descricao -like "*$Descricao*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+}
+
 function Alimentacao(
     [string]$Nome,
     [string]$Descricao
@@ -469,3 +515,4 @@ function Pericias([string]$Nome) {
 }
 
 Set-Alias Comidas Alimentacao
+Set-Alias Hospedagem Servicos-Hospedagem

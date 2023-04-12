@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Condução terrestre",
+        "preco": 0.5,
+        "espacos": 0,
+        "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
+    },
+    {
+        "nome": "Condução marítima",
+        "preco": 0.1,
+        "espacos": 0,
+        "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
+    },
+    {
+        "nome": "Condução aérea",
+        "preco": 10,
+        "espacos": 0,
+        "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
+    },
+    {
+        "nome": "Curandeiro",
+        "preco": 5,
+        "espacos": 0,
+        "descricao": "O preço para você receber cuidados prolongados ou tratamento contra uma doença ou veneno (veja a página 117). Isso considera que você vai até a casa do curandeiro ou onde quer que ele receba seus pacientes — curandeiros não aceitam acompanhar aventureiros em suas jornadas."
+    },
+    {
+        "nome": "Magia 1º círculo",
+        "preco": 10,
+        "espacos": 0,
+        "descricao": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”."
+    },
+    {
+        "nome": "Magia 2º círculo",
+        "preco": 90,
+        "espacos": 0,
+        "descricao": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”."
+    },
+    {
+        "nome": "Magia 3º círculo",
+        "preco": 360,
+        "espacos": 0,
+        "descricao": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”."
+    },
+    {
+        "nome": "Mensageiro",
+        "preco": 0.5,
+        "espacos": 0,
+        "descricao": "Inclui mensagens entregues a pé, por cavaleiros ou navios."
+    }
+]

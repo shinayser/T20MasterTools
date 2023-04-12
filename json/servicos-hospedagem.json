@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Estadia comum",
+        "preco": 0.5,
+        "espacos": 0,
+        "descricao": "Um espaço no salão comunal. Se tiver sorte, o taverneiro deixará a lareira acesa para que você não passe frio. Pelo menos não ficará sozinho — pulgas e ratos lhe farão companhia. A refeição consiste de pão, sopa e água. Recupera 1 PV e 1 PM por nível."
+    },
+    {
+        "nome": "Estadia confortável",
+        "preco": 4,
+        "espacos": 0,
+        "descricao": "Um quarto pequeno, mas privativo, com uma cama com colchão de palha e um baú para guardar seus pertences. A refeição inclui pão, queijo, cozido de galinha com legumes e cerveja ou vinho (aguado). Recupera 2 PV e 2 PM por nível."
+    },
+    {
+        "nome": "Estadia luxuosa",
+        "preco": 20,
+        "espacos": 0,
+        "descricao": "Um quarto grande, com colchão de algodão ou penas, cortinas nas janelas, uma bacia de água quente para banho e outros luxos. A refeição inclui carne, frutas, doces e uma taça de vinho de boa safra. Acomodações desta categoria estão disponíveis apenas nas melhores estalagens, normalmente apenas em cidades e metrópoles. Recupera 3 PV e 3 PM por nível."
+    }
+]
