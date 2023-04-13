@@ -1,0 +1,17 @@
+[
+    {
+        "encantos": 1,
+        "preco": 18000,
+        "cd": 10
+    },
+    {
+        "encantos": 2,
+        "preco": 36000,
+        "cd": 15
+    },
+    {
+        "encantos": 3,
+        "preco": 72000,
+        "cd": 20
+    }
+]

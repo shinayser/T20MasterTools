@@ -548,6 +548,18 @@ function Melhorias-Precos([string]$Filter) {
     }
 }
 
+function Encantos-Precos([string]$Filter) {
+    $path = _LoadPath 'encantos-precos.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Filter) {
+        $objects | Where-Object { $_.tipo -like "*$Filter*" }
+    }
+    else {
+        $objects
+    }
+}
+
 function Melhorias(
     [string]$Nome,
     [Alias("t")]
