@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Beladona",
+        "preco": 1500,
+        "espacos": 0.5,
+        "descricao": "Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato, vítima fica debilitada (fraca)."
+    },
+    {
+        "nome": "Bruma sonolenta",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Um gás sonífero. Inalação, vítima fica inconsciente (enjoada por 1 rodada)."
+    },
+    {
+        "nome": "Cicuta",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+        "nome": "Essência de sombra",
+        "preco": 100,
+        "espacos": 0.5,
+        "descricao": "Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato, vítima fica debilitada (fraca)."
+    },
+    {
+        "nome": "Névoa tóxica",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Este gás verde queima e corrói a pele e os pulmões. Inalação, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+        "nome": "Peçonha comum",
+        "preco": 15,
+        "espacos": 0.5,
+        "descricao": "Veneno típico, extraído de animais ou plantas tóxicas. Contato, perde 1d12 PV."
+    },
+    {
+        "nome": "Peçonha concentrada",
+        "preco": 90,
+        "espacos": 0.5,
+        "descricao": "Dose concentrada da peçonha comum. Contato, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+    },
+    {
+        "nome": "Peçonha potente",
+        "preco": 600,
+        "espacos": 0.5,
+        "descricao": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV)."
+    },
+    {
+        "nome": "Pó de lich",
+        "preco": 3000,
+        "espacos": 0.5,
+        "descricao": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+    },
+    {
+        "nome": "Riso de Nimb",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Este gás púrpura faz a vítima rir descontroladamente e agir de forma caótica. Inalação, vítima fica confusa (lenta por 1 rodada)."
+    }
+]

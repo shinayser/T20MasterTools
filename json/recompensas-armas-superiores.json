@@ -1,0 +1,62 @@
+[
+    {
+        "d%": "01-10",
+        "melhoria": "Atroz (Conta como duas melhorias. Se o item só possuir uma, role novamente.)"
+    },
+    {
+        "d%": "11-13",
+        "melhoria": "Banhada a ouro"
+    },
+    {
+        "d%": "14-23",
+        "melhoria": "Certeira"
+    },
+    {
+        "d%": "24-26",
+        "melhoria": "Cravejada de gemas"
+    },
+    {
+        "d%": "27-36",
+        "melhoria": "Cruel"
+    },
+    {
+        "d%": "37-39",
+        "melhoria": "Discreta"
+    },
+    {
+        "d%": "40-44",
+        "melhoria": "Equilibrada"
+    },
+    {
+        "d%": "45-48",
+        "melhoria": "Harmonizada"
+    },
+    {
+        "d%": "49-53",
+        "melhoria": "Injeção alquímica"
+    },
+    {
+        "d%": "54-55",
+        "melhoria": "Macabra"
+    },
+    {
+        "d%": "56-65",
+        "melhoria": "Maciça"
+    },
+    {
+        "d%": "66-75",
+        "melhoria": "Material especial: Role 1d6 para definir o material:\n1. aço-rubi\n2. adamante \n3. gelo eterno \n4. madeira Tollon \n5. matéria vermelha \n6. mitral"
+    },
+    {
+        "d%": "76-80",
+        "melhoria": "Mira telescópica"
+    },
+    {
+        "d%": "81-90",
+        "melhoria": "Precisa"
+    },
+    {
+        "d%": "91-100",
+        "melhoria": "Pungente (Conta como duas melhorias. Se o item só possuir uma, role novamente.)"
+    }
+]

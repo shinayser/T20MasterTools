@@ -118,6 +118,115 @@ function Itens-Gerais(
         $objects
     }
 }
+
+function Riquezas(
+    [ValidateSet("menor", "media", "maior")]
+    [string]$Nivel
+) {
+    $path = _LoadPath 'riquezas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    switch ($Nivel) {
+        'menor' {
+            $objects | ForEach-Object { 
+                if ($_.menor -eq '-') { return; }
+
+                [PSCustomObject]@{                
+                    menor    = $_.menor;
+                    valor    = $_.valor;
+                    exemplos = $_.exemplos;
+                } } 
+        }
+        'media' {
+            $objects | ForEach-Object { 
+                if ($_.media -eq '-') { return; }
+
+                [PSCustomObject]@{                
+                    media    = $_.media;
+                    valor    = $_.valor;
+                    exemplos = $_.exemplos;
+                } } 
+        }
+        'maior' {
+            $objects | ForEach-Object { 
+                if ($_.maior -eq '-') { return; }
+
+                [PSCustomObject]@{                
+                    maior    = $_.maior;
+                    valor    = $_.valor;
+                    exemplos = $_.exemplos;
+                } } 
+        }
+        Default {
+            $objects | Format-Table
+        }
+    }
+    
+}
+
+
+function Recompensas-ItensDiversos(
+) {
+    $path = _LoadPath 'recompensas-itens-diversos.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
+function Recompensas-Armas(
+) {
+    $path = _LoadPath 'recompensas-armas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
+function Recompensas-Armaduras(
+) {
+    $path = _LoadPath 'recompensas-armaduras.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
+function Recompensas-ArmadurasSuperiores(
+) {
+    $path = _LoadPath 'recompensas-armaduras-superiores.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+function Recompensas-ArmasSuperiores(
+) {
+    $path = _LoadPath 'recompensas-armas-superiores.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
+function Recompensas-Esotericos(
+) {
+    $path = _LoadPath 'recompensas-esotericos.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
+function Recompensas-EsotericosSuperiores(
+) {
+    $path = _LoadPath 'recompensas-esotericos-superiores.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    
+    $objects | Format-Table
+
+}
+
 function Vestuarios(
     [string]$Nome, 
     [string]$Descricao
@@ -611,5 +720,75 @@ function Pericias([string]$Nome) {
     }
 }
 
+function Busca-Item(
+    [Parameter(Mandatory)]
+    [string]$Nome) {
+    $busca = Itens-Gerais -Nome $Nome
+
+    if ($busca.Length -gt 0) {
+        Write-Host "# Itens Gerais" -ForegroundColor blue
+        $busca
+    }
+
+    $busca = Ferramentas -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Ferramentas" -ForegroundColor blue
+        $busca
+    }
+    $busca = Vestuarios -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Vestuarios" -ForegroundColor blue
+        $busca
+    }
+    $busca = Esotericos -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Esotericos" -ForegroundColor blue
+        $busca
+    }
+    $busca = Alquimicos-Preparados -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Alquimicos-Preparados" -ForegroundColor blue
+        $busca
+    }
+    $busca = Alquimicos-Catalisadores -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Alquimicos-Catalisadores" -ForegroundColor blue
+        $busca
+    }
+
+    $busca = Alquimicos-Venenos -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Alquimicos-Venenos" -ForegroundColor blue
+        $busca
+    }
+    
+    $busca = Alimentacao -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Alimentacao" -ForegroundColor blue
+        $busca
+    }
+    $busca = Animais -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Animais" -ForegroundColor blue
+        $busca
+    }
+    $busca = Veiculos -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Veiculos" -ForegroundColor blue
+        $busca
+    }
+    $busca = Servicos-Outros -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Servicos-Outros" -ForegroundColor blue
+        $busca
+    }
+    $busca = Servicos-Hospedagem -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Servicos-Hospedagem" -ForegroundColor blue
+        $busca
+    }
+}
+
 Set-Alias Comidas Alimentacao
 Set-Alias Hospedagem Servicos-Hospedagem
+Set-Alias bi Busca-Item

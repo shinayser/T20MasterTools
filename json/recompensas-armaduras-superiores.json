@@ -1,0 +1,50 @@
+[
+    {
+        "d%": "01-15",
+        "melhoria": "Ajustada"
+    },
+    {
+        "d%": "16-19",
+        "melhoria": "Banhada a ouro"
+    },
+    {
+        "d%": "20-23",
+        "melhoria": "Cravejada de gemas"
+    },
+    {
+        "d%": "24-28",
+        "melhoria": "Delicada"
+    },
+    {
+        "d%": "29-32",
+        "melhoria": "Discreta"
+    },
+    {
+        "d%": "33-37",
+        "melhoria": "Espinhos"
+    },
+    {
+        "d%": "38-40",
+        "melhoria": "Macabra"
+    },
+    {
+        "d%": "41-50",
+        "melhoria": "Material especial: role 1d6 para definir o material:\n1. aço-rubi\n2. adamante \n3. gelo eterno \n4. madeira Tollon \n5. matéria vermelha \n6. mitral."
+    },
+    {
+        "d%": "51-55",
+        "melhoria": "Polida"
+    },
+    {
+        "d%": "56-80",
+        "melhoria": "Reforçada"
+    },
+    {
+        "d%": "81-90",
+        "melhoria": "Selada"
+    },
+    {
+        "d%": "91-100",
+        "melhoria": "Sob medida (Conta como duas melhorias. Se o item só possuir uma, role novamente.)"
+    }
+]

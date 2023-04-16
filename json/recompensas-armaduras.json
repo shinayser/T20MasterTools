@@ -1,0 +1,46 @@
+[
+    {
+        "d%": "01-05",
+        "item": "Couro"
+    },
+    {
+        "d%": "06-10",
+        "item": "Brunea"
+    },
+    {
+        "d%": "11-25",
+        "item": "Completa"
+    },
+    {
+        "d%": "26-30",
+        "item": "Cota de malha"
+    },
+    {
+        "d%": "31-45",
+        "item": "Couraça"
+    },
+    {
+        "d%": "46-55",
+        "item": "Couro batido"
+    },
+    {
+        "d%": "56-65",
+        "item": "Escudo leve"
+    },
+    {
+        "d%": "66-80",
+        "item": "Escudo pesado"
+    },
+    {
+        "d%": "81-85",
+        "item": "Gibão de peles"
+    },
+    {
+        "d%": "86-90",
+        "item": "Loriga segmentada"
+    },
+    {
+        "d%": "91-100",
+        "item": "Meia armadura"
+    }
+]
