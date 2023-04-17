@@ -38,7 +38,12 @@ function Acessorios(
         $objects = $objects | Sort-Object preco
     }
 
-    $objects
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
 }
 
 function Perigos-Complexos(
@@ -706,7 +711,13 @@ function Pericias([string]$Nome) {
 
     # None top level object has found
     if ($objects.Length -eq 0) { 
-        $objects = Get-Content $path | ConvertFrom-Json | ForEach-Object { $_.lista } |  Where-Object { $_.nome -like "*$Nome*" }
+        $objects = Get-Content $path | ConvertFrom-Json | ForEach-Object {
+            $pericia = $_.nome 
+            $_.lista | ForEach-Object {
+                Add-Member -InputObject $_ -MemberType NoteProperty -Name 'pericia' -Value $pericia
+                $_
+            }
+        } |  Where-Object { $_.nome -like "*$Nome*" }
     }
     elseif ($objects.Length -eq 1 -and $objects[0].lista.Length -gt 0) {
         $objects = $objects.lista
