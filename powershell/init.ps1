@@ -701,6 +701,64 @@ function Melhorias(
 
 }
 
+function Poderes(
+    [string]$Nome,
+    [Alias("t")]
+    [ValidateSet(
+        "combate", 
+        "destino", 
+        "magia", 
+        "aprimoramento", 
+        "concedido", 
+        "aharadak", 
+        "allihanna", 
+        "arsenal", 
+        "azgher", 
+        "hyninn", 
+        "kally", 
+        "khalmyr", 
+        "lena", 
+        "lin-Wu", 
+        "marah", 
+        "nimb", 
+        "oceano", 
+        "sszzaas", 
+        "tanna-toh", 
+        "tenebra", 
+        "thwor", 
+        "thyatis", 
+        "valkaria", 
+        "wynna"
+    )]
+    $Tipo,
+    [string]$Desc
+
+) {
+
+    $path = _LoadPath 'poderes.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($Nome) {
+        $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
+    }
+    
+    if ($Tipo) {
+        $objects = $objects | Where-Object { $_.tipo -like "*$Tipo*" }
+    }
+    
+    if ($Desc) {
+        $objects = $objects | Where-Object { $_.desc -like "*$Desc*" }
+    }
+
+    if ($objects.Length -le 3) {
+        $objects | Format-List
+    }
+    else {
+        $objects
+    }
+
+}
+
 function Pericias([string]$Nome) {
     $path = _LoadPath 'pericias.json' 
     $objects = Get-Content $path | ConvertFrom-Json
