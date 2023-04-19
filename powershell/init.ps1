@@ -763,32 +763,23 @@ function Magias(
     [string]$Nome,
     [Alias("t")]
     [ValidateSet(
-        "combate", 
-        "destino", 
-        "magia", 
-        "aprimoramento", 
-        "concedido", 
-        "aharadak", 
-        "allihanna", 
-        "arsenal", 
-        "azgher", 
-        "hyninn", 
-        "kally", 
-        "khalmyr", 
-        "lena", 
-        "lin-Wu", 
-        "marah", 
-        "nimb", 
-        "oceano", 
-        "sszzaas", 
-        "tanna-toh", 
-        "tenebra", 
-        "thwor", 
-        "thyatis", 
-        "valkaria", 
-        "wynna"
+        "arcana", 
+        "divina", 
+        "universal"
     )]
-    $Tipo,
+    $Classe,
+    [ValidateSet(
+        "abjuracao", 
+        "adivinhacao", 
+        "convocacao",
+        "encantamento",
+        "evocacao",
+        "ilusao",
+        "necromancia",
+        "transmutacao"
+    )]
+    $Escola,
+    [int]$Ciclo,
     [string]$Desc
 
 ) {
@@ -800,16 +791,24 @@ function Magias(
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
     
-    if ($Tipo) {
-        $objects = $objects | Where-Object { $_.tipo -like "*$Tipo*" }
+    if ($Classe) {
+        $objects = $objects | Where-Object { $_.Classe -like "*$Classe*" -or $_.Classe -eq "universal" }
     }
     
-    if ($Desc) {
-        $objects = $objects | Where-Object { $_.desc -like "*$Desc*" }
+    if ($Escola) {
+        $objects = $objects | Where-Object { $_.Escola -like "*$Escola*" }
+    }
+    
+    if ($Ciclo) {
+        $objects = $objects | Where-Object { $_.Ciclo -like "*$Ciclo*" }
     }
 
-    if ($objects.Length -le 3) {
-        $objects | Format-List
+    if ($objects.Length -eq 1) {
+        $aprimoramentos = $objects.aprimoramentos
+        $objects.PsObject.Members.Remove("aprimoramentos")
+        $objects
+        Write-Host "Aprimoramentos:`n" -ForegroundColor Green
+        $aprimoramentos
     }
     else {
         $objects
