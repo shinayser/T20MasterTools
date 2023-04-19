@@ -1,5 +1,5 @@
 $clip = (Get-Clipboard -Raw).Trim().Replace("`r", "")
-$match = $clip -match "(?s)(?<nome>.*)\n(?<classe>(Arcana|Divina|Universal))\s(?<circulo>\d)\s\((?<escola>.*)\).*Execução:\s(?<execucao>.*?);\sAlcance:\s(?<alcance>.*?);(\sAlvo:\s(?<alvo>.*?);)?(\sÁrea:\s(?<area>.*?);)?.Duração:\s(?<duracao>.*?)(;|\.)(\sResistência:\s(?<resistencia>.*?)\.)?\n(?<desc>.*?)(\n|\z)(?=(Truque)|(\+|\Z))"
+$match = $clip -match "(?s)(?<nome>.*)\n(?<classe>(Arcana|Divina|Universal))\s(?<circulo>\d)\s\((?<escola>.*)\).*Execução:\s(?<execucao>.*?);\sAlcance:\s(?<alcance>.*?);(\sAlvo:\s(?<alvo>.*?);)?(\sÁrea:\s(?<area>.*?);)?(\sEfeito:\s(?<efeito>.*?);)?.Duração:\s(?<duracao>.*?)(;|\.)(\sResistência:\s(?<resistencia>.*?)\.)?\n(?<desc>.*?)(\n|\z)(?=(Truque)|(\+|\Z))"
 if (!$Matches) {
     Write-Error "Not Matched."
     return
@@ -30,6 +30,10 @@ if ($Matches.alvo) {
     Add-Member -InputObject $magia -MemberType NoteProperty -Name alvo -Value ($Matches.alvo -replace "`n", " ")
 }
 
+if ($Matches.efeito) {
+    Add-Member -InputObject $magia -MemberType NoteProperty -Name efeito -Value ($Matches.efeito -replace "`n", " ")
+}
+
 if ($Matches.area) {
     Add-Member -InputObject $magia -MemberType NoteProperty -Name area -Value ($Matches.area -replace "`n", " ")
 }
@@ -45,7 +49,7 @@ if ($Matches.resistencia) {
 
 Add-Member -InputObject $magia -MemberType NoteProperty -Name desc -Value ($Matches.desc -replace "`n", " ")
 
-$pattern = "(?s)(?<custo>((\+\d.PM)|(Truque)).*?):\s(?<desc>.*?\.((\n(?=\+))|\Z))"
+$pattern = "(?s)(?<custo>((\+\d+.PM)|(Truque)).*?):\s(?<desc>.*?[.!?]((\n(?=\+))|\Z))"
 if ($clip -match $pattern) {
     $magia | Add-member -MemberType NoteProperty -Name aprimoramentos -Value (@())
 
