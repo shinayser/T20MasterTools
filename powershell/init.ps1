@@ -1,5 +1,5 @@
-function _LoadPath([string]$path) {
-    $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath 'json' | Join-Path -ChildPath $path 
+function _LoadPath([string]$path, [string]$folder = 'json') {
+    $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
 
 function Climas([string]$Filter) {
