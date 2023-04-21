@@ -1,0 +1,202 @@
+[
+  {
+    "nome": "GARFO DE GOSTO MAIOR",
+    "desc": "Qualquer coisa comida com este garfo tem gosto de galinha."
+  },
+  {
+    "nome": "OBJETO DE ALGUMA COISA",
+    "desc": "Um objeto que libera uma forte aura mágica, porém é impossível determinar sua utilidade. Feito de um material peculiar, não exatamente metal mas também não exatamente madeira. Tem o formato de um cubo esférico."
+  },
+  {
+    "nome": "PEDRA DA TERCEIRA PESSOA",
+    "desc": "Uma pedra que faz quem estiver a segurando apenas capaz de falar em terceira pessoa."
+  },
+  {
+    "nome": "CHAPÉU DA VISÃO INTERNA",
+    "desc": "Um chapéu que faz quem estiver o usando ser apenas capaz de ver a beleza interna das pessoas."
+  },
+  {
+    "nome": "ARCO DA TENSÃO",
+    "desc": "Um arco que odeia tensão, e se dobra ao meio sempre que qualquer força for aplicada na corda."
+  },
+  {
+    "nome": "COPO DO DESCONTROLE VOCAL",
+    "desc": "Um copo que torna quem beber dele incapaz de controlar o volume da própria voz."
+  },
+  {
+    "nome": "ELMO DO NIILISMO",
+    "desc": "Um elmo que da +1 à CA do usuário, mas o insulta quando ele é atingido, e constantemente reclama da vida como um elmo."
+  },
+  {
+    "nome": "ANEL DO PULO",
+    "desc": "Um anel que permite o usuário pular o dobro da distância, porém ele não pode ser removido e o usuário é incapaz de caminhar ou correr, apenas pular."
+  },
+  {
+    "nome": "CHAPÉU DA REVELAÇÃO",
+    "desc": "Um chapéu que revela ao usuário grandes verdades do Universo. Role um dlOO. Se o resultado for abaixo de 100, o usuário morre, seu cérebro incapaz de conter a verdade."
+  },
+  {
+    "nome": "COBERTOR DA PATERNIDADE",
+    "desc": "Um pequeno cobertor azul, quase como um saco de dormir. Quem o usar tem 20% de chance de obter o desejo de virar pai."
+  },
+  {
+    "nome": "ANEL DE JIMMY",
+    "desc": "Um anel vermelho de metal que possui uma personalidade própria chamada Jimmy, e é capaz de falar e controlar a mão em que o anel for colocado. Irá brigar caso outra mão tente tirar o anel."
+  },
+  {
+    "nome": "TINTA DE CAMUFLAGEM",
+    "desc": "Uma tinta que dá +10 em furtividade, porém o usuário precisa estar completamente nú e totalmente coberto com a tinta."
+  },
+  {
+    "nome": "AMULETO DO ATRASO",
+    "desc": "Qualquer som causado diretamente por uma ação do usuário deste amuleto é atrasado em Id4 turnos."
+  },
+  {
+    "nome": "ANEL DA EMOÇÃO OPOSTA",
+    "desc": "Um anel que faz o rosto do usuário expressar a emoção oposta à que ele está sentindo. Se ele está triste, ele irá sorrir, etc..."
+  },
+  {
+    "nome": "CHAPÉU DA RIMA",
+    "desc": "Quando o usuário lançar uma magia usando o Chapéu da Rima, o mestre escolhe uma palavra aleatória. O usuário então deve imediatamente criar uma rima com essa palavra. Se conseguir, um efeito secundário benéfico acontece (mais dano, acerto automático, etc...), porém se o usuário demorar ou enrolar a rima, a magia original não tem efeito e um efeito ruim acontece."
+  },
+  {
+    "nome": "UVA DO MORANGO",
+    "desc": "Uma uva com o formato, textura, cor e gosto de um morango."
+  },
+  {
+    "nome": "PERGAMIN DE APAGAR",
+    "desc": "Um pergaminho que apaga tudo que for escrito nele em Id4 turnos."
+  },
+  {
+    "nome": "AMULETO DA SORTE",
+    "desc": "O amuleto é muito sortudo, o usuário não."
+  },
+  {
+    "nome": "LIVRO DA CONFUSÃO",
+    "desc": "Um livro cujas letras parecem estar sempre de cabeça para baixo, não importa quantas vezes o usuário vire o I ivro."
+  },
+  {
+    "nome": "CAJADO DA IMOBILIDADE",
+    "desc": "Um cajado indestrutível que, quando ativado, permanece completamente parado, porém relativo ao Universo. A Terra irá se mover abaixo do cajado, e tudo que estiver em seu caminho é completamente destruído."
+  },
+  {
+    "nome": "PEDRA DA UTILIZAÇÃO",
+    "desc": "Quando ativada, a pedra é utilizada. Um uso apenas."
+  },
+  {
+    "nome": "ANEL DA QUANTIFICAÇÃO",
+    "desc": "O usuário permanece invisível enquanto não for observado."
+  },
+  {
+    "nome": "CHAPÉU DA MODIFICAÇÃO",
+    "desc": "Um chapéu que aleatoriamente altera uma característica física do usuário a cada Id4 turnos contados a partir do momento da última alteração."
+  },
+  {
+    "nome": "MANTO DA ENTRADA TRIUNFAL",
+    "desc": "Ao entrar em uma sala com o manto, uma revoada de pombos voa de trás do usuário e um coro celestial é ouvido por todos na sala. Efeito é ativado sempre que o usuário entrar em uma sala, qualquer sala."
+  },
+  {
+    "nome": "ANEL MÁGICO DE DETECÇÃO DE MACIA",
+    "desc": "Um anel mágico que brilha quando existe qualquer objeto mágico em um raio de 10 metros do anel mágico."
+  },
+  {
+    "nome": "LUVAS DA TROCA DE DOMINÂNCIA",
+    "desc": "Quando usadas, invertem a mão dominante do usuário."
+  },
+  {
+    "nome": "BOTAS DE ANDAR PARA TRÁS",
+    "desc": "Botas que fazem parecer que o usuário está andando para trás quando anda para frente."
+  },
+  {
+    "nome": "TRANSPORTE",
+    "desc": "Um anel que teletransporta o usuário, porém apenas na horizontal, não na vertical."
+  },
+  {
+    "nome": "PERGAMINHO DO ESQUECIMENTO",
+    "desc": "Pergaminho que faz o usuário esquecer do que estiver escrito no pergaminho."
+  },
+  {
+    "nome": "COPO DO RESFRIAMENTO",
+    "desc": "Qualquer líquido colocado neste copo irá ser resfriado até uma temperatura apenas baixa o bastante para fazer seus dentes doerem quando beber."
+  },
+  {
+    "nome": "PEDRA DE PESO VARIÁVEL",
+    "desc": "Uma pequena pedra de 50 gramas cujo peso dobra a cada metro afastado do chão."
+  },
+  {
+    "nome": "ESTÁTUA DA REVERSÃO",
+    "desc": "Uma pequena estátua que, quando tocada, volta o tempo para o momento logo antes do usuário tocar nela."
+  },
+  {
+    "nome": "MOCHILA DE CARCA MENOR",
+    "desc": "Uma mochila que carrega apenas metade do que uma mochila normal carrega, apesar de ter o mesmo espaço interno."
+  },
+  {
+    "nome": "ESPADA DO OPORTUNISMO",
+    "desc": "Uma espada que cria pequenas pernas metálicas e foge quando ninguém está olhando."
+  },
+  {
+    "nome": "MARRETA DE ARREMESSO",
+    "desc": "Quando empunhada por um anão, esta marreta arremessa o anão 10 metros em uma direção aleatória."
+  },
+  {
+    "nome": "BOLA DE CRISTAL DO PATROCINADOR",
+    "desc": "Quando usada, o usuário deve fazer um teste de resistência de Sabedoria bem difícil, Caso tenha sucesso, item funciona como uma bola de cristal normal, caso contrário, ela mostra a imagem de um vendedor que tentará lhe vender produtos domésticos. É sempre o mesmo vendedor."
+  },
+  {
+    "nome": "ANEL DA DENOMINAÇÃO",
+    "desc": "Um anel capaz de converter moedas de ouro para a quantia equivalente de moedas de prata e vice- versa, menos 12,5%."
+  },
+  {
+    "nome": "MACHADO DE BINO",
+    "desc": "Sempre que o portador deste machado detecta uma armadilha, o machado aponta para a armadilha e berra \"É UMA CILADA!\""
+  },
+  {
+    "nome": "AMULETO DA IRRITAÇÃO",
+    "desc": "Um amuleto que faz o usuário ouvir a própria voz com 0.25 segundos de atraso."
+  },
+  {
+    "nome": "ANEL DO PEÃO",
+    "desc": "O usuário deste anel se torna incapaz de se mover em qualquer direção exceto em linha reta para frente."
+  },
+  {
+    "nome": "MOCHILA DA GUARDA",
+    "desc": "Uma mochila que, quando aberta, fala para o usuário em uma língua que ele possa entender que ela tem uma informação importante para ele, e pede para ele aguardar enquanto ela procura a informação em sua memória. A mochila nunca mais fala."
+  },
+  {
+    "nome": "ANEL DE CONTROLE",
+    "desc": "Um anel que toma controle de uma parte aleatória no corpo do usuário. Se estiver em um combate, usuário tem -1 em todas as roladas devido à distração."
+  },
+  {
+    "nome": "AMULETO DA TELECOMUNICAÇÃO",
+    "desc": "Um amuleto que é capaz de transmitir seus pensamentos para outras criaturas. Todos os pensamentos do usuário são transmitidos para todas as criaturas em um raio de 30 metros, caso ele queira ou não."
+  },
+  {
+    "nome": "ANEL DE DESEJOS",
+    "desc": "Um belo anel de prata com três rubis. Quando colocado, o anel irá vocalmente fazer três desejos. Após o terceiro desejo ser feito, os desejos são realizados e o dedo do usuário onde o anel está se desintegra."
+  },
+  {
+    "nome": "COLAR DO CAMALEÃO",
+    "desc": "Um colar que triplica o comprimento da língua do usuário. Qualquer ação envolvendo a língua do usuário ganha +5 de bônus."
+  },
+  {
+    "nome": "ANEL DO LEILÃO GRÁTIS",
+    "desc": "Um anel que faz o usuário automaticamente ganhar um leilão próximo. Um uso por dia."
+  },
+  {
+    "nome": "FACA DA EXISTÊNCIA SELETIVA",
+    "desc": "Uma faca que só é capaz de tocar em alguém que está pensando nela. Passa direto através de objetos inanimados ou vítimas de ataques furtivos."
+  },
+  {
+    "nome": "LUVAS DE CAMINHAR NA ÁGUA",
+    "desc": "Um par de luvas que tornam o usuário capaz de andar na água .com as mãos)."
+  },
+  {
+    "nome": "AMULETO DA LEMBRANÇA",
+    "desc": "Um amuleto que, ao ser tocado, faz o usuário se lembrar de um pequeno pedaço de informação que ele havia esquecido. Funciona apenas se o usuário não estiver tentando se lembrar da informação."
+  },
+  {
+    "nome": "PEDRA DO ARREPENDIMENTO",
+    "desc": "Uma pequena pedra que é ativada quando um inimigo próximo morre. A pedra fala em voz alta um fato sobre a vida do inimigo que morreu."
+  }
+]
