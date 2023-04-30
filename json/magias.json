@@ -599,7 +599,7 @@
         "alcance": "curto",
         "alvo": "aliados",
         "duracao": "cena",
-        "desc": "Abençoa seus aliados, que recebem",
+        "desc": "Abençoa seus aliados, que recebem +1 em testes de ataque e rolagens de dano. Bênção anula Perdição.",
         "aprimoramentos": [
             {
                 "custo": "+1 PM",

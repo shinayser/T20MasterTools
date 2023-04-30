@@ -918,3 +918,4 @@ function Busca-Item(
 Set-Alias Comidas Alimentacao
 Set-Alias Hospedagem Servicos-Hospedagem
 Set-Alias bi Busca-Item
+Set-Alias magia Magias
