@@ -396,7 +396,7 @@
         "alcance": "toque",
         "alvo": "1 arma empunhada",
         "duracao": "cena",
-        "desc": "A arma é considerada mágica e fornece",
+        "desc": "A arma é considerada mágica e fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto). Caso você esteja empunhando a arma, pode usar seu atributo-chave de magias em vez do atributo original nostestes de ataque (não cumulativo com efeitos que somam este atributo).",
         "aprimoramentos": [
             {
                 "custo": "+2 PM",
@@ -421,7 +421,7 @@
         "alcance": "pessoal",
         "alvo": "você",
         "duracao": "cena",
-        "desc": "Esta magia cria uma película protetora invisível, mas tangível, fornecendo",
+        "desc": "Esta magia cria uma película protetora invisível, mas tangível, fornecendo +5 na Defesa. Esse bônus é cumulativo com outras magias, mas não com bônus fornecido por armaduras.",
         "aprimoramentos": [
             {
                 "custo": "+1 PM",
@@ -513,7 +513,7 @@
         "area": "esfera com 9m de raio",
         "duracao": "cena",
         "resistencia": "Vontade parcial",
-        "desc": "Você se torna um conduíte da energia de sua divindade, emanando uma aura brilhante. Você e aliados devotos da mesma divindade ficam imunes a encantamento e recebem +10 na Defesa e em testes de resistência. Aliados não devotos da mesma divindade recebem",
+        "desc": "Você se torna um conduíte da energia de sua divindade, emanando uma aura brilhante. Você e aliados devotos da mesma divindade ficam imunes a encantamento e recebem +10 na Defesa e em testes de resistência. Aliados não devotos da mesma divindade recebem +10 na Defesa e em testes de resistência. Aliados não devotos da mesma divindade recebem +5 na Defesa e em testes de resistência. Além disso, inimigos que entrem na área devem fazer um teste de Vontade; em caso de falha, recebem uma condição a sua escolha entre esmorecido, debilitado ou lento até o fim da cena. O teste deve ser refeito cada vez que a criatura entrar novamente na área.",
         "aprimoramentos": [
             {
                 "custo": "+2 PM",
@@ -647,7 +647,7 @@
         "efeito": "buraco negro",
         "duracao": "3 rodadas",
         "resistencia": "Fortitude parcial",
-        "desc": "Esta magia cria um vácuo capaz de sugar tudo nas proximidades. Escolha um espaço desocupado para o buraco negro. No início de cada um de seus três turnos seguintes, todas as criaturas a até alcance longo do buraco negro, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do buraco. Objetos soltos também são puxados. Criaturas podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo",
+        "desc": "Esta magia cria um vácuo capaz de sugar tudo nas proximidades. Escolha um espaço desocupado para o buraco negro. No início de cada um de seus três turnos seguintes, todas as criaturas a até alcance longo do buraco negro, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do buraco. Objetos soltos também são puxados. Criaturas podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo +2 em seus testes de resistência. Criaturas e objetos que iniciem seu turno no espaço do buraco negro devem gastar uma ação de movimento e fazer um teste de Fortitude. Se passarem, podem escapar se arrastando (deslocamento de 1,5m) para longe dele. Se falharem, perdem a ação (mas podem gastar outra para tentar novamente). Se terminarem seu turno no espaço do buraco negro, são sugadas, desaparecendo para sempre. Não se conhece o destino das coisas sugadas pelo buraco negro. Alguns estudiosos sugerem que são enviadas para outros mundos — provavelmente Sombria, reino da deusa Tenebra.",
         "aprimoramentos": [
             {
                 "custo": "+5 PM",
@@ -1668,7 +1668,7 @@
         "alvo": "você",
         "duracao": "cena",
         "resistencia": "Vontade desacredita",
-        "desc": "Você muda a aparência do alvo, incluindo seu equipamento. Isso inclui altura, peso, tom de pele, cor de cabelo, timbre de voz etc. O alvo recebe",
+        "desc": "Você muda a aparência do alvo, incluindo seu equipamento. Isso inclui altura, peso, tom de pele, cor de cabelo, timbre de voz etc. O alvo recebe +10 em testes de Enganação para disfarce. O alvo não recebe novas habilidades (você pode ficar parecido com outra raça, mas não ganhará as habilidades dela), nem modifica o equipamento (uma espada longa disfarçada de bordão continua funcionando e causando dano como uma espada).",
         "aprimoramentos": [
             {
                 "custo": "Truque",
@@ -2039,7 +2039,7 @@
         "alcance": "toque",
         "alvo": "1 criatura",
         "duracao": "cena",
-        "desc": "Você fortalece o corpo do alvo. Ele recebe",
+        "desc": "Você fortalece o corpo do alvo. Ele recebe +2 em Força, Destreza ou Constituição, a sua escolha. Esse aumento não oferece PV ou PM adicionais.",
         "aprimoramentos": [
             {
                 "custo": "+3 PM",
@@ -2750,7 +2750,7 @@
         "alcance": "toque",
         "alvo": "1 criatura",
         "duracao": "cena",
-        "desc": "Você fortalece a mente do alvo. Ele recebe",
+        "desc": "Você fortalece a mente do alvo. Ele recebe +2 em Inteligência, Sabedoria ou Carisma, a sua escolha. Esse aumento não oferece PV, PM ou perícias adicionais.",
         "aprimoramentos": [
             {
                 "custo": "+3 PM",
@@ -2995,7 +2995,7 @@
         "alcance": "curto",
         "alvo": "todas as criaturas (veja texto)",
         "duracao": "sustentada",
-        "desc": "Você e os seus aliados no alcance recebem",
+        "desc": "Você e os seus aliados no alcance recebem +2 em testes de perícia e rolagens de dano, e todos os seus inimigos no alcance sofrem –2 em testes de perícia e rolagens de dano. Esse efeito é cumulativo com outras magias. Componente material: T$ 25 por PM gasto em incensos ou outras oferendas.",
         "aprimoramentos": [
             {
                 "custo": "+2 PM",
@@ -3194,7 +3194,7 @@
         "alcance": "toque",
         "alvo": "1 criatura",
         "duracao": "cena",
-        "desc": "Você modifica os limites físicos do alvo, que recebe deslocamento +9m e",
+        "desc": "Você modifica os limites físicos do alvo, que recebe deslocamento +9m e +10 em testes de Atletismo.",
         "aprimoramentos": [
             {
                 "custo": "+1 PM",
