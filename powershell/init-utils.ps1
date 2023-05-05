@@ -1,4 +1,4 @@
-function _LoadPath([string]$path, [string]$folder = 'json') {
+function _LoadUtilsPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
 
@@ -7,7 +7,7 @@ function Tavernas(
     [Alias('r')]
     [switch]$Random
 ) {
-    $path = _LoadPath 'tavernas.txt' 'utils'
+    $path = _LoadUtilsPath 'tavernas.txt' 'utils'
     $objects = Get-Content $path
 
     if ($Nome) {
@@ -29,7 +29,7 @@ function Artefatos-Engracados(
     [Alias('r')]
     [switch]$Random
 ) {
-    $path = _LoadPath 'artefatos-engracados.json' 'utils'
+    $path = _LoadUtilsPath 'artefatos-engracados.json' 'utils'
     $objects = Get-Content $path | convertfrom-json
 
     if ($Nome) {
@@ -37,7 +37,7 @@ function Artefatos-Engracados(
     }    
 
     if ($Random) {
-        $objects | Get-Random | fl
+        $objects | Get-Random | Format-List
     }
     else {
         $objects
