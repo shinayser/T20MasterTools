@@ -1,4 +1,4 @@
-function _LoadPath([string]$path, [string]$folder = 'json') {
+function _LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
 
