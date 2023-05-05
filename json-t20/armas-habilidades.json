@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Adaptável",
+        "descricao": "Uma arma de uma mão com esta habilidade pode ser usada com as duas mãos para aumentar seu dano em um passo"
+    },
+    {
+        "nome": "Ágil",
+        "descricao": "Pode ser usada com Acuidade com Arma, mesmo não sendo uma arma leve"
+    },
+    {
+        "nome": "Alongada",
+        "descricao": "Dobra o alcance natural do atacante, mas não permite atacar um adversário adjacente"
+    },
+    {
+        "nome": "Arremessável",
+        "descricao": "Esta arma corpo a corpo pode ser usada também como arma de arremesso"
+    },
+    {
+        "nome": "Desbalanceada",
+        "descricao": "Impõe uma penalidade de -2 em testes de ataque"
+    },
+    {
+        "nome": "Discreta",
+        "descricao": "Fornece +5 em testes de Ladinagem para ocultá-la"
+    },
+    {
+        "nome": "Dupla",
+        "descricao": "Pode ser usada com Estilo de Duas Armas (e poderes similares) para fazer ataques adicionais, como se fosse uma arma de uma mão e uma arma leve. Cada “ponta” conta como uma arma separada para efeitos de melhorias e encantos"
+    },
+    {
+        "nome": "Ligeira",
+        "descricao": "Permite que você use sua Destreza em vez de Força nos testes de ataque"
+    },
+    {
+        "nome": "Versátil",
+        "descricao": "Fornece bônus em uma ou mais manobras (cumulativo com outros bônus de itens), conforme a arma"
+    }
+]

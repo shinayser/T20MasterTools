@@ -1,3 +1,5 @@
+$includeGhanor = $true
+
 function _LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
@@ -91,6 +93,25 @@ function Armaduras(
 
 function Armas([string]$Nome) {
     $path = _LoadPath 'armas.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeGhanor) {
+        $path = _LoadPath 'armas.json' 'json-ghanor'
+        $objects += Get-Content $path | ConvertFrom-Json
+    }
+
+    $objects = $objects | Sort-Object nome
+
+    if ($Nome) {
+        $objects | Where-Object { $_.Nome -like "*$Nome*" }
+    }
+    else {
+        $objects
+    }
+}
+
+function Armas-Habilidades([string]$Nome) {
+    $path = _LoadPath 'armas-habilidades.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
     if ($Nome) {
