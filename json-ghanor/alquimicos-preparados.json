@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Antídoto",
+        "preco": 15,
+        "espacos": 0.5,
+        "descricao": "Um pequeno frasco contendo um preparado capaz de combater a maioria dos venenos e toxinas. Beber o antídoto é uma ação padrão e anula qualquer condição envenenado afetando o alvo."
+    },
+    {
+        "nome": "Incenso",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Este incenso ajuda na concentração mística. Queimá-lo e meditar por uma hora fornece 2 pontos de mana temporários."
+    },
+    {
+        "nome": "Turlin",
+        "preco": 25,
+        "espacos": 0.5,
+        "descricao": "Este pó fino, feito a partir da combinação de ervas e outros ingredientes naturais, é consumido por elfos para equilibrar seus sentimentos e emoções. Você pode inalar uma dose de turlin para ignorar as penalidades pela habilidade Sentimentos Conflitantes por uma cena."
+    },
+]
