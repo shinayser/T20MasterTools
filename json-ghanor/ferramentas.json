@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Balança de Mercador",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Este instrumento de precisão é formado por um suporte que sustenta dois pratos e um conjunto de pesos diversos. Usada por mercadores para avaliar objetos e medir quantidades, fornece +2 em testes de Diplomacia para barganhar."
+    },
+    {
+        "nome": "Ferramentas de Ladrão",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Uma pequena caixa contendo gazuas, arames e outros utensílios pequenos. Um personagem sem este kit sofre penalidade de –5 em testes de Ladinagem para abrir fechaduras e sabotar."
+    },
+    {
+        "nome": "Lira Graciosa",
+        "preco": 90,
+        "espacos": 1,
+        "descricao": "Este instrumento gera notas doces e poéticas. Enquanto empunha este item, você recebe +2 em testes de Atuação quando usa as habilidades Música de Bardo: Balada Fascinante e Manipular. Conta como um instrumento musical."
+    },
+    {
+        "nome": "Pandeiro das Planícies",
+        "preco": 60,
+        "espacos": 1,
+        "descricao": "A música deste instrumento empolga os ouvintes. Se usar a habilidade Música de Bardo: Melodia Curativa enquanto empunha este item, ela cura +1 ponto de vida por dado. Conta como um instrumento musical."
+    },
+    {
+        "nome": "Pandeiro das Profundezas",
+        "preco": 80,
+        "espacos": 1,
+        "descricao": "Um instrumento típico de anões, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+    },
+]
