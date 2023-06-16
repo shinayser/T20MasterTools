@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Arictina",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Este veneno feito a partir de monstros como aranhas gigantes deixa sua vítima enfraquecida — e a faz uma presa mais fácil para ser abatida. Contato, vítima fica fraca e vulnerável."
+    },
+    {
+        "nome": "Beijo do Ocaso",
+        "preco": 1000,
+        "espacos": 0.5,
+        "descricao": "Veneno raríssimo, preparado a partir de peçonha de serpe, sangue de demônio e plantas tóxicas encontradas apenas nos pântanos mais ermos. Contato, vítima perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+    },
+    {
+        "nome": "Fogo Líquido",
+        "preco": 600,
+        "espacos": 0.5,
+        "descricao": "Este líquido avermelhado está sempre quente ao toque. Em contato com o organismo, deixa a vítima suando, ofegante e cansada. Muitos duelos já foram vencidos por cavaleiros “honrados” enfrentando adversários enfraquecidos por fogo líquido... Contato, vítima fica exausta (fatigada)."
+    },
+    {
+        "nome": "Valeriana",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Esta planta tem propriedades calmantes e, na dosagem certa, se torna um sonífero eficaz. Ingestão, vítima fica inconsciente."
+    },
+]
