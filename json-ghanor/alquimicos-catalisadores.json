@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Extrato de Noz",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Quando aplicado a uma magia que afeta uma área, aumenta a área em +3m."
+    },
+    {
+        "nome": "Gengibre Amargo",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Tratada com ácidos específicos, esta raiz potencializa o efeito de magias, aumentando qualquer bônus concedido em +1."
+    },
+    {
+        "nome": "Pernas de Sapo",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Quando aplicadas a uma magia com alcance curto ou médio, estas pernas de sapo ressecadas aumentam o alcance da magia para médio ou longo, respectivamente."
+    },
+    {
+        "nome": "Pluma de Algodão",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Quando aplicado a uma magia com alcance maior que pessoal e que afete um ou mais alvos, este catalisador aumenta o número de alvos da magia em +1."
+    },
+]
