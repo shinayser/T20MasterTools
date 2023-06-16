@@ -5,7 +5,7 @@
         "preco": 5,
         "bonus": "1",
         "penalidade": 0,
-        "espacos": 1,
+        "espacos": 2,
         "descricao": "Uma túnica almofadada feita em linho ou lã. É a armadura mais leve, mas protege todo o corpo, fornecendo +2 em Fortitude."
     },
     {
@@ -77,7 +77,7 @@
         "preco": 15,
         "bonus": "2",
         "penalidade": -2,
-        "espacos": 1,
+        "espacos": 2,
         "descricao": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão."
     },
     {

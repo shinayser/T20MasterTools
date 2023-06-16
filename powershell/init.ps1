@@ -76,6 +76,13 @@ function Armaduras(
     $path = _LoadPath 'armaduras.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
+    if ($includeGhanor) {
+        $path = _LoadPath 'armaduras.json' 'json-ghanor'
+        $objects += Get-Content $path | ConvertFrom-Json
+    }
+
+    $objects = $objects | Sort-Object nome
+
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
