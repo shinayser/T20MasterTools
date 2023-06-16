@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Água Sacra",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Criada com água de fontes santas e abençoada por altos sacerdotes. Funciona como água benta, mas causa 4d10 pontos de dano."
+    },
+    {
+        "nome": "Aspersório",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Similar a uma maça, mas com uma cabeça oca que serve como reservatório para água e furinhos por onde a água se espalha quando o objeto é balançado. Você pode gastar uma ação completa para colocar até três doses de água benta ou sacra no aspersório (não inclusas no preço). Usar uma dose de água benta ou sacra a partir de um aspersório aumenta a CD do teste para resistir a ela em +5."
+    },
+    {
+        "nome": "Espelho",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "Este pequeno espelho de metal polido possui diversas utilidades, como observar cantos e fazer sinais de luz."
+    },
+    {
+        "nome": "Estrepes",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Pequenas peças de metal com pontas afiadas. Você pode gastar uma ação padrão para cobrir um quadrado de até 3m de lado com as estrepes. Elas causam 1d4 pontos de dano de perfuração em qualquer criatura que pise na área. Uma criatura que sofra dano das estrepes fica lenta por um dia."
+    },
+    {
+        "nome": "Mapa",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Um mapa de uma região. Fornece +5 em testes de Sobrevivência para orientar-se nessa região."
+    },
+    {
+        "nome": "Pederneira",
+        "preco": 1,
+        "espacos": 1,
+        "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma tocha ou lanterna com uma pederneira é uma ação padrão."
+    },
+    {
+        "nome": "Ração de Viagem",
+        "preco": 1,
+        "espacos": 0.5,
+        "descricao": "Feita de alimentos conservados, como carne defumada, frutas secas, pão, queijo e biscoitos, uma porção desta ração alimenta uma pessoa por um dia. Se mantida seca dura bastante, mas se molhada estraga em 24 horas."
+    },
+    {
+        "nome": "Sinete",
+        "preco": 5,
+        "espacos": 1,
+        "descricao": "Carimbo ou anel com um símbolo pessoal em relevo. Quando pressionado contra cera quente, deixa sua marca. Sinetes são usados por nobres e servos de uma corte para assinar decretos e documentos; possuir o sinete correto fornece +10 em testes de Enganação para falsificação. O preço na tabela é para um sinete novo — o sinete de uma pessoa influente pode valer uma fortuna no submundo!"
+    },
+]
