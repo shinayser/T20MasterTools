@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Botas de Camurça",
+        "preco": 15,
+        "espacos": 1,
+        "descricao": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+    },
+    {
+        "nome": "Chapéu de Mago",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Com pinturas e bordados de símbolos arcanos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 PM, mas apenas se você possuir pelo menos 1 nível de mago."
+    },
+    {
+        "nome": "Colar de Cristal",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Esta pedra é capaz de sintonizar seu usuário com as energias do mundo natural. Ele fornece +1 ponto de mana, mas seu efeito só se ativa após um dia de uso."
+    },
+    {
+        "nome": "Elmo Leve",
+        "preco": 15,
+        "espacos": 1,
+        "descricao": "Um capuz de couro ou peles ou um capacete aberto. Fornece fortificação leve (25% de chance de ignorar o dano extra de um acerto crítico ou ataque furtivo), mas impõe -2 em Iniciativa e Percepção. Se você for proficiente com armaduras pesadas, anula essa penalidade."
+    },
+    {
+        "nome": "Elmo Pesado",
+        "preco": 200,
+        "espacos": 1,
+        "descricao": "Uma coifa (capuz de cota de malha) ou capacete fechado. Fornece fortificação média (como a leve, mas 50% de chance), mas impõe -5 em Iniciativa e Percepção. Se você for proficiente com armaduras pesadas, reduz essa penalidade para -2."
+    },
+    {
+        "nome": "Rondel",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Dois pequenos discos de aço costurados na roupa ou rebitados na armadura. Fornecem +1 de Defesa, mas afetam seus movimentos, impondo -2 em testes de ataque. Se você for proficiente com armaduras pesadas, anula essa penalidade."
+    },
+]

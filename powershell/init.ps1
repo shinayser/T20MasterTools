@@ -274,6 +274,12 @@ function Vestuarios(
     $path = _LoadPath 'vestuarios.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
+    if ($includeGhanor) {
+        $path = _LoadPath 'vestuarios.json' 'json-ghanor'
+        $objects += Get-Content $path | ConvertFrom-Json
+    }
+
+    $objects = $objects | Sort-Object nome
    
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
