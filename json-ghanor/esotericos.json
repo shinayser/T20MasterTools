@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Astrolábio",
+        "preco": 450,
+        "espacos": 1,
+        "descricao": "Este pequeno e delicado cilindro de metal é usado para medições. Quando lança uma magia que afeta uma área, você pode pagar +1 PM para ativar este item e dobrar a área de efeito da magia."
+    },
+    {
+        "nome": "Carrilhão Consagrado",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Um sinete de som peculiar, usado em liturgias sagradas. A CD para resistir a suas magias divinas aumenta em +1."
+    },
+    {
+        "nome": "Espinho de Monstro",
+        "preco": 250,
+        "espacos": 1,
+        "descricao": "Uma varinha feita a partir do corpo de certos monstros. Suas magias causam +1d6 pontos de dano do mesmo tipo. Porém, sempre que lança uma magia, você perde 1 PV."
+    },
+    {
+        "nome": "Estola Sacerdotal",
+        "preco": 600,
+        "espacos": 1,
+        "descricao": "Uma faixa adornada com símbolos divinos usada ao redor do pescoço. Quando lança uma magia divina que fornece um bônus numérico em um atributo, perícia ou Defesa, esse bônus aumenta em +1."
+    },
+    {
+        "nome": "Ostensório Santificado",
+        "preco": 450,
+        "espacos": 1,
+        "descricao": "Esta obra de arte, geralmente na forma de um bastão ou cetro, é dedicada a um santo. Quando lança uma magia divina que cura pontos de vida, a cura aumenta em um dado extra do mesmo tipo."
+    },
+]
