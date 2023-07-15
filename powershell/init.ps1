@@ -837,6 +837,7 @@ function Poderes(
 }
 
 function Magias(
+    [Parameter(ValueFromPipelineByPropertyName)]
     [string]$Nome,
     [Alias("t")]
     [ValidateSet(
@@ -860,6 +861,10 @@ function Magias(
     [string]$Desc
 
 ) {
+    
+    if ($Nome) {
+        $Nome = ($Nome -replace "\(.*\)", "").Trim()
+    }
 
     $path = _LoadPath 'magias.json' 
     $objects = Get-Content $path | ConvertFrom-Json
@@ -921,6 +926,24 @@ function Pericias([string]$Nome) {
     else {
         $objects
     }
+}
+
+function Pocoes(
+    [Alias("r")]
+    [switch]$Random
+) {
+    $path = _LoadPath 'pocoes.json' 
+    $objects = Get-Content $path | ConvertFrom-Json
+    $objects = $objects | Sort-Object rollMin
+
+    if ($Random) {
+        $roll = Get-random -Minimum 1 -Maximum 100
+        $objects | Where-Object { $_.rollMin -le $roll -and $_.rollMax -ge $roll }
+    }
+    else {
+        $objects
+    }
+    
 }
 
 function Busca-Item(

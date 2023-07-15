@@ -1,0 +1,230 @@
+[
+    {
+        "nome": "Abençoar Alimentos",
+        "preco": 30,
+        "rollMin": 1,
+        "rollMax": 1
+    },
+    {
+        "nome": "Área Escorregadia (granada)",
+        "preco": 30,
+        "rollMin": 2,
+        "rollMax": 3
+    },
+    {
+        "nome": "Arma Mágica (óleo)",
+        "preco": 30,
+        "rollMin": 4,
+        "rollMax": 6
+    },
+    {
+        "nome": "Compreensão",
+        "preco": 30,
+        "rollMin": 7,
+        "rollMax": 7
+    },
+    {
+        "nome": "Curar Ferimentos (2d8+2 PV)",
+        "preco": 30,
+        "rollMin": 8,
+        "rollMax": 15
+    },
+    {
+        "nome": "Disfarce Ilusório",
+        "preco": 30,
+        "rollMin": 16,
+        "rollMax": 18
+    },
+    {
+        "nome": "Escuridão (óleo)",
+        "preco": 30,
+        "rollMin": 19,
+        "rollMax": 20
+    },
+    {
+        "nome": "Luz (óleo)",
+        "preco": 30,
+        "rollMin": 21,
+        "rollMax": 22
+    },
+    {
+        "nome": "Névoa (granada)",
+        "preco": 30,
+        "rollMin": 23,
+        "rollMax": 24
+    },
+    {
+        "nome": "Primor Atlético",
+        "preco": 30,
+        "rollMin": 25,
+        "rollMax": 26
+    },
+    {
+        "nome": "Proteção Divina",
+        "preco": 30,
+        "rollMin": 27,
+        "rollMax": 28
+    },
+    {
+        "nome": "Resistência a Energia",
+        "preco": 30,
+        "rollMin": 29,
+        "rollMax": 30
+    },
+    {
+        "nome": "Sono",
+        "preco": 30,
+        "rollMin": 31,
+        "rollMax": 32
+    },
+    {
+        "nome": "Suporte Ambiental",
+        "preco": 30,
+        "rollMin": 33,
+        "rollMax": 33
+    },
+    {
+        "nome": "Tranca Arcana (óleo)",
+        "preco": 30,
+        "rollMin": 34,
+        "rollMax": 34
+    },
+    {
+        "nome": "Visão Mística",
+        "preco": 30,
+        "rollMin": 35,
+        "rollMax": 35
+    },
+    {
+        "nome": "Vitalidade Fantasma",
+        "preco": 30,
+        "rollMin": 36,
+        "rollMax": 36
+    },
+    {
+        "nome": "Escudo da Fé (aprimoramento para duração cena)",
+        "preco": 120,
+        "rollMin": 37,
+        "rollMax": 38
+    },
+    {
+        "nome": "Alterar Tamanho",
+        "preco": 270,
+        "rollMin": 39,
+        "rollMax": 40
+    },
+    {
+        "nome": "Aparência Perfeita",
+        "preco": 270,
+        "rollMin": 41,
+        "rollMax": 42
+    },
+    {
+        "nome": "Armamento da Natureza (óleo)",
+        "preco": 270,
+        "rollMin": 43,
+        "rollMax": 43
+    },
+    {
+        "nome": "Bola de Fogo (granada)",
+        "preco": 270,
+        "rollMin": 44,
+        "rollMax": 49
+    },
+    {
+        "nome": "Camuflagem Ilusória",
+        "preco": 270,
+        "rollMin": 50,
+        "rollMax": 51
+    },
+    {
+        "nome": "Concentração de Combate (aprimoramento para duração cena)",
+        "preco": 270,
+        "rollMin": 52,
+        "rollMax": 53
+    },
+    {
+        "nome": "Curar Ferimentos (4d8+4 PV)",
+        "preco": 270,
+        "rollMin": 54,
+        "rollMax": 62
+    },
+    {
+        "nome": "Físico Divino",
+        "preco": 270,
+        "rollMin": 63,
+        "rollMax": 66
+    },
+    {
+        "nome": "Mente Divina",
+        "preco": 270,
+        "rollMin": 67,
+        "rollMax": 68
+    },
+    {
+        "nome": "Metamorfose",
+        "preco": 270,
+        "rollMin": 69,
+        "rollMax": 70
+    },
+    {
+        "nome": "Purificação",
+        "preco": 270,
+        "rollMin": 71,
+        "rollMax": 75
+    },
+    {
+        "nome": "Velocidade",
+        "preco": 270,
+        "rollMin": 76,
+        "rollMax": 77
+    },
+    {
+        "nome": "Vestimenta da Fé (óleo)",
+        "preco": 270,
+        "rollMin": 78,
+        "rollMax": 79
+    },
+    {
+        "nome": "Voz Divina",
+        "preco": 270,
+        "rollMin": 80,
+        "rollMax": 80
+    },
+    {
+        "nome": "Arma Mágica (óleo; aprimoramento para bônus +3)",
+        "preco": 750,
+        "rollMin": 81,
+        "rollMax": 82
+    },
+    {
+        "nome": "Curar Ferimentos (7d8+7 PV)",
+        "preco": 1080,
+        "rollMin": 83,
+        "rollMax": 88
+    },
+    {
+        "nome": "Físico Divino (aprimoramento para três atributos)",
+        "preco": 1080,
+        "rollMin": 89,
+        "rollMax": 89
+    },
+    {
+        "nome": "Invisibilidade (aprimoramento para duração cena)",
+        "preco": 1080,
+        "rollMin": 90,
+        "rollMax": 92
+    },
+    {
+        "nome": "Bola de Fogo (granada; aprimoramento para 10d6 de dano)",
+        "preco": 1470,
+        "rollMin": 93,
+        "rollMax": 96
+    },
+    {
+        "nome": "Curar Ferimentos (10d8+10 PV)",
+        "preco": 3000,
+        "rollMin": 97,
+        "rollMax": 100
+    }
+]
