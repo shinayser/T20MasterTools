@@ -1019,3 +1019,6 @@ Set-Alias Comidas Alimentacao
 Set-Alias Hospedagem Servicos-Hospedagem
 Set-Alias bi Busca-Item
 Set-Alias magia Magias
+Set-Alias pocao Pocoes
+Set-Alias poder Poderes
+Set-Alias riqueza Riquezas
