@@ -1,0 +1,185 @@
+[
+    {
+        "nome": "Atroz",
+        "chances": 10,
+        "tipo": "arma",
+        "duplo": true
+    },
+    {
+        "nome": "Banhado a ouro",
+        "chances": 3,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Cravejado de Gemas",
+        "chances": 3,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Cruel",
+        "chances": 10,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Discreto",
+        "chances": 3,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Equilibrada",
+        "chances": 5,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Harmonizada",
+        "chances": 4,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Injeção alquímica",
+        "chances": 5,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Macabro",
+        "chances": 2,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Maciça",
+        "chances": 10,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Material especial",
+        "chances": 10,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Mira telescópica",
+        "chances": 5,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Precisa",
+        "chances": 10,
+        "tipo": "arma"
+    },
+    {
+        "nome": "Pungente",
+        "chances": 10,
+        "tipo": "arma",
+        "duplo": true
+    },
+    {
+        "nome": "Ajustada",
+        "chances": 15,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Banhado a ouro",
+        "chances": 4,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Cravejado de Gemas",
+        "chances": 4,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Delicada",
+        "chances": 5,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Discreto",
+        "chances": 4,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Espinhos",
+        "chances": 5,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Macabro",
+        "chances": 3,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Material especial",
+        "chances": 10,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Polida",
+        "chances": 5,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Reforçada",
+        "chances": 25,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Selada",
+        "chances": 10,
+        "tipo": "armadura"
+    },
+    {
+        "nome": "Sob medida",
+        "chances": 10,
+        "tipo": "armadura",
+        "duplo": true
+    },
+    {
+        "nome": "Banhado a ouro",
+        "chances": 4,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Cravejado de Gemas",
+        "chances": 4,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Discreto",
+        "chances": 4,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Energético",
+        "chances": 15,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Harmonizado",
+        "chances": 15,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Macabro",
+        "chances": 3,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Material especial",
+        "chances": 9,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Poderoso",
+        "chances": 16,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Canalizador",
+        "chances": 16,
+        "tipo": "esoterico"
+    },
+    {
+        "nome": "Vigilante",
+        "chances": 15,
+        "tipo": "esoterico"
+    }
+]

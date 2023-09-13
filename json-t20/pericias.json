@@ -224,12 +224,6 @@
                 "treinada": "false",
                 "penalidade": "false",
                 "descricao": "(CD 20). Você convence uma pessoa a fazer algo, como responder uma pergunta ou prestar um favor. Se essa coisa for custosa (como fornecer uma carona de navio) você sofre -5 em seu teste. Se for perigosa (como ajudar numa luta) você sofre -10 ou falha automaticamente (veja também a página 259 para modificadores por categorias de atitude). De acordo com o mestre, seu teste pode ser oposto ao teste de Vontade da pessoa. Este uso gasta um minuto ou mais, de acordo com o mestre."
-            },
-            {
-                "Nome": "Tratamento",
-                "treinada": "false",
-                "penalidade": "false",
-                "descricao": "Você ajuda a vítima de uma doença ou veneno com efeito contínuo. Gaste uma ação completa e faça um teste de Cura contra a CD da doença ou veneno. Se você passar, o paciente recebe +5 em seu próximo teste de Fortitude contra esse efeito. Esta perícia exige uma maleta de medicamentos. Sem ela, você sofre -5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre -5 no teste."
             }
         ]
     },
@@ -408,7 +402,7 @@
         "lista": [
             {
                 "Nome": "Apostar",
-                "treinada": "false",
+                "treinada": "true",
                 "penalidade": "false",
                 "descricao": "Para resolver uma noite de jogatina, pague T$ 1d10, faça um teste de perícia e consulte a tabela abaixo para determinar quanto você ganha:\n(9 ou menos) Nenhum.\n(10 a 14) Metade da aposta.\n(15 a 19) Valor da aposta (você “empata”).\n(20 a 29) Dobro da aposta.\n(30 a 39) Triplo da aposta.\n(40 ou mais) Quíntuplo da aposta.\nO mestre pode variar o valor da aposta básica. De T$ 1d3, para uma taverna no porto frequentada por marujos e estivadores, a 1d10 x T$ 1.000, para um cassino de luxo em Valkaria."
             }

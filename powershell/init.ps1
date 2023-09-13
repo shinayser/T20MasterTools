@@ -98,7 +98,18 @@ function Armaduras(
     $objects
 }
 
-function Armas([string]$Nome) {
+function Armas(
+    [string]$Nome,
+    [Alias("c")]
+    [ValidateSet("simples", "marcial", "exotica")]
+    $Classe,
+    [Alias("t")]
+    [ValidateSet("perfuracao", "corte", "impacto")]
+    $Tipo,
+    [Alias("e")]
+    [ValidateSet("uma-mao", "duas-maos", "leve")]
+    $Empunhadura
+) {
     $path = _LoadPath 'armas.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
@@ -110,11 +121,23 @@ function Armas([string]$Nome) {
     $objects = $objects | Sort-Object nome
 
     if ($Nome) {
-        $objects | Where-Object { $_.Nome -like "*$Nome*" }
+        $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
-    else {
-        $objects
+
+    if ($Classe) {
+        $objects = $objects | Where-Object { $_.classe -like "*$Classe*" }
     }
+
+    if ($Tipo) {
+        $objects = $objects | Where-Object { $_.tipo -like "*$Tipo*" }
+    }
+
+    if ($Empunhadura) {
+        $objects = $objects | Where-Object { $_.empunhadura -like "*$Empunhadura*" }
+    }
+
+
+    $objects
 }
 
 function Armas-Habilidades([string]$Nome) {
@@ -157,6 +180,135 @@ function Itens-Gerais(
     else {
         $objects
     }
+}
+
+function Item-Random(
+    [ValidateSet('arma', 'armadura', 'esoterico')]
+    [string]$tipo,
+    [ValidateSet(1, 2, 3, 4)]
+    [string]$Superior
+) {
+    if (!$tipo) {
+        # 1-3 arma, 4-5 armadura, 6 esoterico
+        $tipo = 'arma', 'arma', 'arma', 'armadura', 'armadura', 'esoterico' | Get-Random  
+    }
+    
+
+    function _Pega-Item( $arquivo) {
+        $path = _LoadPath $arquivo
+        $objects = Get-Content $path | ConvertFrom-Json            
+        $objects | ForEach-Object { 
+
+            for ($i = 0; $i -lt $_.Chances; $i++) {
+                [PSCustomObject]@{                
+                    Nome       = $_.Nome;
+                    Quantidade = $_.Quantidade ?? 1;
+                }
+            }
+                
+        } | Get-Random
+    }
+
+    function _Pega-Melhoria($tipo, $quantidade) {
+        $path = _LoadPath 'melhorias-random.json'
+        $listaDeMelhorias = Get-Content $path | 
+        ConvertFrom-Json | 
+        Where-Object { $_.Tipo -eq $tipo } | 
+        ForEach-Object { 
+
+            for ($i = 0; $i -lt $_.Chances; $i++) {
+                [PSCustomObject]@{                
+                    Nome  = $_.Nome
+                    Dupla = $_.Dupla ?? $false
+                }
+            }
+            
+        }
+
+        $quantidadeSobrando = $quantidade
+
+        $melhoriasRetornadas = @()
+
+        do {
+            $melhoriaAleatoria = $listaDeMelhorias | Get-Random
+
+            if ($melhoriasRetornadas -contains $melhoriaAleatoria.Nome) {
+                continue
+            }             
+
+            $melhoria = Melhorias -Nome $melhoriaAleatoria.Nome -NotFormatted
+
+            if ($melhoriaAleatoria.dupla) {
+                if ($quantidadeSobrando -ge 2) {
+                    $melhoriasRetornadas += $melhoria.nome
+                    $melhoria | format-list
+                    $quantidadeSobrando -= 2
+                }
+            }
+            else {
+                $melhoriasRetornadas += $melhoria.nome
+                $melhoria | format-list
+                if ($melhoriaAleatoria.Nome -eq 'Material especial') {
+                    Materiais-Especiais | Get-Random | Format-List
+                }
+                $quantidadeSobrando -= 1
+            }
+
+
+        } while ($quantidadeSobrando -gt 0);
+
+    }
+
+
+    switch ($tipo) {
+        'arma' {
+            Write-Host "# Arma" -ForegroundColor blue
+
+            $itemAleatorio = _Pega-Item 'armas-random.json' 
+            $arma = Armas -Nome $itemAleatorio.Nome 
+
+            # Check if arma is a list
+            if ($arma -is [System.Array]) {
+                $arma = $arma | Select-Object -First 1
+            }
+
+            Add-Member -InputObject $arma -MemberType NoteProperty -Name 'quantidade' -Value $itemAleatorio.quantidade
+
+            $arma 
+
+            if ($Superior) {
+                Write-Host "# Melhorias" -ForegroundColor blue
+                _Pega-Melhoria $tipo $Superior
+            }
+
+                       
+        }
+        'armadura' {
+            Write-Host "# Armadura/Escudo" -ForegroundColor blue
+
+            $itemAleatorio = _Pega-Item 'armaduras-random.json' 
+            Armaduras -Nome $itemAleatorio.Nome 
+
+            if ($Superior) {
+                Write-Host "# Melhorias" -ForegroundColor blue
+                _Pega-Melhoria $tipo $Superior
+            }
+
+        }
+        'esoterico' {
+            Write-Host "# Esotérico" -ForegroundColor blue
+
+            $itemAleatorio = _Pega-Item 'esotericos-random.json' 
+            Esotericos -Nome $itemAleatorio.Nome
+
+            if ($Superior) {
+                Write-Host "# Melhorias" -ForegroundColor blue
+                _Pega-Melhoria $tipo $Superior
+            }
+        }
+    }
+   
+
 }
 
 function Riquezas(
@@ -755,7 +907,9 @@ function Melhorias(
     [string]$Nome,
     [Alias("t")]
     [ValidateSet("armas", "armaduras", "escudos", "esotericos", "ferramentas", "vestuario")]
-    $Tipo
+    $Tipo,
+    [switch]
+    $NotFormatted
 ) {
 
     $path = _LoadPath 'melhorias.json' 
@@ -770,7 +924,12 @@ function Melhorias(
     }
 
     if ($objects.Length -le 3) {
-        $objects | Format-List
+        if ($NotFormatted) {
+            $objects
+        }
+        else {
+            $objects | Format-List
+        }
     }
     else {
         $objects
@@ -1022,3 +1181,4 @@ Set-Alias magia Magias
 Set-Alias pocao Pocoes
 Set-Alias poder Poderes
 Set-Alias riqueza Riquezas
+Set-Alias tesouro Riquezas

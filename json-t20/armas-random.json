@@ -1,0 +1,182 @@
+[
+    {
+        "nome": "Adaga",
+        "chances": 3
+    },
+    {
+        "nome": "Alabarda",
+        "chances": 2
+    },
+    {
+        "nome": "Alfange",
+        "chances": 2
+    },
+    {
+        "nome": "Arco curto",
+        "chances": 3
+    },
+    {
+        "nome": "Arco longo",
+        "chances": 3
+    },
+    {
+        "nome": "Azagaia",
+        "chances": 2
+    },
+    {
+        "nome": "Balas",
+        "chances": 1,
+        "quantidade": 20
+    },
+    {
+        "nome": "Besta leve",
+        "chances": 2
+    },
+    {
+        "nome": "Besta pesada",
+        "chances": 2
+    },
+    {
+        "nome": "Bordão",
+        "chances": 3
+    },
+    {
+        "nome": "Chicote",
+        "chances": 1
+    },
+    {
+        "nome": "Cimitarra",
+        "chances": 3
+    },
+    {
+        "nome": "Clava",
+        "chances": 3
+    },
+    {
+        "nome": "Corrente de espinhos",
+        "chances": 1
+    },
+    {
+        "nome": "Espada bastarda",
+        "chances": 2
+    },
+    {
+        "nome": "Espada curta",
+        "chances": 5
+    },
+    {
+        "nome": "Espada longa",
+        "chances": 5
+    },
+    {
+        "nome": "Flechas",
+        "chances": 3,
+        "quantidade": 20
+    },
+    {
+        "nome": "Florete",
+        "chances": 3
+    },
+    {
+        "nome": "Foice",
+        "chances": 2
+    },
+    {
+        "nome": "Funda",
+        "chances": 2
+    },
+    {
+        "nome": "Gadanho",
+        "chances": 2
+    },
+    {
+        "nome": "Katana",
+        "chances": 1
+    },
+    {
+        "nome": "Lança",
+        "chances": 3
+    },
+    {
+        "nome": "Lança montada",
+        "chances": 1
+    },
+    {
+        "nome": "Maça",
+        "chances": 3
+    },
+    {
+        "nome": "Machadinha",
+        "chances": 3
+    },
+    {
+        "nome": "Machado anão",
+        "chances": 1
+    },
+    {
+        "nome": "Machado de batalha",
+        "chances": 3
+    },
+    {
+        "nome": "Machado de guerra",
+        "chances": 2
+    },
+    {
+        "nome": "Machado táurico",
+        "chances": 1
+    },
+    {
+        "nome": "Mangual",
+        "chances": 2
+    },
+    {
+        "nome": "Marreta",
+        "chances": 1
+    },
+    {
+        "nome": "Martelo de guerra",
+        "chances": 3
+    },
+    {
+        "nome": "Montante",
+        "chances": 3
+    },
+    {
+        "nome": "Mosquete",
+        "chances": 1
+    },
+    {
+        "nome": "Pedras",
+        "chances": 1,
+        "quantidade": 20
+    },
+    {
+        "nome": "Picareta",
+        "chances": 3
+    },
+    {
+        "nome": "Pique",
+        "chances": 2
+    },
+    {
+        "nome": "Pistola",
+        "chances": 2
+    },
+    {
+        "nome": "Rede",
+        "chances": 1
+    },
+    {
+        "nome": "Tacape",
+        "chances": 3
+    },
+    {
+        "nome": "Tridente",
+        "chances": 2
+    },
+    {
+        "nome": "Virotes",
+        "chances": 2,
+        "quantidade": 20
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "nome": "Armadura de Couro",
+        "chances": 5
+    },
+    {
+        "nome": "Brunea",
+        "chances": 5
+    },
+    {
+        "nome": "Armadura completa",
+        "chances": 15
+    },
+    {
+        "nome": "Cota de malha",
+        "chances": 5
+    },
+    {
+        "nome": "Couraça",
+        "chances": 15
+    },
+    {
+        "nome": "Couro batido",
+        "chances": 10
+    },
+    {
+        "nome": "Escudo leve",
+        "chances": 10
+    },
+    {
+        "nome": "Escudo pesado",
+        "chances": 15
+    },
+    {
+        "nome": "Gibão de peles",
+        "chances": 5
+    },
+    {
+        "nome": "Loriga segmentada",
+        "chances": 5
+    },
+    {
+        "nome": "Meia armadura",
+        "chances": 10
+    }
+]

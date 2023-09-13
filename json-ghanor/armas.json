@@ -176,7 +176,7 @@
         "ameaca": 20,
         "critico": "x3",
         "alcance": "-",
-        "tipo": "corte",
+        "tipo": "impacto",
         "espacos": 2,
         "empunhadura": "duas-maos",
         "descricao": "Uma versão mais pesada da marreta de guerra, esta arma possui uma cabeça de metal capaz de partir pedra, aço e ossos. Um marrão é muito grande para ser usado sem treinamento especial; por isso, é uma arma exótica. Além disso, por seu peso, também é uma arma desbalanceada."
@@ -206,5 +206,5 @@
         "espacos": 2,
         "empunhadura": "duas-maos",
         "descricao": "Originalmente um instrumento de pesca, esta haste de madeira possui uma ponta metálica com rebarbas em uma extremidade e uma corda na outra. Se acertar o ataque, o arpão fica preso na vítima. Enquanto você estiver empunhando a corda, sempre que a vítima se mover você pode fazer um teste de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (9m). A vítima pode se soltar gastando uma ação de movimento, mas sofre 1d10 pontos de dano de perfuração."
-    },
+    }
 ]

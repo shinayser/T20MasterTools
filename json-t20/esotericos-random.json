@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Bolsa de pó",
+        "chances": 10
+    },
+    {
+        "nome": "Cajado arcano",
+        "chances": 15
+    },
+    {
+        "nome": "Cetro elemental",
+        "chances": 10
+    },
+    {
+        "nome": "Costela de lich",
+        "chances": 7
+    },
+    {
+        "nome": "Dedo de ente",
+        "chances": 8
+    },
+    {
+        "nome": "Luva de ferro",
+        "chances": 5
+    },
+    {
+        "nome": "Medalhão de prata",
+        "chances": 10
+    },
+    {
+        "nome": "Orbe cristalina",
+        "chances": 10
+    },
+    {
+        "nome": "Tomo hermético",
+        "chances": 10
+    },
+    {
+        "nome": "Varinha arcana",
+        "chances": 15
+    }
+]
