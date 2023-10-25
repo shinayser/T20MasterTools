@@ -850,15 +850,15 @@ function Magias-Custos([string]$Filter) {
     }
 }
 
-function Materiais-Especiais-Precos([string]$Filter) {
+function Materiais-Especiais-Precos([string]$Nome) {
     $path = _LoadPath 'materiais-especiais-precos.json' 
-    $objects = Get-Content $path | ConvertFrom-Json | Format-Table
+    $objects = Get-Content $path | ConvertFrom-Json
 
-    if ($Filter) {
-        $objects | Where-Object { $_.tipo -like "*$Filter*" }
+    if ($Nome) {
+        $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
     else {
-        $objects
+        $objects 
     }
 }
 
@@ -870,6 +870,10 @@ function Materiais-Especiais([string]$Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
 
+    $objects | ForEach-Object {
+        Add-Member -InputObject $_ -MemberType NoteProperty -Name 'precos' -Value (Materiais-Especiais-Precos -Nome $_.nome)
+    }
+
     if ($objects.Length -le 3) {
         $objects | ConvertTo-Json -Depth 10
     }
@@ -879,28 +883,18 @@ function Materiais-Especiais([string]$Nome) {
 
 }
 
-function Melhorias-Precos([string]$Filter) {
+function Melhorias-Precos() {
     $path = _LoadPath 'melhorias-precos.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
-    if ($Filter) {
-        $objects | Where-Object { $_.tipo -like "*$Filter*" }
-    }
-    else {
-        $objects
-    }
+    $objects
 }
 
-function Encantos-Precos([string]$Filter) {
+function Encantos-Precos() {
     $path = _LoadPath 'encantos-precos.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
-    if ($Filter) {
-        $objects | Where-Object { $_.tipo -like "*$Filter*" }
-    }
-    else {
-        $objects
-    }
+    $objects
 }
 
 function Melhorias(
@@ -1182,3 +1176,16 @@ Set-Alias pocao Pocoes
 Set-Alias poder Poderes
 Set-Alias riqueza Riquezas
 Set-Alias tesouro Riquezas
+
+function Listar {
+    $regex = "function\s+((?!Listar)[^_][\w|-]+)"
+    $content = Get-Content -Path $PSCommandPath -Raw
+
+    $funcoes = $content | Select-String -Pattern $regex -AllMatches | ForEach-Object { $_.Matches } | ForEach-Object { $_.Groups[1].Value } | Sort-Object
+
+
+    $funcoes | ForEach-Object {
+        Write-Host $_ -ForegroundColor Green 
+    }
+
+}

@@ -1073,6 +1073,10 @@
             {
                 "custo": "+9 PM",
                 "desc": "aumenta o tamanho do monstro para Enorme. Ele tem For 11, Des 1, 110 PV, deslocamento 15m e seu ataque causa 4d8+15 pontos de dano com 4,5m de alcance. Requer 4º círculo. "
+            },
+            {
+                "custo": "+14 PM",
+                "desc": "aumenta o tamanho do monstro para Colossal. Ele tem For 15, Des 0, 180 PV, deslocamento 15m e seu ataque causa 4d12+20 pontos de dano com 9m de alcance. Requer 5º círculo."
             }
         ]
     },
