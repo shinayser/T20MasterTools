@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Garra Feroz",
+        "preco": 60,
+        "espacos": 1,
+        "descricao": "Estas pinças de insetos gigantes, presas com tiras de couro, funcionam como uma manopla (Tormenta20, p. 159), mas seus benefícios também se aplicam a uma garra ou a uma arma natural de um personagem sob efeito de habilidades como Forma Selvagem."
+    },
+    {
+        "nome": "Manto do Mantor",
+        "preco": 450,
+        "espacos": 1,
+        "descricao": "Este manto, feito a partir do couro de um mantor, oferece parte de sua furtividade. Na escuridão completa fornece camuflagem total, mesmo contra criaturas que vejam no escuro."
+    },
+    {
+        "nome": "Manto Pesado",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Estas vestes pesadas com um grande capuz oferecem proteção contra o sol e contra claridade em excesso. Você recebe imunidade a condição ofuscado e, mesmo durante o dia, não é considerado sob luz solar ou semelhante."
+    },
+    {
+        "nome": "Sombreiro",
+        "preco": 10,
+        "espacos": 1,
+        "descricao": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone. Fornece resistência a efeitos de sentidos +2."
+    },
+    {
+        "nome": "Traje Selako",
+        "preco": 90,
+        "espacos": 1,
+        "descricao": "Feito com couro de selako, este traje fornece parte das capacidades desses predadores. Você recebe +2 em testes de Atletismo para nadar e +3m em seu deslocamento de natação."
+    }
+]

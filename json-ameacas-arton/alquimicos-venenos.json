@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Esporos de Cogumelo",
+        "preco": 75,
+        "espacos": 0.5,
+        "descricao": "Extraído de certos cogumelos e criaturas aparentadas, causa breve mas perigosa paralisia. Inalação, vítima fica paralisada (lenta) por 1 rodada, depois imune a paralisia por este veneno pela cena."
+    },
+    {
+        "nome": "Peçonha Anciã",
+        "preco": 1800,
+        "espacos": 0.5,
+        "descricao": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes. Contato, perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos (perde 3d12 PV)."
+    },
+    {
+        "nome": "Peçonha Irritante",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Este veneno leve, produzido por diversas criaturas, tem efeito brando mas que não pode ser resistido. Contato, perde 1d6 PV."
+    },
+    {
+        "nome": "Veneno Batráquio",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Produzida a partir da saliva de sapos gigantes, esta gosma machuca e enjoa. Contato, perde 1d12 PV e fica enjoado por 1 rodada (perde 1d6 PV)."
+    }
+]

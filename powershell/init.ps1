@@ -1,4 +1,5 @@
 $includeGhanor = $true
+$includeAmeacas = $true
 
 function _LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
@@ -27,6 +28,16 @@ function Acessorios(
 ) {
     $path = _LoadPath 'Acessorios.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'Acessorios.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+
+        $objects += $ameacas
+    }
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
@@ -78,7 +89,21 @@ function Armaduras(
 
     if ($includeGhanor) {
         $path = _LoadPath 'armaduras.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    
+    if ($includeAmeacas) {
+        $path = _LoadPath 'armaduras.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -115,7 +140,20 @@ function Armas(
 
     if ($includeGhanor) {
         $path = _LoadPath 'armas.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'armas.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -161,7 +199,20 @@ function Itens-Gerais(
 
     if ($includeGhanor) {
         $path = _LoadPath 'itens-gerais.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'itens-gerais.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -428,8 +479,22 @@ function Vestuarios(
 
     if ($includeGhanor) {
         $path = _LoadPath 'vestuarios.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
     }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'vestuarios.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
+
 
     $objects = $objects | Sort-Object nome
    
@@ -458,7 +523,11 @@ function Ferramentas(
    
     if ($includeGhanor) {
         $path = _LoadPath 'ferramentas.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
     }
 
     $objects = $objects | Sort-Object nome
@@ -488,7 +557,11 @@ function Esotericos(
     
     if ($includeGhanor) {
         $path = _LoadPath 'esotericos.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
     }
 
     $objects = $objects | Sort-Object nome
@@ -518,7 +591,20 @@ function Alquimicos-Preparados(
 
     if ($includeGhanor) {
         $path = _LoadPath 'alquimicos-preparados.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'alquimicos-preparados.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -548,7 +634,20 @@ function Alquimicos-Catalisadores(
 
     if ($includeGhanor) {
         $path = _LoadPath 'alquimicos-catalisadores.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'alquimicos-catalisadores.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -578,7 +677,20 @@ function Alquimicos-Venenos(
 
     if ($includeGhanor) {
         $path = _LoadPath 'alquimicos-venenos.json' 'json-ghanor'
-        $objects += Get-Content $path | ConvertFrom-Json
+        $ghanor += Get-Content $path | ConvertFrom-Json
+        $ghanor | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ghanor'
+        }
+        $objects += $ghanor
+    }
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'alquimicos-venenos.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
     }
 
     $objects = $objects | Sort-Object nome
@@ -605,6 +717,15 @@ function Animais(
 ) {
     $path = _LoadPath 'animais.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'animais.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
@@ -697,6 +818,15 @@ function Alimentacao(
 ) {
     $path = _LoadPath 'alimentacao.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'alimentacao.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
@@ -854,6 +984,15 @@ function Materiais-Especiais-Precos([string]$Nome) {
     $path = _LoadPath 'materiais-especiais-precos.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
+    if ($includeAmeacas) {
+        $path = _LoadPath 'materiais-especiais-precos.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
+
     if ($Nome) {
         $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
@@ -866,9 +1005,20 @@ function Materiais-Especiais([string]$Nome) {
     $path = _LoadPath 'materiais-especiais.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
+    if ($includeAmeacas) {
+        $path = _LoadPath 'materiais-especiais.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
+
+
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
     }
+
 
     $objects | ForEach-Object {
         Add-Member -InputObject $_ -MemberType NoteProperty -Name 'precos' -Value (Materiais-Especiais-Precos -Nome $_.nome)
@@ -908,6 +1058,16 @@ function Melhorias(
 
     $path = _LoadPath 'melhorias.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'melhorias.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
+
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
@@ -1021,6 +1181,15 @@ function Magias(
 
     $path = _LoadPath 'magias.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeAmeacas) {
+        $path = _LoadPath 'magias.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }

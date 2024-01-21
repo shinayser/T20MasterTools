@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Multifuncional",
+        "tipo": "ferramentas|vestuario",
+        "descricao": "Esta melhoria só pode ser aplicada em um item que modifica uma perícia (fornecendo bônus ou reduzindo penalidade). Escolha outra perícia que usa o mesmo atributo-chave; o item passa a funcionar também para a segunda perícia escolhida (mas não se aplica a testes de ataque)."
+    },
+    {
+        "nome": "Penetrante",
+        "tipo": "armas",
+        "descricao": "A arma ignora 5 pontos da redução de dano. Pré-requisito: cruel."
+    }
+]

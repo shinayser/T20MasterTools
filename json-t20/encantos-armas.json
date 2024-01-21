@@ -68,6 +68,18 @@
         "descricao": "A arma causa +1d6 de dano de fogo. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, em vez do ataque normal você dispara uma bola de fogo contra um alvo em alcance médio. O alvo sofre 6d6 pontos de dano. Um teste de Reflexos (CD For ou Des, à sua escolha) reduz à metade. Uma arma flamejante emana chamas como uma tocha."
     },
     {
+        "nome": "Formidável",
+        "descricao": "A arma é encantada para desferir golpes precisos. Ela fornece +2 em testes de ataque e rolagens de dano."
+    },
+    {
+        "nome": "Lancinante",
+        "descricao": "A arma inflige ferimentos mortais. Quando faz um acerto crítico, o bônus em dano fornecido pelo encanto dilacerante também é multiplicado. Por exemplo, um machado de batalha lancinante causa +30 pontos de dano em um acerto crítico (Nerfado em Ameaças de Arton pg.403). Pré-requisito: dilacerante."
+    },
+    {
+        "nome": "Magnífica",
+        "descricao": "A arma é encantada para desferir golpes perfeitos. Ela fornece +4 em testes de ataque e rolagens de dano. Pré-requisito: formidável."
+    },
+    {
         "nome": "Piedosa",
         "descricao": "A arma causa +1d8 de dano, mas todo o dano causado é não letal. Você pode gastar 1 PM para desativar e ativar este encanto."
     },

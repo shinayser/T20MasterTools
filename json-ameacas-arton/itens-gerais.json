@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Caixa de Voz",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Este complexo mecanismo tem 1d4 cargas: quando usa uma habilidade de bardo ou nobre com alcance curto ou médio, você pode gastar uma carga para aumentar seu alcance em um passo. Segredo de engenharia da Supremacia Purista, este item não pode ser fabricado, sendo encontrado apenas nos destroços de corcéis e carruagens de comando."
+    },
+    {
+        "nome": "Corda de Teia",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Feita de teia de aranha gigante, esta corda de 10m funciona como uma corda normal, mas é mais resistente. Arrebentá-la exige 5 pontos de dano de corte ou um teste de Força (CD 28)."
+    },
+    {
+        "nome": "Dente de Wisphago",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Um dente de wisphago pode ser vestido como um amuleto. Quando faz um teste de resistência contra uma magia arcana, você pode gastar o amuleto para rolar novamente esse teste com um bônus de +2. Uma vez ativado, o amuleto se desfaz. Um dente de wisphago não pode ser fabricado."
+    },
+    {
+        "nome": "Gema de Força",
+        "preco": 0,
+        "espacos": 1,
+        "descricao": "Parte de certos engenhos da Supremacia, esta gema tem 1d4 cargas. Empunhando a gema, você pode gastar uma ação padrão e uma carga para produzir um domo semelhante ao efeito básico da magia Campo de Força. Alternativamente, quando lança essa magia, você pode empulhá-lo e usar uma carga para reduzir seu custo em -2 PM. Encontrada nos destroços de corcéis e carruagens de comando, esta gema não pode ser fabricada."
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Corrosivo Mineral",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Pasta mineral corrosiva produzida com ingredientes naturais. Aumenta os dados de dano de magias de ácido em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    },
+    {
+        "nome": "Gelo Extremo",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Cristais minerais que eliminam todo o calor ao redor. Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    },
+    {
+        "nome": "Pedaço de Língua",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Glândulas que podem ser usadas como um catalisador que fornece +1 na CD dos testes de Fortitude para resistir a suas magias."
+    },
+    {
+        "nome": "Raio Cristalizado",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Eletricidade gerada por elementais e outros seres mágicos pode ser solidificada na forma de pequenos cristais. Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+    }
+]

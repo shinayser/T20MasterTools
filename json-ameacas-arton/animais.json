@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Bulette",
+        "preco": 500,
+        "espacos": 0,
+        "descricao": "Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm — em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria."
+    },
+    {
+        "nome": "Capivara",
+        "preco": 60,
+        "espacos": 0,
+        "descricao": "Simpatíca, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+        "nome": "Corcel do Deserto",
+        "preco": 150,
+        "espacos": 0,
+        "descricao": "Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição. Pode ser usado como um parceiro montaria."
+    },
+    {
+        "nome": "Dromedário",
+        "preco": 75,
+        "espacos": 0,
+        "descricao": "Disponível em regiões áridas ou montanhosas, pode ser um parceiro montaria."
+    },
+    {
+        "nome": "Elefante",
+        "preco": 1500,
+        "espacos": 0,
+        "descricao": "Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração. Pode ser usado como um parceiro montaria."
+    },
+    {
+        "nome": "Hiena",
+        "preco": 220,
+        "espacos": 0,
+        "descricao": "Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos. Uma hiena pode ser usada como um parceiro especial (veja p. 119) por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos."
+    },
+    {
+        "nome": "Leão",
+        "preco": 800,
+        "espacos": 0,
+        "descricao": "Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria."
+    },
+    {
+        "nome": "Rinoceronte",
+        "preco": 600,
+        "espacos": 0,
+        "descricao": "Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda."
+    },
+    {
+        "nome": "Urso Pardo",
+        "preco": 300,
+        "espacos": 0,
+        "descricao": "Este robusto predador pode ser encontrado em várias regiões de Arton. Ainda que incomum, pode ser empregado como um parceiro montaria."
+    }
+]

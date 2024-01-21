@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Bálsamo de Drogadora",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV."
+    },
+    {
+        "nome": "Bomba de Fumaça",
+        "preco": 15,
+        "espacos": 0.5,
+        "descricao": "Saco de estopa com pavio, contendo uma pólvora especial que produz mais fumaça do que fogo. Segue as mesmas regras da bomba, mas, em vez de causar dano, emite uma nuvem de fumaça espessa com 6m de raio, que obscurece toda a visão e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total."
+    },
+    {
+        "nome": "Elixir Quimérico",
+        "preco": 120,
+        "espacos": 0.5,
+        "descricao": "Beber este elixir é uma ação padrão; até o fim da cena, você ganha uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possui uma mordida, seu dano aumenta em um passo."
+    },
+    {
+        "nome": "Éter Elemental",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Extraído de elementais, este líquido viscoso tem cor e textura relacionados ao elemento de origem. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-lo é uma ação padrão e faz a arma (ou as munições) causar +1d4 pontos de dano do tipo do dano elemental até o fim da cena. Múltiplas doses não são cumulativas."
+    },
+    {
+        "nome": "Isca Putrefata",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Frasco de restos mortais diluídos em uma solução macabra. Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Ref CD Des evita) e dura 1d6 rodadas. Durante esse tempo, cada morto-vivo não inteligente em alcance curto é atraído (Von CD Des evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança, fica fascinado ou, se a isca estiver presa a uma criatura, a ataca."
+    },
+    {
+        "nome": "Lágrima Pétrea",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Este líquido cristalino tem o poder de devolver criaturas à sua forma original. Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todos os efeitos de metamorfose (Ref CD Des evita)."
+    },
+    {
+        "nome": "Óleo de Baleia",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Este antigo preparado é um destilado de gordura de baleia. Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena."
+    },
+    {
+        "nome": "Óleo de Besouro",
+        "preco": 50,
+        "espacos": 0.5,
+        "descricao": "O líquido do terrível besouro-do-óleo pode ser usado em lampiões (dobro da duração e área de iluminação) e explosivos. Para usar um frasco, você precisa empunhá-lo, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-lo em alcance curto. Criaturas a até 3m do ponto atingido sofrem 4d6 pontos de dano de fogo e ficam em chamas (Ref CD Des reduz o dano à metade e evita a condição)."
+    },
+    {
+        "nome": "Pó Azul",
+        "preco": 150,
+        "espacos": 0.5,
+        "descricao": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente. Inalar o pó é uma ação completa e recupera 2d4 PM."
+    }
+]

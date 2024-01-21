@@ -1,0 +1,66 @@
+[
+    {
+        "nome": "Casco de monstro",
+        "arma": 750,
+        "armaduraLeve": 750,
+        "armaduraPesada": 6000,
+        "escudo": 750,
+        "esotericos": 6000
+    },
+    {
+        "nome": "Couraça de Kaiju",
+        "arma": 0,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "escudo": 0,
+        "esotericos": 0
+    },
+    {
+        "nome": "Couro de Bulette",
+        "arma": 0,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "escudo": 0,
+        "esotericos": 0
+    },
+    {
+        "nome": "Cristal de Sol",
+        "arma": 0,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "escudo": 0,
+        "esotericos": 0
+    },
+    {
+        "nome": "Lanajuste",
+        "arma": 600,
+        "armaduraLeve": 1500,
+        "armaduraPesada": 3000,
+        "escudo": 1500,
+        "esotericos": 3000
+    },
+    {
+        "nome": "Pena de Kraken",
+        "arma": 0,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "escudo": 0,
+        "esotericos": 0
+    },
+    {
+        "nome": "Prata",
+        "arma": 600,
+        "armaduraLeve": 1500,
+        "armaduraPesada": 3000,
+        "escudo": 1500,
+        "esotericos": 400
+    },
+    {
+        "nome": "Quitina Razza",
+        "arma": 0,
+        "armaduraLeve": 0,
+        "armaduraPesada": 0,
+        "escudo": 0,
+        "esotericos": 0
+    }
+]
