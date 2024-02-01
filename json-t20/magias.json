@@ -974,6 +974,10 @@
             {
                 "custo": "+9 PM",
                 "desc": "muda a execução para padrão, o alcance para curto, o alvo para criaturas escolhidas e a duração para cena. Requer 4º círculo. "
+            },
+            {
+                "custo": "+14 PM",
+                "desc": "muda a execução para padrão e a duração para um dia. Além do normal, você recebe um sexto sentido que o avisa de qualquer perigo ou ameaça. Você fica imune às condições surpreendido e desprevenido e recebe +10 na Defesa e Reflexos. Requer 5º círculo."
             }
         ]
     },
