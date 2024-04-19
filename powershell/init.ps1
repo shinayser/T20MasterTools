@@ -1,7 +1,7 @@
 $includeGhanor = $true
 $includeAmeacas = $true
 
-function _LoadPath([string]$path, [string]$folder = 'json-t20') {
+function script:_LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
 
@@ -1268,6 +1268,40 @@ function Pocoes(
     
 }
 
+
+function Estatisticas-Criaturas(
+    [Parameter(Mandatory)]
+    [ValidateSet(
+        "solo", 
+        "lacaio", 
+        "especial"
+    )]
+    [string]$tipo, 
+    [string[]]$nd) {
+
+    $objects
+    switch ($tipo) {
+        'solo' {
+            $path = _LoadPath 'estatisticas_criaturas_solo.json' 'json-ameacas-arton'
+            $objects = Get-Content $path | ConvertFrom-Json 
+        }
+        'lacaio' {
+            $path = _LoadPath 'estatisticas_criaturas_lacaio.json' 'json-ameacas-arton'
+            $objects = Get-Content $path | ConvertFrom-Json 
+        }
+        'especial' {
+            $path = _LoadPath 'estatisticas_criaturas_especial.json' 'json-ameacas-arton'
+            $objects = Get-Content $path | ConvertFrom-Json
+        }
+    }
+
+    if ($nd) {
+        $objects = $objects | Where-Object { $nd -contains $_.nd }
+    }
+
+    $objects | Format-Table
+}
+
 function Busca-Item(
     [Parameter(Mandatory)]
     [string]$Nome) {
@@ -1345,6 +1379,8 @@ Set-Alias pocao Pocoes
 Set-Alias poder Poderes
 Set-Alias riqueza Riquezas
 Set-Alias tesouro Riquezas
+Set-Alias stat Estatisticas-Criaturas
+
 
 function Listar {
     $regex = "function\s+((?!Listar)[^_][\w|-]+)"
