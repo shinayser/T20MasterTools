@@ -5,18 +5,6 @@ function script:_LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
 }
 
-function Climas([string]$Filter) {
-    $path = _LoadPath 'climas.json' 
-    $objects = Get-Content $path | ConvertFrom-Json
-
-    if ($Filter) {
-        $objects | Where-Object { $_.tipo -like "*$Filter*" }
-    }
-    else {
-        $objects
-    }
-}
-
 function Acessorios(
     [string]$Nome,
     [Alias("t")]
@@ -1207,16 +1195,25 @@ function Magias(
         $objects = $objects | Where-Object { $_.Ciclo -like "*$Ciclo*" }
     }
 
-    if ($objects.Length -eq 1) {
-        $aprimoramentos = $objects.aprimoramentos
-        $objects.PsObject.Members.Remove("aprimoramentos")
-        $objects
+    # if ($objects.Length -eq 1) {
+
+    $objects | ForEach-Object {
+        $aprimoramentos = $_.aprimoramentos
+        $_.PsObject.Members.Remove("aprimoramentos")
+        $_
         Write-Host "Aprimoramentos:`n" -ForegroundColor Green
         $aprimoramentos
     }
-    else {
-        $objects
-    }
+
+    # $aprimoramentos = $objects.aprimoramentos
+    # $objects.PsObject.Members.Remove("aprimoramentos")
+    # $objects
+    # Write-Host "Aprimoramentos:`n" -ForegroundColor Green
+    # $aprimoramentos
+    # }
+    # else {
+    #     $objects
+    # }
 
 }
 
@@ -1277,7 +1274,7 @@ function Estatisticas-Criaturas(
         "especial"
     )]
     [string]$tipo, 
-    [string[]]$nd) {
+    [string[]]$nd ) {
 
     $objects
     switch ($tipo) {
@@ -1306,12 +1303,10 @@ function Busca-Item(
     [Parameter(Mandatory)]
     [string]$Nome) {
     $busca = Itens-Gerais -Nome $Nome
-
     if ($busca.Length -gt 0) {
         Write-Host "# Itens Gerais" -ForegroundColor blue
         $busca
     }
-
     $busca = Ferramentas -Nome $Nome
     if ($busca.Length -gt 0) {
         Write-Host "# Ferramentas" -ForegroundColor blue
@@ -1337,13 +1332,11 @@ function Busca-Item(
         Write-Host "# Alquimicos-Catalisadores" -ForegroundColor blue
         $busca
     }
-
     $busca = Alquimicos-Venenos -Nome $Nome
     if ($busca.Length -gt 0) {
         Write-Host "# Alquimicos-Venenos" -ForegroundColor blue
         $busca
     }
-    
     $busca = Alimentacao -Nome $Nome
     if ($busca.Length -gt 0) {
         Write-Host "# Alimentacao" -ForegroundColor blue
@@ -1367,6 +1360,21 @@ function Busca-Item(
     $busca = Servicos-Hospedagem -Nome $Nome
     if ($busca.Length -gt 0) {
         Write-Host "# Servicos-Hospedagem" -ForegroundColor blue
+        $busca
+    }
+    $busca = Armas -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Armas" -ForegroundColor blue
+        $busca
+    }
+    $busca = Armaduras -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Armaduras" -ForegroundColor blue
+        $busca
+    }
+    $busca = Acessorios -Nome $Nome
+    if ($busca.Length -gt 0) {
+        Write-Host "# Acessorios" -ForegroundColor blue
         $busca
     }
 }
