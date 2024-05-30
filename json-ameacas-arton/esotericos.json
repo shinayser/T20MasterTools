@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Ankh Solar",
+        "preco": 450,
+        "espacos": 1,
+        "descricao": "Este item raro é encontrado em corpos embalsamados no Deserto da Perdição. Pode ser usado como arma leve simples corpo a corpo (dano 1d6, crítico 19, corte). Suas magias que tenham testes de resistência recebem o seguinte aprimoramento: +2 PM. Além do normal, criaturas que falham na resistência não podem recuperar PV por 1 rodada."
+    },
+    {
+        "nome": "Tomo de Guerra",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos."
+    },
+    {
+        "nome": "Tomo do Rancor",
+        "preco": 750,
+        "espacos": 1,
+        "descricao": "Suas magias de dano recebem o seguinte aprimoramento: +2 PM. Além do normal, quando lança uma magia de dano, ela causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha."
+    }
+]

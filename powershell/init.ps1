@@ -552,6 +552,16 @@ function Esotericos(
         $objects += $ghanor
     }
 
+    
+    if ($includeAmeacas) {
+        $path = _LoadPath 'esotericos.json' 'json-ameacas-arton'
+        $ameacas += Get-Content $path | ConvertFrom-Json
+        $ameacas | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
+        }
+        $objects += $ameacas
+    }
+
     $objects = $objects | Sort-Object nome
 
     if ($Nome) {
