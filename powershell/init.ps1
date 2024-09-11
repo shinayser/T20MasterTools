@@ -1,5 +1,6 @@
 $includeGhanor = $true
 $includeAmeacas = $true
+$includeDeusesHerois = $true
 
 function script:_LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
@@ -12,7 +13,11 @@ function Acessorios(
     $Tipo,
 
     [Alias("p")]
-    [switch]$Preco
+    [switch]$Preco,
+
+    
+    [Alias("d")]
+    [string]$Descricao
 ) {
     $path = _LoadPath 'Acessorios.json' 
     $objects = Get-Content $path | ConvertFrom-Json
@@ -33,6 +38,10 @@ function Acessorios(
 
     if ($Tipo) {
         $objects = $objects | Where-Object { $_.tipo -like "*$Tipo*" }
+    }
+
+    if ($Descricao) {
+        $objects = $objects | Where-Object -Property descricao -Like "*$Descricao*"
     }
 
     if ($Preco) {
@@ -1388,6 +1397,59 @@ function Busca-Item(
         $busca
     }
 }
+
+function Aparencias(
+    [Alias("r")]
+    [switch]$random ) {
+    $path = _LoadPath 'aparencias.json' 'json-deuses-e-herois'
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($random) {
+        $objects | Get-Random
+    }
+    else {
+        $objects
+    }
+}
+
+function Trejeitos(
+    [Alias("r")]
+    [switch]$random ) {
+    $path = _LoadPath 'trejeitos.json' 'json-deuses-e-herois'
+    $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($random) {
+        $objects | Get-Random
+    }
+    else {
+        $objects
+    }
+}
+
+function Personalidade(
+    [Alias("r")]
+    [switch]$random ) {
+    
+    $quantidadeAparencias = (Get-Random -Maximum 3 -Minimum 1) + 1 
+    $quantidadeTrejeitos = (Get-Random -Maximum 2 -Minimum 0) + 1
+
+    $aparencias = @()
+    for ($i = 0; $i -lt $quantidadeAparencias; $i++) {
+        $aparencias += (Aparencias -random)
+    }
+
+    $trejeitos = @()
+    for ($i = 0; $i -lt $quantidadeTrejeitos; $i++) {
+        $trejeitos += (Trejeitos -random)
+    }
+
+    return @{
+        aparencias = $aparencias
+        trejeitos  = $trejeitos
+    }
+        
+}
+
 
 Set-Alias Comidas Alimentacao
 Set-Alias Hospedagem Servicos-Hospedagem
