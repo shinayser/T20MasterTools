@@ -1125,7 +1125,8 @@ function Poderes(
         "thwor", 
         "thyatis", 
         "valkaria", 
-        "wynna"
+        "wynna",
+        "tormenta"
     )]
     $Tipo,
     [string]$Desc
