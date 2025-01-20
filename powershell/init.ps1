@@ -1451,6 +1451,20 @@ function Personalidade(
         
 }
 
+function Erros-Criticos(
+    [int]$Value
+) {
+    $path = _LoadPath 'erros_criticos.json' 'json-deuses-e-herois'
+    $object = Get-Content $path -Raw | ConvertFrom-Json
+
+    if ($Value -ge 1 -and $Value -le 100) {
+        $object | select "$Value" | fl
+    }
+    else {
+        Write-Host "Invalid value. Please provide a number between 1 and 100." -ForegroundColor Red
+    }
+    
+}
 
 Set-Alias Comidas Alimentacao
 Set-Alias Hospedagem Servicos-Hospedagem
@@ -1461,6 +1475,7 @@ Set-Alias poder Poderes
 Set-Alias riqueza Riquezas
 Set-Alias tesouro Riquezas
 Set-Alias stat Estatisticas-Criaturas
+Set-Alias miss Erros-Criticos
 
 
 function Listar {
