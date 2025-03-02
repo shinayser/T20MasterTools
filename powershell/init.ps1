@@ -1,6 +1,7 @@
 $includeGhanor = $true
 $includeAmeacas = $true
-$includeDeusesHerois = $true
+$includeHeroisDeArton = $true
+$includeDeusesDeArton = $true
 
 function script:_LoadPath([string]$path, [string]$folder = 'json-t20') {
     $PSScriptRoot | Split-Path -Parent | Join-Path -ChildPath $folder | Join-Path -ChildPath $path 
@@ -1132,9 +1133,18 @@ function Poderes(
     [string]$Desc
 
 ) {
-
     $path = _LoadPath 'poderes.json' 
     $objects = Get-Content $path | ConvertFrom-Json
+
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'poderes-deuses.json' 'json-deuses-e-herois'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
+    }
 
     if ($Nome) {
         $objects = $objects | Where-Object { $_.nome -like "*$Nome*" }
