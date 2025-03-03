@@ -1,0 +1,122 @@
+[
+    {
+        "nome": "Abraço da Noite",
+        "preco": 3,
+        "espacos": 0,
+        "descricao": "Dizem que esse doce gelado e aveludado como a noite foi criado por clérigos anões para homenagear sua mãe Tenebra. Até o fim do dia, você pode usar o poder Carícia Sombria uma vez. Se já o possui, você pode usá-lo uma vez causando 4d6 pontos de dano de trevas (em vez de 2d6). Tenebra."
+    },
+    {
+        "nome": "Assado de Entranhas",
+        "preco": 2,
+        "espacos": 0,
+        "descricao": "Este assado tem uma aparência pouco agradável, mas desperta os instintos mais primais. Até o fim do dia, você pode invocar estes instintos para receber +1 nas rolagens de dano com armas corpo a corpo por uma cena. Megalokk."
+    },
+    {
+        "nome": "Bênção dos Mares",
+        "preco": 4,
+        "espacos": 0,
+        "descricao": "Essa iguaria tornou-se uma lenda entre as gentes do mar. Dizem que em momentos de grande aflição, o próprio deus envia esses presentes para acalentar os corações e restaurar a força de quem depende do mar. Até o fim do dia, você pode invocar o poder do Deus dos Mares para adquirir deslocamento de natação, igual ao seu deslocamento, por uma cena (se já possuir esse deslocamento, em vez disso ele aumenta em +3m). Oceano."
+    },
+    {
+        "nome": "Bolinho de Jade",
+        "preco": 4,
+        "espacos": 0,
+        "descricao": "Este prosaico bolinho de ervas é como a honra pregada por Lin-Wu; simples, direto e verdadeiro. Até o fim do dia, você pode usar o poder Grito de Kiai uma vez. Se já o possui, pode usá-lo uma vez sem pagar seu custo em PM. Lin-Wu."
+    },
+    {
+        "nome": "Bombas de Saber",
+        "preco": 4,
+        "espacos": 0,
+        "descricao": "O estudo é a maior paixão dos devotos de Tanna-Toh. Eles precisam de um alimento energético que ajude sua concentração. Uma vez até o fim do dia, quando vai fazer um teste de perícia, você pode gastar o efeito deste prato para receber os benefícios de ser treinado em uma perícia para este teste. Tanna-Toh."
+    },
+    {
+        "nome": "Caldo de Lena",
+        "preco": 3,
+        "espacos": 0,
+        "descricao": "Esse doce à base de milho é perfeito para celebrar a fertilidade do campo. Uma comida tão doce é ideal para acalentar aventureiros cansados após um dia difícil. Quando cura PV por um efeito mágico de luz, você recupera +1 PV. Lena."
+    },
+    {
+        "nome": "Coragem de Sangue",
+        "preco": 4,
+        "espacos": 0,
+        "descricao": "Açúcar para energia, especiarias com propriedades fortificantes e vinho para coragem são misturados em uma receita de gosto forte e pungente, que desperta o instinto de luta pregado pelo Deus da Guerra. Uma vez até o fim do dia, quando faz a ação agredir, você pode executar um ataque extra. Arsenal."
+    },
+    {
+        "nome": "Deleite Mágico",
+        "preco": 18,
+        "espacos": 0,
+        "descricao": "Em Arton, a magia pode até ser comum, mas não deixa de ser especial. Ao consumir este prato místico, escolha uma magia de 1º círculo. Até o fim do dia, você pode lançá-la uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria). Wynna."
+    },
+    {
+        "nome": "Frescor de Nimb",
+        "preco": 1,
+        "espacos": 0,
+        "descricao": "Mesmo os paladares mais refinados têm dificuldade em descrever o frescor de Nimb. Ao ingerir este prato, escolha um deus aleatoriamente. Você recebe o benefício do prato desse deus (se for Nimb, role novamente duas vezes, repetindo isso sempre que rolar o Deus do Caos). Nimb."
+    },
+    {
+        "nome": "Joia do Deserto",
+        "preco": 5,
+        "espacos": 0,
+        "descricao": "Esse doce típico mostra o amor do povo de Azgher por seu patrono. Uma vez até o fim do dia, você pode fazer uma arma corpo a corpo de corte que esteja empunhando se cobrir em chamas. Ela causa +1d6 pontos de dano de fogo (ou +2d6 contra mortos-vivos). As chamas duram até você acertar três ataques ou até o fim da cena (o que acontecer primeiro). Azgher"
+    },
+    {
+        "nome": "Justos de Khalmyr",
+        "preco": 2,
+        "espacos": 0,
+        "descricao": "Assim como a justiça, este doce foi criado para chegar em todos. Até o fim do dia, quando fizer um teste de perícia, você pode gastar o efeito deste prato para escolher 10 neste teste (em vez de usar o valor rolado no d20). Khalmyr."
+    },
+    {
+        "nome": "Justos Virtuosos",
+        "preco": 6,
+        "espacos": 0,
+        "descricao": "Este doce, propositalmente semelhante à receita de Khalmyr, guarda uma surpresa na forma de um recheio azedo, capaz de estragar qualquer apetite. Uma vez nesse dia, quando um inimigo em alcance curto usa uma habilidade, você pode invocar o poder deste doce para ser considerado aliado desta criatura para todos os efeitos dessa habilidade. Sszzaas."
+    },
+    {
+        "nome": "Manjar da Paz",
+        "preco": 7,
+        "espacos": 0,
+        "descricao": "Essa delícia, compartilhada com alegria pelos devotos de Marah, é degustada em toda Arton. Uma vez nesse dia, quando uma criatura em alcance curto fizer um ataque, você pode fazer com que ela role dois dados e use o pior resultado. Marah."
+    },
+    {
+        "nome": "Ouro de Dragão",
+        "preco": 6,
+        "espacos": 0,
+        "descricao": "Este delicioso creme doce é considerado uma iguaria reservada aos maiores sacerdotes de Kallyadranoch. Uma vez até o fim do dia, você pode evocar a força de Kally para receber +1 em testes de ataque por uma cena. Kallyadranoch."
+    },
+    {
+        "nome": "Ovos de Raposa",
+        "preco": 3,
+        "espacos": 0,
+        "descricao": "O tempero do Deus dos Ladrões garante que estes ovos recheados tenham sempre um sabor diferente e inesperado. Uma vez nesse dia, você pode rolar novamente um teste de Enganação ou Ladinagem recém-feito. Hyninn."
+    },
+    {
+        "nome": "Pão de Thwor",
+        "preco": 1,
+        "espacos": 0,
+        "descricao": "O pão, um alimento tão simples e ao mesmo tempo tão importante, simboliza a tenacidade e resistência duyshidakk. Uma vez até o fim do dia, você pode rolar novamente um teste de Fortitude recém-feito. Thwor."
+    },
+    {
+        "nome": "Presente da Terra",
+        "preco": 3,
+        "espacos": 0,
+        "descricao": "Essa deliciosa maravilha, ofertada por Allihanna, usa ingredientes acessíveis, encontrados em qualquer ambiente natural; você pode usar Sobrevivência no lugar de Ofício (cozinheiro) para preparar este prato. Uma vez até o fim do dia, você pode rolar novamente um teste de Adestramento ou Sobrevivência recém-feito. Allihanna."
+    },
+    {
+        "nome": "Renascer Gentil",
+        "preco": 2,
+        "espacos": 0,
+        "descricao": "Este doce, tradicionalmente distribuído por devotos para pessoas em dificuldade, é carregado de esperanças renovadas. A primeira vez até o fim do dia em que seus PV forem reduzidos a 0 ou menos, em vez disso eles são reduzidos a 1d4. Thyatis."
+    },
+    {
+        "nome": "Suflê Rubro",
+        "preco": 3,
+        "espacos": 0,
+        "descricao": "Quase um alimento ritualístico, este prato oferece um vislumbre do raciocínio alienígena e incompreensível dos lefeu. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida. Com um resultado par, entretanto, você enxerga falhas na criação que podem ser exploradas a seu favor. Você recebe +5 em um teste de perícia a sua escolha feito na próxima rodada Aharadak."
+    },
+    {
+        "nome": "Tesouro de Valkaria",
+        "preco": 2,
+        "espacos": 0,
+        "descricao": "Esse prato, que mistura grãos com carnes menos nobres e temperos fortes, é popular entre viajantes, sendo frequentemente preparado em acampamentos à beira das estradas. Uma vez nesse dia, quando faz um teste para resistir a um efeito de movimento, você pode gastar o efeito deste prato para receber +5 neste teste. Valkaria."
+    }
+]

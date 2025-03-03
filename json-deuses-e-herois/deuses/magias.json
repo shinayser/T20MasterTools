@@ -1,0 +1,795 @@
+[
+    {
+        "nome": "Arma de Jade",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Transmutação",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 arma",
+        "duracao": "cena",
+        "desc": "Esta magia ofertada por Lin-Wu transforma uma arma temporariamente em jade, com as qualidades místicas desse raro material especial de Tamu-ra. A arma é considerada mágica e fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto). Contra criaturas do tipo espírito, esse bônus é dobrado.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "a arma pode ser sacada como ação livre. "
+            },
+            {
+                "custo": "+1 PM",
+                "desc": "a arma causa +1d4 de dano de eletricidade. Este aprimoramento só pode ser usado uma vez. "
+            },
+            {
+                "custo": "+2 PM (Apenas Devotos de Lin-Wu)",
+                "desc": "muda o bônus de dano do aprimoramento acima para +2d4. Esse dano adicional é dobrado contra espíritos. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o bônus de ataque e dano em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+            }
+        ]
+    },
+    {
+        "nome": "Arsenal de Allihanna",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Conjuração",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Outrora chamada Armamento de Allihanna, esta magia recentemente recebeu um novo nome — com implicações curiosas. Utilizada pela primeira vez por Lisandra de Galrasia, diz-se que a verdadeira origem da magia estaria relacionada ao pai, Arsenal, então mortal. Mais tarde este se tornaria clérigo de Keenn, capaz de manifestar armas a partir do nada — e então, o próprio Deus da Guerra. Segundo alguns, seria tolice ignorar essa conexão. Arsenal de Allihanna permite invocar uma arma simples que você saiba usar, a sua escolha, feita de madeira mágica, tornada mais agressiva por meio de espinhos. Quando usada para invocar uma arma de disparo, sua munição nunca se esgota — os projéteis surgem à medida que são utilizados. Esta magia não invoca armas de fogo, ou outras que utilizam mecanismos complexos. A arma invocada só pode ser usada por você; quando abandona suas mãos, se desfaz em duas rodadas, e conta como uma arma primitiva para a magia Armamento da Natureza e efeitos semelhantes",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o dano da arma em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar). "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "a arma invocada pode ser marcial. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "a arma invocada pode ser exótica. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "a arma, ou sua munição, é recoberta em espinhos. Ela causa +1d10 pontos de dano; criaturas que sofram dano da arma ficam sangrando. "
+            },
+            {
+                "custo": "+3 PM (Apenas devotos de Allihanna ou dahllans)",
+                "desc": "muda o alvo para uma planta. A planta manifesta uma Espada Espinhenta e um Fruto da Espada Mãe (Ameaças de Arton p. 245)."
+            }
+        ]
+    },
+    {
+        "nome": "Asas de Thyatis",
+        "classe": "Divina",
+        "ciclo": "2",
+        "escola": "Transformação",
+        "execucao": "movimento",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Esta magia transforma seus braços em asas flamejantes que fornecem deslocamento de voo 12m e adicionam",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM (Apenas Devotos de Thyatis)",
+                "desc": "todo dano de fogo causado é dobrado contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre). "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o dano em +2d6. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "muda o deslocamento de voo para 18m. "
+            },
+            {
+                "custo": "+5 PM",
+                "desc": "muda a duração para cena, até ser descarregada, e adiciona Resistência: Reflexos reduz à metade. Além do padrão, caso seus pontos de vida sejam reduzidos a 0 ou menos, a magia é descarregada em uma explosão de chamas centrada em você. Você recupera 100 PV e todas as outras criaturas em um raio de 9m sofrem 100 pontos de dano de fogo. Requer 5° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Bofetada de Nimb",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 humanoide",
+        "duracao": "1 rodada",
+        "resistencia": "Vontade parcial",
+        "desc": "Uma mão mágica surge diante do alvo e o esbofeteia na face, ou outra parte vulnerável, desaparecendo em seguida. O golpe não causa dano, mas é bastante humilhante. Se o alvo falhar na resistência, fica desprevenido por uma rodada e vulnerável; se passar, fica apenas vulnerável por uma rodada.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "alvos que falhem na resistência ficam vulneráveis pela cena. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "alvos que falhem na resistência ficam desprevenidos por 1d4+1 rodadas, em vez de apenas 1. "
+            },
+            {
+                "custo": "+5 PM (Apenas Devotos de Nimb)",
+                "desc": "afeta todos os alvos válidos a sua escolha dentro do alcance. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "em vez do normal, a mão dá leves tapinhas que acalmam os alvos e anulam uma condição entre abalado, alquebrado, apavorado e frustrado. Requer 2° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Couraça de Allihanna",
+        "classe": "Divina",
+        "ciclo": "2",
+        "escola": "Abjuração",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 armadura ou vestuário",
+        "duracao": "cena",
+        "desc": "Lisandra de Galrasia, a primeira dahllan de Arton, podia manifestar uma armadura mágica fibrosa. Todas as dahllan surgidas depois receberiam a mesma habilidade natural. Mais tarde, druidas e outros devotos também seriam agraciados por Allihanna com tal poder, mesmo sem pertencer a essa raça. Couraça de Allihanna transforma o alvo numa couraça arbórea, que brota a partir de terreno natural e fornece",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "aumenta a Defesa e a resistência à magia em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar). "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "além do normal, suas magias de evocação e transmutação custam –1 PM. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "o alvo é recoberto por folhas e galhos. Você recebe +5 em testes de furtividade e pode se esconder mesmo sem camuflagem ou cobertura disponível. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "além do normal, o alvo é recoberto de cogumelos e esporos. Quando uma criatura faz um ataque corpo a corpo contra você, ela deve fazer um teste de Fortitude (CD da magia). Se falhar, é envenenada por esporos de cogumelo e fica paralisada por 1 rodada. Se passar, fica lenta por 1 rodada e não pode mais ser afetada por este veneno até o fim da cena. Requer 3° círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "também fornece resistência à magia +2. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Escapatória de Hyninn",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "reação",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "instantânea",
+        "desc": "Por um breve instante apenas, você adquire uma agilidade espantosa para esquivar-se de algum perigo súbito. Você recebe +5 em Reflexos e em testes de Ladinagem para desarmar armadilhas.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM (Apenas Devotos de Hynnin)",
+                "desc": "muda a duração para cena. Você pode usar a habilidade Evasão (Tormenta20, p. 73). "
+            },
+            {
+                "custo": "+4 PM (Apenas Devotos de Hynnin)",
+                "desc": "como acima, mas você pode usar Evasão Aprimorada (Tormenta20, p. 75). Requer 4° círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo. "
+            }
+        ]
+    },
+    {
+        "nome": "Euforia de Valkaria",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Encantamento",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Esta magia enche o alvo de disposição, apagando o medo (e bom senso) em seu coração e impedindo-o de ser intimidado por desafios difíceis. O alvo se torna imune a medo e recebe",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM (Apenas Devotos de Valkaria)",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o bônus em testes de ataque em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar). "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda a execução para reação e a duração para instantanea. Em vez do normal, você recebe imunidade a medo e +2 em Vontade até o início do seu próximo turno. Requer 2° círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alvo para área de esfera com 3m de raio. Você e todos os aliados na área são afetados pela magia. Requer 2º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Execução de Thwor",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Necromancia",
+        "execucao": "livre",
+        "alcance": "curto",
+        "alvo": "1 humanoide",
+        "duracao": "1 rodada",
+        "resistencia": "Vontade anula",
+        "desc": "Esta magia afeta apenas criaturas que estejam sendo afetadas por um efeito de medo. O próximo ataque que acertar cada um dos alvos se transforma em um acerto crítico. Se o ataque for um acerto crítico naturalmente, seu multiplicador aumenta em +1.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alvo para 1 criatura. Requer 2º círculo. "
+            },
+            {
+                "custo": "+5 PM",
+                "desc": "em vez do normal, afeta alvos sob qualquer condição mental. Requer 3º círculo. "
+            },
+            {
+                "custo": "+6 PM (Apenas Devotos de Thwor)",
+                "desc": "em vez de acerto crítico, o ataque é considerado um golpe de misericórdia. Requer 5º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Flecha de Luz",
+        "classe": "Universal",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "1 criatura",
+        "duracao": "instantânea",
+        "resistencia": "Reflexos parcial",
+        "desc": "Esta magia lança uma flecha luminosa contra o alvo, que sofre 2d8+2 pontos de dano de luz e fica ofuscado por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alvo para uma criatura que tenha causado dano a você ou a seus aliados na última rodada. Cada dado de dano (incluindo de aprimoramentos) muda para d10. "
+            },
+            {
+                "custo": "+1 PM (Apenas Elfos ou Devotos de Glórienn)",
+                "desc": "muda o alvo para 1 lefeu, duyshidakk, devoto de Aharadak ou devoto de Thwor. Além do normal, o alvo sofre +1d8+1 pontos de dano. "
+            },
+            {
+                "custo": "+2 PM (Apenas Divinos)",
+                "desc": "além do normal, para cada alvo que falhar na resistência, o próximo aliado que causar dano a ele recebe uma quantidade de PV temporários igual à metade do dano causado pela magia. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o dano em +1d8+1. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o número de alvos em +1 (número de alvos adicionais limitado pelo círculo máximo de magia que você pode lançar). "
+            },
+            {
+                "custo": "+2 PM (Apenas Arcanos)",
+                "desc": "alvos Daniel de Oliveira shinayser@gmail.com Deuses & Heróis 64 que falhem na resistência ficam cegos por 1 rodada e então ofuscados. "
+            },
+            {
+                "custo": "+3 PM (Apenas Arqueiros de Lenórienn)",
+                "desc": "muda o alvo para seu arco arcano, a duração para sustentada e a resistência para nenhum. Ao invés do normal, transforma o alvo em uma arma luminosa que causa +2d8+2 pontos de dano de luz. Criaturas que sofram dano do arco ficam ofuscadas (veja Heróis de Arton, p. @@)."
+            }
+        ]
+    },
+    {
+        "nome": "Frescor de Lena",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "area": "cone de 9m",
+        "duracao": "Instantânea Você emana uma aura luminosa e refrescante, que envolve você e aliados adjacentes a sua escolha. A aura purifica completamente o ar ao redor, eliminando todo tipo de fumaça, poeira, gás nocivo, nuvem ácida ou veneno respiratório, mundano ou mágico",
+        "desc": "Qualquer destes efeitos que exige um teste de Fortitude com CD 20 ou menor é dissipado.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta a CD dos efeitos dissipados em +5. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alcance para toque, o alvo para 1 criatura e a duração para cena. O alvo recebe +5 em seu próximo teste de Fortitude contra uma doença. Requer 2° círculo. "
+            },
+            {
+                "custo": "+3 PM (Apenas Devotos de Lena)",
+                "desc": "como acima, mas o alvo rola dois dados para o teste de Fortitude e usa o melhor resultado. Requer 3° círculo. "
+            },
+            {
+                "custo": "+5 PM (Apenas Devotos de Lena)",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura. O alvo recupera 1 ponto de atributo perdido por uma doença. Requer 5° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Fúria dos Antepassados",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 humanoide",
+        "duracao": "instantânea",
+        "resistencia": "Vontade reduz à metade",
+        "desc": "Para aqueles devotados a Lin-Wu, respeito aos ancestrais é algo levado muito a sério — pois estes, no além- -vida, podem julgar suas ações e trazer fortuna ou desgraça. Esta magia invoca a alma de um antepassado da vítima para acusá-lo de erros passados e trazer punição.O alvo sofre 1d6 pontos de dano mental e 1d6 pontos de dano de luz.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "além do normal, alvos que falhem na resistência ficam alquebrados. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "aumenta o dano mental e de luz em +1d6 cada. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o número de alvos em +1. Requer 2° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Futuro Melhor",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Adivinhação",
+        "execucao": "reação",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "1 rodada",
+        "desc": "Esta magia permite enxergar todas as possibilidades e consequências de um evento muito recente, ainda a tempo de escolher o melhor caminho. O alvo recebe um bônus de",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM (Apenas Devotos de Thyatis)",
+                "desc": "como acima, mas o bônus se torna 1d4+1. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alcance para curto e o alvo para uma criatura. Requer 2º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Infortúnio de Sszzaas",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Necromancia",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 criatura",
+        "duracao": "cena",
+        "resistencia": "Vontade anula",
+        "desc": "Esta maldição menor reduz a resiliência de seus inimigos, tornando-os mais frágeis e suscetíveis a efeitos nocivos. O alvo sofre –2 em testes de sua resistência com menor valor.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta a penalidade em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar). "
+            },
+            {
+                "custo": "+1 PM",
+                "desc": "além do normal, criaturas afetadas perdem imunidade a venenos por uma rodada. Requer 2° círculo. "
+            },
+            {
+                "custo": "+3 PM (Apenas Devotos de Sszzaas)",
+                "desc": "além do normal, quando o alvo morre, deixa para trás um pequeno cristal com memórias e segredos profundos. Uma vez por busca (Tormenta20, p. 278), você pode quebrar um destes cristais para receber +2 em um teste de perícia. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Instante Estoico",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "reação",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "instantânea",
+        "desc": "Invocando a proteção de Khalmyr, você resiste a agressões potencialmente perigosas. Quando sofre dano não mágico, você recebe RD 10 contra esse dano.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda a RD para 20. Requer 2° círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "além do normal, para cada 10 pontos de dano que a magia reduzir em um turno, sua próxima rolagem de dano feita até a próxima rodada causa +1d6 pontos de dano de essência. "
+            },
+            {
+                "custo": "+2 PM (Apenas Devotos de Khalmyr)",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+5 PM (Apenas Devotos de Khalmyr)",
+                "desc": "muda a execução para padrão e a duração para cena, até ser descarregada. Em vez do normal, quando sofre dano não mágico, você pode receber RD 10 contra esse dano. A magia é descarregada após você usar este efeito pela terceira vez. Requer 3º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Magia Dadivosa",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Conjuração",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Não é comum descrever uma divindade maior do Panteão como “maluquinha”. Contudo, há ocasiões em que Wynna faz por merecer. Como quando oferece tais dádivas caóticas. Pela duração da magia, a cada 1d8 rodadas, você recebe 1 PM temporário que só podem ser gastos em aprimoramentos de magias. A magia termina quando você recebe um total de 8 PM temporários.",
+        "aprimoramentos": [
+            {
+                "custo": "+0 PM (Apenas Devotos de Wynna)",
+                "desc": "ao invés do normal, você recebe 1 PM temporário a cada 1d6 rodadas. "
+            },
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alcance para curto e o alvo para 1 criatura. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Orbe do Oceano",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "reação",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "1 turno",
+        "desc": "O suposto desaparecimento do Oceano mostra-se particularmente misterioso pelo fato de que seus devotos ainda podem lançar magias. Especialmente esta, que salvou muitos devotos em momentos de perigo. Orbe do Oceano cria um globo de água salgada pressurizada envolvendo o alvo. Enquanto estiver dentro desse globo, o alvo é considerado submerso (Tormenta20, p. 269), mas pode respirar normalmente e lançar magias de alcance pessoal.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda a duração para sustentada. "
+            },
+            {
+                "custo": "+5 PM (Apenas devotos de Oceano)",
+                "desc": "muda o alcance para curto, o alvo para uma criatura, a duração para sustentada e adiciona resistência: Reflexos evita. Ao invés do normal, o alvo fica aprisionado dentro de um globo de água salgada; ele é considerado submerso e não pode respirar (a menos que possa respirar dentro d'água). Nenhuma criatura, objeto ou efeito de dano pode passar pelo globo. O alvo pode repetir o teste de Reflexos sempre que você se concentrar na magia. Requer 2º círculo. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "muda a duração para cena. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Paixão de Marah",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Encantamento",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Você é cercado por uma aura de magnetismo pessoal que o torna mais interessante e atraente aos olhos dos demais. O alvo recebe +2 em Atuação e Diplomacia.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alcance para curto e o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+1 PM (Apenas Devotos de Marah)",
+                "desc": "além do normal, o alvo recebe +1 em Carisma. Esse aumento não oferece PV, PM ou perícias adicionais."
+            }
+        ]
+    },
+    {
+        "nome": "Percepção Rubra",
+        "classe": "Universal",
+        "ciclo": "1",
+        "escola": "Adivinhação",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Esta magia concedida por Aharadak faz o conjurador adquirir, por algum tempo, a estranha percepção de tempo dos lefeu — que permite ver alguns momentos no futuro. O alvo recebe +1 em testes de ataque e Reflexos e na Defesa.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alcance para curto e o alvo para 1 criatura. "
+            },
+            {
+                "custo": "+2 PM (Apenas Devotos de Aharadak)",
+                "desc": "aumenta o bônus em +1 (bônus máximo limitado por sua Sabedoria)."
+            }
+        ]
+    },
+    {
+        "nome": "Perturbação Sombria",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Ilusão",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Invocando a proteção de Tenebra, você emana uma aura de 6m. O lugar é tomado por sombras que se movem de formas estranhas, rangidos e gemidos sem explicação, vultos fugidios nas janelas, sussurros rogando maldições, faces macabras urrando para sumir no instante seguinte. Todas as demais criaturas na área sofrem –5 em testes de Percepção. Medo.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "muda o efeito para aura de 9m. "
+            },
+            {
+                "custo": "+5 PM",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura ou objeto tocado. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "adiciona resistência: Vontade parcial. Além do normal, criaturas que começam seu turno dentro da área ficam abaladas. Passar no teste de resistência evita a condição e impede que a criatura seja abalada por esta magia até o fim da cena. Requer 2° círculo. "
+            },
+            {
+                "custo": "+5 PM",
+                "desc": "você pode escolher quais criaturas são afetadas pela aura. Requer 2º círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "além do normal, criaturas na área sofrem –2 em Vontade. Requer 3° círculo. "
+            },
+            {
+                "custo": "+9 PM",
+                "desc": "muda o alvo para Área: raio de 6m, a execução para 1 hora, a duração para permanente e adiciona componente material (incenso e óleos no valor de T$ 1.000). Requer 5° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Poder de Kallyadranoch",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "movimento",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Por um breve momento, você manifesta uma pequena parte da força e majestade das grandes feras dracônicas: a capacidade de criar elementos em sua forma mais pura. Até o fim do seu turno, a CD para resistir às suas habilidades mágicas que causam dano de ácido, eletricidade, fogo ou frio aumenta em +2.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM (Apenas devotos de Kallyadranoch)",
+                "desc": "além do normal, criaturas que falhem nos testes de resistência contra suas habilidades mágicas sofrem uma condição baseada no tipo de dano: Ácido: vulnerável até o fim da cena. Eletricidade: Daniel de Oliveira shinayser@gmail.com Deuses & Heróis 66 atordoado por 1 rodada (apenas uma vez por cena). Fogo: em chamas e vulnerável enquanto estiver em chamas. Frio: lento até o fim da cena. Requer 2° círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta a CD em +1, limitada pelo círculo máximo de magias que você pode lançar. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Posse de Arsenal",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Convocação",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "1 item empunhado",
+        "duracao": "1 dia",
+        "desc": "Esta magia cria um vínculo poderoso entre você e seus pertences, dificultando sua perda ou roubo. Você recebe",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM (Apenas Devotos de Arsenal)",
+                "desc": "afeta armas arremessadas. Após o ataque, se a arma estiver livre, ela volta voando para você; pegá- la é uma reação."
+            }
+        ]
+    },
+    {
+        "nome": "Proteção de Tauron",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "movimento",
+        "alcance": "curto",
+        "alvo": "1 criatura",
+        "duracao": "cena",
+        "desc": "Esta antiga magia ofertada pelo Deus da Força ainda pode ser lançada mesmo após sua morte, preservada por divindades simpatizantes em honra a seu aspecto como protetor dos fracos. Quando a magia é lançada, luz sagrada envolve o alvo, que se torna “um protegido”; ele recebe +2 na Defesa e, quando se move em sua direção, o deslocamento dele é dobrado. Além disso, você sabe a direção e distância do alvo, e também se ele está ferido ou afetado por qualquer condição, independentemente da distância.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "além do normal, você pode usar habilidades mágicas com alcance de toque no alvo como se tivesse alcance curto. "
+            },
+            {
+                "custo": "+2 PM (Apenas Minotauros ou Devotos de Tauron)",
+                "desc": "além do normal, uma vez por rodada, quando uma criatura faz uma ação hostil contra o protegido, você pode fazer um ataque corpo a corpo contra ela, desde que ela esteja em seu alcance pessoal. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o bônus na Defesa em +2 (bônus máximo limitado ao dobro do círculo máximo de magia que você pode lançar). Requer 2º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Punição do Profano",
+        "classe": "Divina",
+        "ciclo": "2",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 humanoide",
+        "duracao": "instantânea",
+        "resistencia": "Vontade reduz à metade",
+        "desc": "Por meio de um brado poderoso, entoando um dogma de sua religião, você inflige dano a devotos de divindades adversárias. Esta magia causa 6d8 pontos de dano de impacto a devotos de deuses que canalizam energia oposta a seu deus. Assim, se sua divindade canaliza energia positiva, a magia afeta devotos de deuses que canalizam energia negativa, e vice-versa. Devotos de deuses que canalizam qualquer energia ou criaturas que não sejam devotas sofrem apenas metade do dano. A magia afeta celestiais e abissais como se fossem devotos, respectivamente, de deuses de energia positiva e negativa, enquanto suraggel são afetados conforme sua herança. Nestes casos, a natureza planar se sobrepõe à devoção (um aggelus devoto de Tenebra ainda é considerado de energia positiva).",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alvo para 1 espírito ou morto-vivo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o dano em +2d8. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "muda o alvo para 1 criatura. Requer 2° círculo. "
+            },
+            {
+                "custo": "+5 PM",
+                "desc": "afeta todos os alvos dentro do alcance. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Sigilo de Sszzaas",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Abjuração",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "24h",
+        "desc": "Ofertada pelo sombrio Deus dos Segredos, esta magia é utilizada por todos que buscam preservar a própria privacidade. Pela duração da magia, quaisquer criaturas que fizerem testes de perícia para obter alguma informação a seu respeito sofrem –5 nesses testes. Isso inclui testes de Percepção para notá-lo, Conhecimento e Investigação para descobrir algo sobre você, Intuição para discernir suas mentiras e disfarces, e assim por diante.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM (Apenas Devotos de Sszzaas)",
+                "desc": "muda a penalidade para –5. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "adiciona Resistência: Vontade parcial. Além do normal, criaturas que usem habilidades mágicas de detecção, como a magia Vidência, devem fazer um teste de Vontade. Se falharem, a habilidade não funciona e pela duração da magia, novas tentativas de usar a mesma habilidade feitas pela mesma criatura falham automaticamente. Requer 2º círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Siroco de Azgher",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 criatura",
+        "duracao": "instantânea",
+        "resistencia": "Reflexos reduz à metade",
+        "desc": "Invocando a fúria do Deus Sol, você cria uma breve e focada tempestade de areia, capaz de esfolar a carne dos ossos! Cada alvo sofre dano de corte conforme seu grau de proteção: 3d6 para alvos sem armadura, 2d6 para alvos em armadura leve e 1d6 para alvos em armadura pesada.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "aumenta o dano em +1d6. "
+            },
+            {
+                "custo": "+1 PM (Apenas Devotos de Azgher)",
+                "desc": "além do normal, criaturas que falhem na resistência ficam em chamas e sangrando. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o tipo de dano para luz. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "Muda o alcance para pessoal e o alvo para área cone de 6m. Requer 2° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Sorriso da Fortuna",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Evocação",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "24h, até ser descarregada",
+        "desc": "Variantes desta magia, com diferentes nomes, são concedidas a seus devotos por Nimb, Hyninn, Sszzaas, Valkaria, até Thyatis. O objetivo, contudo, é sempre o mesmo: trapacear em jogos. Sorriso da Fortuna permite manipular os resultados de um jogo de azar — como aqueles com dados, cartas ou roleta. Quando fizer um teste de Jogatina (ou relacionada a algum jogo, a critério do mestre) você pode rolar dois dados e usar o melhor resultado. A magia é descarregada após você usar este efeito três vezes. Esta magia afeta apenas jogos e itens mundanos, não mágicos. Embora funcione bem em pequenas tavernas ou festejos, grandes cassinos empregam vigilantes atentos ao uso desta magia e suas variações.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta em +1 o total de usos antes da magia ser descarregada. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda a execução para reação, o alcance para curto e o alvo para uma criatura. Ao invés do normal, a magia confunde um dos jogadores presentes, que rola seu teste de Jogatina com dois dados e usa o pior resultado. "
+            },
+            {
+                "custo": "+1 PM (Apenas Devotos de Hyninn)",
+                "desc": "muda a execução para reação e a duração para instantânea. Ao invés do normal, quando faz seu primeiro teste de uma perícia em uma cena, você pode rolar dois dados e usar o melhor resultado. "
+            },
+            {
+                "custo": "+3 PM",
+                "desc": "além do normal, você pode escolher um “número da sorte”. Se o número da sorte for rolado em qualquer um dos dados, o resultado conta como um 20 natural. Requer 2° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Toque de Megalokk",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Transmutação",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Criaturas naturais de Allihanna seguem leis naturais. Monstros existem apenas para violar essas leis. Após deformações horrendas, você se transforma em uma criatura do tipo monstro. Nesta forma, você recebe +5 em Intimidação, mas sofre –5 nas demais perícias baseadas em Carisma. Além disso, recebe uma arma natural de um tipo a sua escolha entre chifre, ferrão ou mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma natural.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "a margem de ameaça de todas as suas armas naturais aumenta em +1. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "o dano de todas as suas armas naturais aumenta em um passo. Requer 3° círculo. "
+            },
+            {
+                "custo": "+2 PM (Apenas Devotos de Megalokk)",
+                "desc": "muda a duração para sustentada. Além do normal, você recebe Redução de Dano 5."
+            }
+        ]
+    },
+    {
+        "nome": "Traição da Lâmina",
+        "classe": "Divina",
+        "ciclo": "2",
+        "escola": "Abjuração",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 arma em posse de uma criatura",
+        "duracao": "cena, até ser descarregada",
+        "resistencia": "Vontade (veja texto)",
+        "desc": "Provavelmente ofertada por Sszzaas (ou assim querem que você acredite), esta magia amaldiçoa uma arma contra seu usuário. Quando faz um ataque com a arma, o usuário deve passar em um teste de Vontade. Se falhar, a arma se retorce como uma serpente, ou muda sua trajetória em pleno voo; ele se torna o alvo do próprio ataque! Após este ataque, bem- -sucedido ou não, a magia descarrega e a arma volta ao normal.",
+        "aprimoramentos": [
+            {
+                "custo": "+1 PM",
+                "desc": "em vez do usuário, a arma se volta para outra criatura em alcance curto, à sua escolha. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "aumenta o número de alvos em +1. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "adiciona componente material uma dose de veneno. Além do normal, o ataque envenena o usuário com o veneno utilizado como componente (a CD desse veneno é a CD da própria magia). "
+            },
+            {
+                "custo": "+1 PM",
+                "desc": "muda o alvo para 1 arma e a duração para 24h, até ser descarregada. Requer 3° círculo."
+            }
+        ]
+    },
+    {
+        "nome": "Voz da Razão",
+        "classe": "Divina",
+        "ciclo": "1",
+        "escola": "Encantamento",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "desc": "Sua mente iluminada por Tanna-Toh transborda de argumentos, tornando-o capaz de vencer qualquer discussão. Você recebe +5 em Diplomacia e Intimidação.",
+        "aprimoramentos": [
+            {
+                "custo": "+2 PM (Apenas Devotos de Tanna-Toh)",
+                "desc": "além do normal, você recebe +5 em Intuição e em testes de Investigação para interrogar. "
+            },
+            {
+                "custo": "+2 PM",
+                "desc": "muda o bônus para +10. Requer 2º círculo."
+            }
+        ]
+    }
+]

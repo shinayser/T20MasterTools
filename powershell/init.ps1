@@ -213,6 +213,16 @@ function Itens-Gerais(
         $objects += $ameacas
     }
 
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'itens-gerais.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
+    }
+
     $objects = $objects | Sort-Object nome
 
     if ($Nome) {
@@ -528,6 +538,16 @@ function Ferramentas(
         $objects += $ghanor
     }
 
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'ferramentas.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
+    }
+
     $objects = $objects | Sort-Object nome
 
     if ($Nome) {
@@ -570,6 +590,16 @@ function Esotericos(
             Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
         }
         $objects += $ameacas
+    }
+
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'esotericos.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
     }
 
     $objects = $objects | Sort-Object nome
@@ -615,6 +645,16 @@ function Alquimicos-Preparados(
         $objects += $ameacas
     }
 
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'alquimicos-preparados.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
+    }
+
     $objects = $objects | Sort-Object nome
 
     if ($Nome) {
@@ -656,6 +696,16 @@ function Alquimicos-Catalisadores(
             Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
         }
         $objects += $ameacas
+    }
+
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'alquimicos-catalisadores.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
     }
 
     $objects = $objects | Sort-Object nome
@@ -804,6 +854,16 @@ function Servicos-Outros(
     $path = _LoadPath 'servicos-outros.json' 
     $objects = Get-Content $path | ConvertFrom-Json
 
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'servicos-outros.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
+    }
+
     if ($Nome) {
         $objects = $objects | Where-Object { $_.Nome -like "*$Nome*" }
     }
@@ -834,6 +894,16 @@ function Alimentacao(
             Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
         }
         $objects += $ameacas
+    }
+
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'alimentacao.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
     }
 
     if ($Nome) {
@@ -1137,7 +1207,7 @@ function Poderes(
     $objects = Get-Content $path | ConvertFrom-Json
 
     if ($includeDeusesDeArton) {
-        $path = _LoadPath 'poderes-deuses.json' 'json-deuses-e-herois'
+        $path = _LoadPath 'poderes.json' 'json-deuses-e-herois/deuses'
         $deuses += Get-Content $path | ConvertFrom-Json
         $deuses | ForEach-Object {
             Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
@@ -1207,6 +1277,16 @@ function Magias(
             Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'ameacas'
         }
         $objects += $ameacas
+    }
+
+    if ($includeDeusesDeArton) {
+        $path = _LoadPath 'magias.json' 'json-deuses-e-herois/deuses'
+        $deuses += Get-Content $path | ConvertFrom-Json
+        $deuses | ForEach-Object {
+            Add-Member -InputObject $_ -MemberType NoteProperty -Name 'set' -Value 'deuses'
+        }
+
+        $objects += $deuses
     }
 
     if ($Nome) {

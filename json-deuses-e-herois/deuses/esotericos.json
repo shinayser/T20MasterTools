@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Afiador Solar",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Esta pequena pedra de amolar canaliza luz para suas armas. Quando lança uma magia que tenha como alvo uma arma e que forneça dados adicionais de dano à ela, você pode trocar o tipo desse dano adicional para luz."
+    },
+    {
+        "nome": "Báculo da Retribuição",
+        "preco": 200,
+        "espacos": 1,
+        "descricao": "Este bastão longo possui uma ponta curva, geralmente adornada com um símbolo religioso. Sempre que gastar pelo menos 1 PM em uma magia de cura de luz, role 1d4. Com um resultado 4, você e cada criatura curada pela magia recuperam 1 PM."
+    },
+    {
+        "nome": "Contas de Oração",
+        "preco": 500,
+        "espacos": 1,
+        "descricao": "Este item é presente em muitas religiões artonianas, consistindo de várias pequenas esferas, miçangas, conchas ou outros ornamentos parecidos, presos por um cordão. Têm a função de ajudar o devoto a contar as orações ou cânticos que já fez, assim auxiliando-o a se concentrar em suas orações. Aumenta seu limite de PM para magias divinas em +1."
+    },
+    {
+        "nome": "Estola",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Uma faixa larga e comprida que sacerdotes usam em torno do pescoço. Cada estola é adornada com símbolos que remetem a uma magia divina específica, e o uso de um destes acessórios indica que o sacerdote está ocupado com algum dever eclesiástico ligado a essa magia. A CD para resistir às suas habilidades mágicas de clérigo ou frade aumenta em +1. Ao contrário de outros itens esotéricos, uma estola pode ser vestida em vez de empunhada."
+    },
+    {
+        "nome": "Frasco Purificador",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Este pequeno vasilhame contém 10 doses de uma combinação de água e especiarias santificadas. Quando lança uma magia que tenha uma criatura como alvo, você pode gastar uma quantidade dessas doses (limitada por sua Sabedoria); para cada dose gasta, o alvo da magia também recupera 1d4 PV. Recarregar um frasco purificador é uma ação completa e consome 3 doses de água benta. Um frasco purificador só pode ser usado por devotos de divindades que canalizam energia positiva."
+    },
+    {
+        "nome": "Medalhão Afiado",
+        "preco": 0,
+        "espacos": 1,
+        "descricao": "Um pequeno medalhão com bordas afiadas e a imagem de uma arma gravada. Quando lança uma magia que fornece um bônus em testes de ataque, ela também fornece +1 na margem de ameaça desses ataques."
+    },
+    {
+        "nome": "Ostensório Santificado",
+        "preco": 750,
+        "espacos": 1,
+        "descricao": "Uma obra de arte dedicada ao deus, geralmente na forma de um bastão ou cetro. Reduz em -1 PM o custo de uma magia divina, desde que você e o alvo sejam devotos do mesmo deus."
+    },
+    {
+        "nome": "Rede de Almas",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Esta pequena rede, impregnada de energias sombrias, só pode ser usada por devotos de divindades capazes de canalizar energia negativa. Quando lança uma magia divina de trevas, para cada resultado máximo nos dados de dano da magia (incluindo dados maximizados), você recebe 1 PV temporário."
+    },
+    {
+        "nome": "Turíbulo Ungido",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Um tipo de aspersório ou incensário formado por um fornilho na ponta de uma corrente, onde se queimam ervas e incensos. Aumenta a área de suas magias em +1,5m (uma magia que afeta um raio de 3m passa a afetar um raio de 4,5m, por exemplo)."
+    }
+]

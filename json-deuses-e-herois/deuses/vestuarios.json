@@ -1,0 +1,68 @@
+[
+    {
+        "nome": "Anel Eclesiástico",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Este anel é um símbolo da autoridade de um sacerdote. Pessoas comuns tendem a se impressionar com estes anéis, até mesmo se ajoelhando para beijá-los na mão de seus portadores. Se for um clérigo ou frade e estiver vestindo um anel eclesiástico, você recebe +1 em Diplomacia e Intimidação."
+    },
+    {
+        "nome": "Carapaça do Predador Primal",
+        "preco": 150,
+        "espacos": 1,
+        "descricao": "Esta carapaça de um animal ou monstro é trabalhada na forma de uma capa ou manto. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), o bônus na Defesa concedido pela forma aumenta em +1."
+    },
+    {
+        "nome": "Garras do Predador Primal",
+        "preco": 300,
+        "espacos": 1,
+        "descricao": "Estas garras de um animal ou monstros são trabalhadas na forma de um colar ou um par de braceletes. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), você recebe +1 nas rolagens de dano com as armas naturais dessa forma."
+    },
+    {
+        "nome": "Hábito Monástico",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Uma vestimenta simples, em geral de tecido cru, amarrada com um cinto de corda. A humildade dos religiosos que vestem estes hábitos só é rivalizada por sua temperança. Fornece +2 em Vontade contra efeitos mentais e aumenta em +2 a CD para resistir à magia Tranquilidade. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas ricas, nobres ou arrogantes."
+    },
+    {
+        "nome": "Hábito Sacerdotal",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Para o sacerdote que dedica sua vida à fé, mas não de forma tão extrema quanto os frades, uma roupa mais atraente e confortável. A aparência desta batina varia muito de acordo com a religião do devoto, mas ela sempre concede +1 em testes de perícias baseadas em Carisma com devotos da mesma divindade."
+    },
+    {
+        "nome": "Manto de Alto Sacerdote",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Um manto longo com mangas que cobrem todo o corpo. Esta batina é ricamente adornada, feita de tecidos finos de alta qualidade e tem mais em comum com as vestimentas de um nobre do que com o hábito de um frade. Se você possuir o poder Autoridade Eclesiástica, recebe +1 PM por patamar acima de iniciante (somente após um dia de uso)."
+    },
+    {
+        "nome": "Penas do Predador Primal",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Estas penas de um animal ou monstro são costuradas como uma capa ou um capuz. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), enquanto estiver nesta forma você recebe +2 em Atletismo e seu deslocamento aumenta em +3m."
+    },
+    {
+        "nome": "Piercing de Umbigo",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Esta joia, muito apreciada por devotos de Marah, deve ser usada na barriga ou em outra parte do corpo visível e, por assim dizer, sensual. A CD para resistir às suas habilidades que causam as condições enfeitiçado, fascinado ou pasmo aumenta em +1, mas apenas se você estiver sem armadura ou usando uma armadura sensual (Heróis de Arton, p. @@)."
+    },
+    {
+        "nome": "Sandálias",
+        "preco": 9,
+        "espacos": 1,
+        "descricao": "Um solado resistente para proteger os pés de objetos pontiagudos como pedras e espinhos, mas não da chuva. Muitas vezes sandálias são usadas como sinal de humildade e abnegação. Impõem uma penalidade de –2 em testes para resistir a condições climáticas e para evitar ser derrubado no chão. Entretanto, fornecem +1 ponto de mana, mas apenas se você for um conjurador divino."
+    },
+    {
+        "nome": "Tonsura",
+        "preco": 3,
+        "espacos": 1,
+        "descricao": "Não uma roupa, mas um estilo de cabelo. A tonsura pode significar que o devoto tem o topo da cabeça raspado, ou toda a frente do couro cabeludo, ou ainda algum corte mais exótico. A maioria das pessoas acha um sacerdote tonsurado bastante engraçado e “bonitinho”. Impõe –5 em Intimidação, mas permite usar o poder Aparência Inofensiva. Se já tiver este poder, em vez disso você pode usá-lo contra as duas primeiras criaturas inteligentes que o atacarem em uma cena. Uma tonsura conta como um item vestido porque você precisa deixar a cabeça à mostra, mas não ocupa um espaço."
+    },
+    {
+        "nome": "Túnica do Virtuoso",
+        "preco": 0,
+        "espacos": 1,
+        "descricao": "Esta túnica de algodão tem um corte simples e prático, que faz jus às verdadeiras virtudes de um paladino. Conta como uma Virtude Paladinesca (Tormenta20, p. 84) para cálculo dos PM adicionais que você recebe por estes poderes (somente após um dia de uso)."
+    }
+]

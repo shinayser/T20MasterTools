@@ -1,0 +1,8 @@
+[
+    {
+        "nome": "Trombeta do Cruzado",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Esta trombeta santificada infunde energia divina nas criaturas que você convoca. Se estiver empunhando esta trombeta quando usa um poder concedido ou uma magia divina que convoca capangas (como Servos do Dragão ou Conjurar Mortos-vivos), o custo da habilidade é reduzido em -1 PM e os capangas convocados recebem +2 em rolagens de dano. Conta como um instrumento musical."
+    }
+]

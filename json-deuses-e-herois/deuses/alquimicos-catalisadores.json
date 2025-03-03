@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Água Benta",
+        "preco": 10,
+        "espacos": 0.5,
+        "descricao": "Abissais e mortos-vivos afetados por uma magia divina lançada com ela têm -2 em testes de resistência e sofrem 2 dados adicionais de dano (se aplicável)."
+    },
+    {
+        "nome": "Favo de Mel",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Quando lança uma magia divina, você pode remover uma condição de fatiga de uma das criaturas afetadas por ela. Ao contrário de outros catalisadores, você pode usar vários favos de mel na mesma magia para afetar criaturas diferentes."
+    },
+    {
+        "nome": "Flor de Orlyn",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Quando aplicado a uma magia de cura que afeta uma criatura, esta flor dourada faz com que uma segunda criatura no alcance da magia recupere uma quantidade de PV igual à metade do efeito da magia."
+    },
+    {
+        "nome": "Fragmento de Reflexo",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Diminui o custo de magias de encantamento em -1 PM."
+    },
+    {
+        "nome": "Fitilho Consagrado",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Quando lança uma magia divina, você pode gastar o fitilho para receber +1 PM para gastar em um aprimoramento."
+    },
+    {
+        "nome": "Frasco de Luz",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Fornece +2 na CD de magias de luz."
+    },
+    {
+        "nome": "Pena de Anjo",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Os alvos de uma magia divina lançada com uma pena de anjo recuperam 1d6 PV (além dos efeitos da magia)."
+    },
+    {
+        "nome": "Pedra de Sombras",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Fornece +2 na CD de magias de trevas."
+    },
+    {
+        "nome": "Vela Eclesiástica",
+        "preco": 30,
+        "espacos": 0.5,
+        "descricao": "Usada como catalisador em uma magia divina com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Você só pode ter uma magia sustentada adicional desta forma por vez."
+    }
+]

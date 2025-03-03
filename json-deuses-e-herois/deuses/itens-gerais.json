@@ -1,0 +1,80 @@
+[
+    {
+        "nome": "Água Benta Concentrada",
+        "preco": 60,
+        "espacos": 0.5,
+        "descricao": "Criada com os mais puros ingredientes, esta água funciona como água benta (Tormenta20, p. 155), mas causa 4d10 pontos de dano. É fabricada com o mesmo aprimoramento de Abençoar Água, mas seu componente material custa T$ 30."
+    },
+    {
+        "nome": "Amuleto de Khalmyr",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Este amuleto em formato de balança não é usado apenas por devotos de Khalmyr — todos os artonianos podem se beneficiar dele. Contudo, por não ser mágico, dizem que apenas os chatos mais previsíveis o utilizam... Quando faz um teste de perícia, você pode fazer um teste de Sabedoria (CD 10). Se passar, pode escolher 10 para este teste de perícia (em vez de usar o valor rolado no d20). Uma vez que use este efeito em um teste, o amuleto perde seus “poderes”, tornando-se inútil."
+    },
+    {
+        "nome": "Amuleto de Nimb",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Este amuleto em formato de dado não é usado apenas por devotos de Nimb — todos os artonianos podem se beneficiar dele. Contudo, por não ser mágico, dizem que apenas os crédulos o utilizam... Quando faz um teste de perícia, você pode fazer um teste de Inteligência (CD 10). Se falhar, pode rolar novamente o teste de perícia e usar o melhor resultado. Uma vez que você use este efeito em um teste, o amuleto perde seus “poderes”, tornando-se inútil."
+    },
+    {
+        "nome": "Apanhador de Sonhos",
+        "preco": 40,
+        "espacos": 1,
+        "descricao": "Muitos artonianos acreditam que ficam mais vulneráveis enquanto estão dormindo — não apenas a ataques físicos, mas também a maldições, espíritos inquietos, tentações demoníacas e, é claro, pesadelos. Um apanhador de sonhos é uma pequena estrutura de madeira, cordões, contas e penas feita por um sacerdote para proteger o descanso de seus fiéis. Cada apanhador de sonhos é específico de um deus e só funciona com seus devotos. Você pode dormir duas horas a menos a cada noite e ainda ter todos os efeitos de uma noite de sono completa."
+    },
+    {
+        "nome": "Aspersório",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Este item parece uma maça, mas sua cabeça é feita de metal oco perfurado que contém água benta. Você pode gastar uma ação padrão para dispersar uma dose de água benta em um cone de 6m; a CD para resistir à água benta dispersada desta forma aumenta em +2. Um aspersório pode armazenar até 3 doses de água benta. Carregá-lo exige uma ação completa e o gasto das doses de água benta."
+    },
+    {
+        "nome": "Cálice Consagrado",
+        "preco": 250,
+        "espacos": 1,
+        "descricao": "Um cálice santificado feito de um material relacionado ao deus (ouro para Azgher, madeira para Allihanna, obsidiana para Tenebra...). Se você for um devoto da divindade, pode usar o cálice para beber uma poção ou para aplicá-la em um aliado. Se fizer isso, o efeito da poção aumenta em +1 dado do mesmo tipo. Para usar o cálice você precisa gastar uma ação de movimento derramando a poção em seu interior, além do tempo necessário para consumi-la ou aplicá-la. A critério do mestre, esse efeito pode não funcionar com devotos de um deus inimigo (por exemplo, Azgher e Tenebra)."
+    },
+    {
+        "nome": "Cajado de Pastor",
+        "preco": 12,
+        "espacos": 1,
+        "descricao": "Um cajado comprido, com uma extremidade reta e a outra em semicírculo. Usado originalmente para guiar ovelhas, é símbolo de algumas religiões pacíficas e campestres. Se rezar uma Missa (Tormenta20, p. 58) usando um cajado de pastor, você pode afetar o dobro de criaturas que afetaria normalmente."
+    },
+    {
+        "nome": "Colar do Suplicante",
+        "preco": 100,
+        "espacos": 1,
+        "descricao": "Este colar simples possui 10 contas de um material ligado à divindade em questão, como ouro para Azgher ou cristal para Wynna. Se você estiver vestindo um colar do suplicante de um deus do qual é devoto, uma vez por dia você pode gastar uma ação de movimento e uma das contas para recuperar 1 PM. Uma vez que as contas são gastas, o colar perde seu efeito."
+    },
+    {
+        "nome": "Emblema Religioso",
+        "preco": 30,
+        "espacos": 1,
+        "descricao": "Esta chapa fina de cobre maleável é gravada com a imagem de uma figura religiosa importante e vendido ou distribuído para peregrinos e fiéis em igrejas e templos. São lembretes dos ensinamentos religiosos que até mesmo os devotos mais humildes ou ignorantes recebem. Existem emblemas religiosos específicos para cada deus e eles só funcionam com devotos da divindade específica. Você pode gastar uma ação de movimento e 1 PM para receber os benefícios de ser treinado em um teste de Religião até o fim da cena."
+    },
+    {
+        "nome": "Férula",
+        "preco": 250,
+        "espacos": 1,
+        "descricao": "Um cajado luxuoso (feito de madeira de boa qualidade ou de um metal precioso) com um símbolo sagrado no topo. Usado em procissões, na leitura de textos sagrados e na administração de sacramentos. O efeito de sua habilidade Canalizar Energia aumenta em +1d6. Uma férula pode ser usada como arma, com as estatísticas de uma maça."
+    },
+    {
+        "nome": "Panfleto de Aforismos",
+        "preco": 60,
+        "espacos": 1,
+        "descricao": "Às vezes as religiões artonianas contam com tomos de fácil leitura, sem conteúdo pesado — apenas citações motivadoras, conselhos simples, dicas de exercícios de respiração e pequenos excertos que ajudam o fiel a relaxar. Cada panfleto de aforismos é específico de um deus e só funciona com seus devotos. Se estiver debilitado, enjoado, exausto, fatigado, fraco ou vulnerável, você pode gastar uma ação completa e 1 PM para remover uma destas condições."
+    },
+    {
+        "nome": "Patuá",
+        "preco": 50,
+        "espacos": 1,
+        "descricao": "Vários deuses artonianos ensinam seus devotos a fazer pequenos sacos contendo ervas, substâncias sagradas, pedaços de pergaminhos com orações e outros objetos minúsculos. Esses saquinhos são usados como amuletos, pendurados no pescoço, e protegem o devoto de todos os males. Se for devoto de algum deus, você recebe redução de dano 2 contra habilidades mágicas."
+    },
+    {
+        "nome": "Texto Sagrado",
+        "preco": 60,
+        "espacos": 1,
+        "descricao": "Todas as religiões de Arton têm um ou mais textos sagrados — escrituras, parábolas, relatos históricos ou até mesmo diagramas — que contêm os maiores valores da divindade em questão e oferecem alento a seus fiéis em momentos de necessidade. Cada texto sagrado é específico de um deus e só funciona com seus devotos. Se estiver abalado, alquebrado, apavorado, esmorecido ou frustrado, você pode gastar uma ação completa e 1 PM para remover uma destas condições."
+    }
+]
